@@ -9,9 +9,8 @@ Latest daily digest content ({{LATEST_FILENAME}}):
 Update rules:
 - Integrate all relevant new facts, events, models, platforms, papers, trends from the latest daily digest
 - Preserve the existing structure, headings and table of contents
-- Update the "Current State (as of ...)" section with today's date and refreshed summary
 - Add new items in the logically correct sections
-- Do not remove or overwrite old content unless it is clearly obsolete or superseded
+- Important: Do not remove or overwrite old content unless it is clearly obsolete or superseded
 - Keep language neutral, factual, concise
 - Do NOT add commentary or explanations outside the document content
 
