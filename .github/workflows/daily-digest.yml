@@ -9,9 +9,8 @@ on:
 jobs:
   generate-and-update-digest:
     runs-on: ubuntu-latest
-  permissions:
-    contents: write   # Required for git commit + push with GITHUB_TOKEN
-
+    permissions:
+      contents: write   # Required for git commit + push with GITHUB_TOKEN
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
