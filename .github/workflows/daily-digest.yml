@@ -1,0 +1,45 @@
+name: Daily Digest Workflow
+
+on:
+  schedule:
+    # Run daily at 6 AM UTC (adjust timezone as needed)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  generate-and-update-digest:
+    runs-on: ubuntu-latest
+  permissions:
+    contents: write   # Required for git commit + push with GITHUB_TOKEN
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Create daily digest
+      env:
+        GROK_API_KEY: ${{ secrets.GROK_DIGEST_API_KEY }}
+      run: python .github/scripts/create.daily.digest.py
+
+    - name: Update baseline documents
+      env:
+        GROK_API_KEY: ${{ secrets.GROK_DIGEST_API_KEY }}
+      run: python .github/scripts/update.py
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add docs/
+        git commit -m "Update digest and platforms based on latest daily digest" || echo "No changes to commit"
+        git push
