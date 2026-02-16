@@ -1,6 +1,5 @@
-# botman
-agentic flow scratchpad
+# botman_digest
 
-- Enterprise agentic AI research:  complex, agentic flows, constraints, SLAs
-- Ethereum 8004 token
-- OSAF/Agntcy
+- keeps a cumulative digest of all things Gen AI in /docs/digest.md 
+- a daily workflow run is triggered, asking Grok for a daily update, stored under /docs/raw_digest
+- updates cumulative digest
