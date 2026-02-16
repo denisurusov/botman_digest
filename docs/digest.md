@@ -1,4 +1,3 @@
-```markdown
 # Introduction
 
 This is a structure document for collecting industry intel on Enteprise Agentic Flow related topics.
@@ -637,4 +636,3 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **SpaceX-xAI Integration**: Grok models for autonomous spacecraft and Mars robotics
 - **Euna Solutions Report**: State of AI in Public Sector
 - **USC AI System**: Tracking sex traffickers with court-admissible evidence 
-```
