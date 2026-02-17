@@ -54,7 +54,7 @@ The list of major or promising enterprise platforms:
 
 - OpenAI Frontier Platform
 - Anthropic's Cowork (Claude Code ~$2.5B annual run rate, driving rapid business subscription growth)
-- Anthropic Frontier Enterprise Suite: Toolkit for scaling Claude models with zero-shot RAG and compliance auditing (40% cost reduction for Fortune 500)
+- Anthropic Frontier Enterprise Suite: Toolkit for scaling Claude models with zero-shot RAG and compliance auditing (40% cost reduction for Fortune 500); new toolkit for Claude 4 integration in corporate workflows, real-time compliance auditing, RAG optimization (40% faster deployment for early adopters)
 - Anthropic Frontier 3.0: Enterprise LLM orchestration platform with seamless integration with on-prem data lakes, zero-shot RAG for compliance-heavy industries, 25% latency reduction
 - Corti Agentic Framework
 - Google Enterprise Agent Hubs
@@ -74,6 +74,8 @@ The list of major or promising enterprise platforms:
 - **ByteDance Seedance 2.0**: Multimodal video generation (text, images, audio, video inputs), professional film/ad quality with motion stability and physics realism
 - **xAI Physical World Model**: Enhanced understanding and manipulation of physical environments
 - **xAI Grok-4**: 2T param multimodal model with native video understanding, 95% MMLU score, open-weights for research tier on Hugging Face
+- **xAI Grok-3**: 2T param multimodal model with superior reasoning on math/physics benchmarks (95% GSM8K), API access at $0.50/M tokens
+- **Google DeepMind Gemini 2.0 Ultra**: Native agentic capabilities for long-horizon planning, beats o1 on ARC-AGI by 12%, limited preview for researchers
 - **Google Project Genie**: 3D environment generation from prompts
 - **Perplexity Model Council**: Model aggregation system
 - **Kling 3.0**: Highly realistic video generation
@@ -124,6 +126,7 @@ The list of major or promising enterprise platforms:
 #### RFC 8004
 - **Bittensor Subtensor v2.0**: Decentralized marketplace for fine-tuned GenAI models, on-chain provenance, 50% faster inference via subnet sharding
 - **Bittensor TAO-GenAI v2**: Open-source protocol integrating blockchain incentives for decentralized training of diffusion models, new subnet for video gen with 2x throughput via proof-of-compute
+- **Bittensor Subnet 42**: Decentralized fine-tuning network for vision-language models, tokenized compute sharing, initial TVL $50M in 12 hours
 
 ### Identity
 
@@ -142,6 +145,7 @@ The list of major or promising enterprise platforms:
 - Parallel execution (OpenAI Frontier)
 - Dynamic agent coordination and handoffs
 - Shared context and onboarding
+- **Microsoft AutoGen 3.0**: Hierarchical agent orchestration, native WebSocket integration for real-time collaboration, 20+ pre-built agent templates
 
 ### Routing
 - Policy-aware semantic routing: Combine DyTopo-style semantic matching with enterprise rules (compliance, cost, data residency, model preferences).
@@ -180,6 +184,7 @@ The list of major or promising enterprise platforms:
 - **OpenAI o1-preview patch**: Critical prompt injection flaw (CVE-2026-0215) patched, 99.9% mitigation
 - **SpecGuard**: Runtime monitor reduces speculative jailbreak success by 92% (arXiv:2602.04567)
 - **Llama 3.1 vuln (CVE-2026-0216)**: Prompt injection flaw allowing model inversion attacks on fine-tuned variants; Meta patch issued, affects 40% of deployed instances; Stanford exploit PoC
+- **Meta Llama 3.1 Guard vuln (CVE-2026-017)**: Prompt injection flaw affecting 15% of deployed instances; emergency update released
 
 ### Agent Collaboration & Teams
 - Plugin and expert ecosystem: Modular, open-source plugins for role-specific capabilities (Anthropic Cowork) and domain experts (Corti), discoverable via registry.
@@ -265,8 +270,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 ### Observability & Evaluation
 - Standardized logging, tracing (OpenTelemetry), and monitoring for multi-agent flows, including token usage, latency, errors, handoffs, and outcomes.
 - Built-in evaluation loops: Feedback mechanisms, performance optimization, and drift detection (OpenAI Frontier + Google Agent Engine).
-- **LangSmith 2.0 beta**: Vercel-integrated observability for agentic workflows with auto-debugging traces; open-traces for LLM debugging, collaborative eval suites, free for OSS projects
--
+- **LangSmith 2.0 beta**: Vercel-integrated observability for agentic workflows with auto-debugging traces; open-traces for LLM debugging, collaborative eval suites, free for OSS projects; open beta for multi-modal tracing, free tier expanded to 1M traces/month
 
 ### Domain-Specific Applications
 #### Healthcare & Life Sciences
@@ -311,6 +315,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - OpenClaw (formerly MoltBot/Clawdbot): personal AI assistant with 162K+ GitHub stars
 - MassGen: multi-agent system alternative to Claude Code Agent Teams, supports mixed models
 - **Microsoft AutoGen 4.0**: Hierarchical agent orchestration, native WebSocket integration for real-time collaboration, supports hierarchical agent swarms and tool-calling plugins in distributed environments, 50k+ GitHub stars
+- **Microsoft AutoGen 3.0**: Open-source upgrade with hierarchical agent orchestration, native WebSocket support for scalable simulations, 20+ pre-built agent templates for research
 - ChatDev 2.0: LLM-powered multi-agent collaboration for software development (29,946 stars)
 - MoltBook: open-source social network for AI agents
 - **Hive**: Self-evolving topology framework for multi-agent systems
@@ -345,6 +350,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - WrenAI: generative BI tool for natural language database queries (13,881 stars)
 - **Hugging Face Transformers v5.0**: Native JAX/Flax support, dynamic quantization, 20% faster on TPUs
 - **Hugging Face Spaces**: Adds GPU persistence for unlimited runtime in custom Spaces demos
+- **Hugging Face Diffusers 0.30**: Support for video diffusion with temporal consistency, ComfyUI integration, 50k downloads in first hour
 
 ### Specialized Tools
 - qlib (Microsoft): AI-oriented quant investment platform with RL (36,503 stars)
@@ -413,7 +419,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - Governed autonomy to prevent drift
 - Data access controls and sovereignty
 - Enterprise safety and guardrails
-- **EU AI Act Phase 3**: Mandatory conformity assessments for high-risk AI systems (e.g., employment screening LLMs), fines up to €150M; enforcement impacts 200+ firms including xAI and Mistral
+- **EU AI Act Phase 3**: Mandatory conformity assessments for high-risk AI systems (e.g., employment screening LLMs), fines up to €150M; enforcement impacts 200+ firms including xAI and Mistral; enforcement begins with third-party audits for high-risk systems
 
 ### Development & Deployment
 - Shared business context and onboarding
