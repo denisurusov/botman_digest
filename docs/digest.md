@@ -36,7 +36,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **China AI Wave**: Flood of affordable Chinese open models (MiniMax M2.5, GLM-5, Doubao 2.0) with native agentic capabilities pressuring Western pricing
 - **Ultra-Fast Inference**: OpenAI deploys GPT-5.3-Codex-Spark on Cerebras (1000+ tokens/sec), first production non-Nvidia chips
 - **Market Disruption & Anxiety**: AI agent displacement fears triggering selloffs across software, finance, insurance, logistics, and other knowledge-work sectors
-- **Infrastructure Investment Surge**: Big Tech committing $660-690B in 2026 AI capex (nearly double prior levels) for data centers and compute
+- **Infrastructure Investment Surge & Backlash**: Big Tech committing $660-690B in 2026 AI capex (nearly double prior levels) for data centers and compute, facing growing community resistance due to power bills and environmental impact.
 - **Security & Privacy Focus**: Meta releases FERRET red-teaming framework; increased transparency on prompt injection vulnerabilities
 - **AI Contributing to Science**: GPT-5.2 discovers new theoretical physics result (gluon tree amplitudes)
 - **Open-Source & Regional AI**: Efforts like Latam-GPT (15+ countries) advancing AI sovereignty and reducing global-north bias
@@ -139,7 +139,7 @@ The list of major or promising enterprise platforms:
 #### Agntcy
 
 ### Orchestration
-
+- **Microsoft Policy Graphs**: Framework to manage/tame agent interactions and enforce safety in multi-agent systems.
 - Governed orchestration layer: Single orchestrator for execution graphs, deterministic validation, and guardrail enforcement across multi-agent teams (Corti-style).
 - Outcome-based execution: Support for contracts/SLAs binding agents to measurable results (OpenAI Outcome Contracts), with automated monitoring and remediation.
 - Infrastructure co-administration patterns: Agents as autonomous co-managers for systems like storage, networks, or clouds (IBM FlashSystem model).
@@ -193,6 +193,7 @@ The list of major or promising enterprise platforms:
 ### Agent Collaboration & Teams
 - Plugin and expert ecosystem: Modular, open-source plugins for role-specific capabilities (Anthropic Cowork) and domain experts (Corti), discoverable via registry.
 - Agent marketplace patterns: Standardized publishing/sharing of agents or teams (Google Gemini Enterprise style), with version control and compatibility checks.
+- **OpenClaw**: Open source platform for natural language agent control via messaging apps (WhatsApp, Slack); viral popularity (190k+ stars) but high risk profile.
 - Multi-agent teams with parallel coordination (Anthropic)
 - Subagent handoffs and autonomous coordination
 - Agent-to-Agent (A2A) communication

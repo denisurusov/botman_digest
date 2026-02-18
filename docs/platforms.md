@@ -12,6 +12,13 @@
 ## Corti
 - **Corti Agentic Framework** — Healthcare-focused governed multi-agent orchestration (single orchestrator, execution graphs, deterministic validation, guardrails). Includes domain-specific "experts" (medical coding, clinical decision support, revenue cycle), persistent memory/context, full auditability/provenance, and support for open standards like MCP and A2A communication. Designed for regulated, production deployment.
 
+## Fujitsu
+- **Takane / AI-Driven Software Development Platform** — Comprehensive platform leveraging the Takane LLM and agentic AI to automate the entire software development lifecycle (requirements to testing) for large-scale enterprise systems.
+
+## Oracle
+- **Supply Chain AI Agents** — New suite of agents for multi-step automation in supply chain efficiency and enterprise workflows.
+- Partnered with Anthropic (Cowork) for finance sector automation.
+
 ## Google
 - **Google Enterprise Agent Hubs (Vertex AI Agent Builder / related services)** — Comprehensive lifecycle support via Agent Development Kit (ADK) for multi-agent workflows (deterministic guardrails, orchestration, bidirectional streaming) and Agent Engine for production (scaling, memory banks, sessions, observability with OpenTelemetry tracing/logging/monitoring, evaluation). Deep enterprise integrations (connectors, RAG, code execution, MCP tools), agent marketplace (Gemini Enterprise) for sharing, and grounding in organizational data; DeepMind NeuroTech Labs acquisition for BCI integration.
 - **Gemini 2.0 Ultra** — Native agentic capabilities for long-horizon planning; beats o1 on ARC-AGI by 12%. Limited preview for researchers.
@@ -32,6 +39,16 @@
 
 ## xAI
 - **Grok-4** — 2T param multimodal model (text/vision/audio) with real-time video understanding and superior reasoning on math/physics benchmarks (95% on GSM8K, MMLU 96.8%, ARC-AGI 52%). Tops LMSYS leaderboard (Elo 1420). API access at $0.50/M tokens; open-weights for research use (base 405B params released, tops open LLM leaderboard). Enhances physical world and agentic operations.
+
+## Amazon (AWS)
+- **Amazon Bedrock** — Expanded support for frontier open-weight models including DeepSeek V3.2, MiniMax M2.1, GLM 4.7 (Flash), Kimi K2.5, and Qwen3 Coder Next via Project Mantle for serverless inference. Boosting enterprise access to agentic/reasoning LLMs.
+
+## Microsoft
+- **Policy Graphs** — New framework designed to "tame" AI agents, ensuring safer multi-agent interactions and governance.
+- **AutoGen 3.0** — Hierarchical agent orchestration with native WebSocket support.
+
+## OpenClaw
+- **OpenClaw** — Viral open-source AI agent platform (190k+ GitHub stars) enabling natural language control via messaging apps. Creator hired by OpenAI. Crossmint payment standards now supported. Subject to scrutiny regarding prompt injection risks.
 
 ## Frontier Labs
 - **Frontier v2.0** — Enterprise LLM orchestration framework with native support for hybrid cloud deployments and zero-shot RAG tuning. 40% latency reduction on benchmarks.

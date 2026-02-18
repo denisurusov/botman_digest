@@ -30,9 +30,9 @@ try:
             "model": "grok-4-1-fast-reasoning",
             "messages": [{"role": "user", "content": prompt_content}],
             "max_tokens": 16000,
-            "temperature": 0.3
+            "temperature": 0.7
         },
-        timeout=30
+        timeout=90
     )
 except requests.exceptions.SSLError as e:
     print(f"SSL verification failed: {e}")
@@ -43,13 +43,13 @@ except requests.exceptions.SSLError as e:
         API_URL,
         headers=HEADERS,
         json={
-            "model": "grok-beta",
+            "model": "grok-4-1-fast-reasoning",
             "messages": [{"role": "user", "content": prompt_content}],
-            "max_tokens": 2000,
+            "max_tokens": 16000,
             "temperature": 0.7
         },
         verify=False,  # Disable SSL verification
-        timeout=30
+        timeout=00
     )
 
 if response.status_code == 200:
