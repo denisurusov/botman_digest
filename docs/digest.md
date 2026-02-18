@@ -56,6 +56,8 @@ The list of major or promising enterprise platforms:
 - Anthropic's Cowork (Claude Code ~$2.5B annual run rate, driving rapid business subscription growth)
 - Anthropic Frontier Enterprise Suite: Toolkit for scaling Claude models with zero-shot RAG and compliance auditing (40% cost reduction for Fortune 500); new toolkit for Claude 4 integration in corporate workflows, real-time compliance auditing, RAG optimization (40% faster deployment for early adopters)
 - Anthropic Frontier 3.0: Enterprise LLM orchestration platform with seamless integration with on-prem data lakes, zero-shot RAG for compliance-heavy industries, 25% latency reduction
+- **Frontier Labs Frontier v2.0**: Enterprise LLM orchestration framework update with native hybrid cloud deployments, zero-shot RAG tuning, 40% latency reduction on benchmarks
+- **Cowork AI-Oracle partnership**: Integration of Cowork agentic workflows into Oracle Cloud Infrastructure for enterprise finance automation
 - Corti Agentic Framework
 - Google Enterprise Agent Hubs
 - IBM FlashSystem (Agentic AI for storage): Models 5600, 7600, 9600 acting as "co-administrators"
@@ -100,6 +102,7 @@ The list of major or promising enterprise platforms:
 - **RedSage**: Cybersecurity generalist LLM
 - **Arcee Trinity Large**: U.S.-made open-source model with 10T checkpoint
 - **xAI Grok-3 base (405B params)**: Tops Hugging Face Open LLM Leaderboard (88% MMLU), Apache 2.0, optimized for edge deployment
+- **Mistral AI Mistral-NeMo 12B**: Efficient MoE model optimized for edge devices, beats Llama 3.1 70B on MMLU, Apache 2.0 licensed
 
 ### Specialized Models & Tools
 - **Carbon Robotics LPM**: Large Plant Model for real-time weed detection
@@ -126,7 +129,7 @@ The list of major or promising enterprise platforms:
 #### RFC 8004
 - **Bittensor Subtensor v2.0**: Decentralized marketplace for fine-tuned GenAI models, on-chain provenance, 50% faster inference via subnet sharding
 - **Bittensor TAO-GenAI v2**: Open-source protocol integrating blockchain incentives for decentralized training of diffusion models, new subnet for video gen with 2x throughput via proof-of-compute
-- **Bittensor Subnet 42**: Decentralized fine-tuning network for vision-language models, tokenized compute sharing, initial TVL $50M in 12 hours
+- **Bittensor Subnet 42**: Decentralized fine-tuning network for vision-language models, tokenized compute sharing, initial TVL $50M in 12 hours; GenAI marketplace for trading fine-tuned models, Hugging Face integration, initial TVL $50M
 
 ### Identity
 
@@ -145,7 +148,7 @@ The list of major or promising enterprise platforms:
 - Parallel execution (OpenAI Frontier)
 - Dynamic agent coordination and handoffs
 - Shared context and onboarding
-- **Microsoft AutoGen 3.0**: Hierarchical agent orchestration, native WebSocket integration for real-time collaboration, 20+ pre-built agent templates
+- **Microsoft AutoGen 3.0**: Hierarchical agent orchestration, native WebSocket integration for real-time collaboration, self-healing mechanisms, supports up to 100 agents in simulation, 25% better task completion on GAIA, 20+ pre-built agent templates, 12k GitHub stars in first hour
 
 ### Routing
 - Policy-aware semantic routing: Combine DyTopo-style semantic matching with enterprise rules (compliance, cost, data residency, model preferences).
@@ -185,6 +188,7 @@ The list of major or promising enterprise platforms:
 - **SpecGuard**: Runtime monitor reduces speculative jailbreak success by 92% (arXiv:2602.04567)
 - **Llama 3.1 vuln (CVE-2026-0216)**: Prompt injection flaw allowing model inversion attacks on fine-tuned variants; Meta patch issued, affects 40% of deployed instances; Stanford exploit PoC
 - **Meta Llama 3.1 Guard vuln (CVE-2026-017)**: Prompt injection flaw affecting 15% of deployed instances; emergency update released
+- **Llama 4 prompt injection vuln**: "Shadow prompt" attack bypassing safeguards (Robust Intelligence), CVSS 8.7
 
 ### Agent Collaboration & Teams
 - Plugin and expert ecosystem: Modular, open-source plugins for role-specific capabilities (Anthropic Cowork) and domain experts (Corti), discoverable via registry.
@@ -351,11 +355,13 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **Hugging Face Transformers v5.0**: Native JAX/Flax support, dynamic quantization, 20% faster on TPUs
 - **Hugging Face Spaces**: Adds GPU persistence for unlimited runtime in custom Spaces demos
 - **Hugging Face Diffusers 0.30**: Support for video diffusion with temporal consistency, ComfyUI integration, 50k downloads in first hour
+- **LangChain v0.3**: Async tool-calling, vector DB sharding, 50k+ downloads in 24h
 
 ### Specialized Tools
 - qlib (Microsoft): AI-oriented quant investment platform with RL (36,503 stars)
 - Quantickle (RSAC): open-source threat intelligence visualization
 - DiffSyn (MIT): generative AI for material synthesis recipes
+- **OpenVoice v2 (MyShell)**: Real-time voice cloning with 200ms latency, MIT license
 
 ## Emerging Technologies & Research Areas
 
@@ -521,6 +527,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **Meta-Agents Research**: Papers on higher-level agent orchestration and coordination
 - **Persuasion Dynamics in LLM Swarms**: Research on influence and coordination in multi-agent systems
 - **Scaling Laws for Agentic AI** (arXiv:2602.07890): UC Berkeley, new scaling exponents for multi-agent systems, predicting 10x capability jumps at 10^15 FLOPs
+- **"Scaling Laws for Agentic AI" (Google DeepMind)**: Compute-optimal training for multi-agent systems, predicts 10x gains by 2028 (arXiv:2602.04612)
 
 ### Agent Capabilities & Learning
 - **Position: Agentic Evolution is the Path to Evolving LLMs**: Argues for agent-driven self-improvement in models
@@ -550,6 +557,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **AutoFigure**: Generating and Refining Publication-Ready Scientific Illustrations (ICLR 2026)
 - **Modality Gap-Driven Subspace Alignment**: Training Paradigm for Multimodal LLMs
 - **Quantum-Enhanced Diffusion Models** (arXiv:2602.07912): IBM Research, hybrid quantum-classical samplers, 3x faster generation on noisy qubits
+- **"Quantum-Enhanced Diffusion Models" (IBM Research)**: Qubit-augmented samplers for faster image gen, 5x speedup on CIFAR-10 (arXiv:2602.04789)
 
 ### Context & Efficiency
 - **Hybrid Linear Attention Done Right**: Efficient Distillation for Extremely Long Contexts (arXiv:2601.22156)
