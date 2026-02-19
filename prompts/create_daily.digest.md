@@ -7,5 +7,6 @@ Tag items with these tags, where applicable:
 3. Security related
 4. Usage of blockchain for Gen AI
 5. Regulatory news
+6. News related to ERC 8004
 
 put all other news under "everything else" tag
