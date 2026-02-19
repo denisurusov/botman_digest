@@ -1,3 +1,4 @@
+```markdown
 # Summary of Key Functionalities from Major Platforms
 
 ## OpenAI
@@ -7,7 +8,7 @@
 
 ## Anthropic
 - **Anthropic's Cowork v3** — Desktop-centric agentic execution for multi-step knowledge work (file access/organization, report generation, browser/system interactions). Features customizable plugins/connectors for role-specific workflows (e.g., sales, finance, legal, CRM integrations like Notion/Asana), open-source plugin ecosystem, autonomous task completion with natural language outcomes; integrated into Microsoft Azure AI for enhanced agentic workflows in Teams (40% faster inference on H100 clusters, 92% accuracy on internal enterprise tasks). Partners with Oracle for integration into Oracle Cloud Infrastructure, targeting finance sector automation.
-- **Frontier Enterprise Suite** — Recently launched scalable enterprise framework/toolkit for Claude 4 integration in corporate workflows, with real-time compliance auditing, RAG optimization, zero-shot RAG, federated learning, 1M+ token contexts, quantum-accelerated inference, zero-trust data pipelines, seamless integration with on-prem data lakes for compliance-heavy industries, 40% faster deployment for early adopters, 25% latency reduction, compliance auditing, and 40% cost reduction for Fortune 500 users.
+- **Frontier Enterprise Suite (3.1 update)** — Scalable enterprise framework/toolkit for Claude 4 integration in corporate workflows, with real-time compliance auditing, RAG optimization, zero-shot RAG, federated learning, 1M+ token contexts, quantum-accelerated inference, zero-trust data pipelines, seamless integration with on-prem data lakes for compliance-heavy industries, 40% faster deployment for early adopters, 25% latency reduction, compliance auditing, and 40% cost reduction for Fortune 500 users. 3.1 update improves agentic workflows with 20% faster inference, native Cowork integration, superior SWE-bench performance.
 
 ## Corti
 - **Corti Agentic Framework** — Healthcare-focused governed multi-agent orchestration (single orchestrator, execution graphs, deterministic validation, guardrails). Includes domain-specific "experts" (medical coding, clinical decision support, revenue cycle), persistent memory/context, full auditability/provenance, and support for open standards like MCP and A2A communication. Designed for regulated, production deployment.
@@ -39,6 +40,7 @@
 
 ## xAI
 - **Grok-4** — 2T param multimodal model (text/vision/audio) with real-time video understanding and superior reasoning on math/physics benchmarks (95% on GSM8K, MMLU 96.8%, ARC-AGI 52%). Tops LMSYS leaderboard (Elo 1420). API access at $0.50/M tokens; open-weights for research use (base 405B params released, tops open LLM leaderboard). Enhances physical world and agentic operations.
+- **Grok-3 (open weights)** — 2T parameter mixture-of-experts model topping LMSYS Arena (92% ELO), available on Hugging Face under Apache 2.0.
 
 ## Amazon (AWS)
 - **Amazon Bedrock** — Expanded support for frontier open-weight models including DeepSeek V3.2, MiniMax M2.1, GLM 4.7 (Flash), Kimi K2.5, and Qwen3 Coder Next via Project Mantle for serverless inference. Boosting enterprise access to agentic/reasoning LLMs.
@@ -53,4 +55,5 @@
 ## Frontier Labs
 - **Frontier v2.0** — Enterprise LLM orchestration framework with native support for hybrid cloud deployments and zero-shot RAG tuning. 40% latency reduction on benchmarks.
 
-Common themes across platforms include **MCP** (Model Context Protocol) for standardized tool/data access, strong governance/auditability for enterprises (EU AI Act Phase 3 impacts), hybrid/multi-model support, observability, quantum-enhanced efficiency (Anthropic Frontier, Google DeepMind research), and domain/infrastructure autonomy. Emerging open protocols (MCP for tools, A2A for agent-to-agent, ACP for messaging) and frameworks (Microsoft AutoGen 3.0 with hierarchical agent orchestration and native WebSocket support for scalable simulations/20+ pre-built templates, LangChain Multi-Agent Orchestrator 1.5/LangSmith 2.0 open beta with multi-modal tracing/free tier 1M traces/month, CrewAI Swarm Simulator) align well with the digest's goals. Blockchain integration rising (Bittensor Subtensor v2.0/TAO-GenAI v2 with decentralized GenAI marketplace, on-chain provenance, 50% faster inference; Subnet 42 live for vision-language fine-tuning, $50M TVL).
+Common themes across platforms include **MCP** (Model Context Protocol) for standardized tool/data access, strong governance/auditability for enterprises (EU AI Act Phase 3 impacts with mandatory audits for high-risk systems, fines up to €150M), hybrid/multi-model support, observability, quantum-enhanced efficiency (Anthropic Frontier, Google DeepMind research), and domain/infrastructure autonomy. Emerging open protocols (MCP for tools, A2A for agent-to-agent, ACP for messaging, ERC 8004 for AI Data Oracles) and frameworks (Microsoft AutoGen 3.0 with hierarchical agent orchestration and native WebSocket support for scalable simulations/20+ pre-built templates, LangChain Multi-Agent Orchestrator v2.0/LangSmith 2.0 open beta with hierarchical agent swarms, real-time collaboration tools, 50+ LLM support, multi-modal tracing/free tier 1M traces/month, CrewAI Swarm Simulator) align well with the digest's goals. Blockchain integration rising (Bittensor TAO 2.0/Subtensor v2.0/TAO-GenAI v2 with decentralized GenAI marketplace, on-chain provenance, decentralized fine-tuning subnets with 5x throughput and 50% faster inference; Subnet 42 live for vision-language fine-tuning, $50M TVL).
+```

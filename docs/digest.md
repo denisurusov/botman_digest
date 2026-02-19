@@ -45,6 +45,9 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **Anthropic Frontier Enterprise Suite**: Toolkit for scaling Claude with zero-shot RAG and compliance auditing
 - **Microsoft AutoGen 3.0**: Hierarchical multi-agent orchestration with real-time collaboration
 - **EU AI Act Phase 3**: Enforcement for high-risk AI systems
+- **Anthropic Frontier 3.1**: 20% faster inference for agentic workflows, native Cowork integration
+- **LangChain Multi-Agent Orchestrator v2.0**: Open-source hierarchical agent swarms with real-time collaboration
+- **EU AI Act Phase 3 Enforcement**: First notices issued for high-risk systems
 
 **Overall Industry Vibe**: Excitement over agentic capabilities and ultra-fast inference counterbalanced by disruption anxiety, with continued volatility as enterprises scale AI tools. Chinese AI labs accelerating with affordable, production-grade agent orchestration. Positive momentum in open-source efforts, security frameworks, and AI-driven scientific discovery.
 
@@ -56,6 +59,7 @@ The list of major or promising enterprise platforms:
 - Anthropic's Cowork (Claude Code ~$2.5B annual run rate, driving rapid business subscription growth)
 - Anthropic Frontier Enterprise Suite: Toolkit for scaling Claude models with zero-shot RAG and compliance auditing (40% cost reduction for Fortune 500); new toolkit for Claude 4 integration in corporate workflows, real-time compliance auditing, RAG optimization (40% faster deployment for early adopters)
 - Anthropic Frontier 3.0: Enterprise LLM orchestration platform with seamless integration with on-prem data lakes, zero-shot RAG for compliance-heavy industries, 25% latency reduction
+- **Anthropic Frontier 3.1**: Enterprise update with 20% faster inference, native Cowork integration, superior SWE-bench performance
 - **Frontier Labs Frontier v2.0**: Enterprise LLM orchestration framework update with native hybrid cloud deployments, zero-shot RAG tuning, 40% latency reduction on benchmarks
 - **Cowork AI-Oracle partnership**: Integration of Cowork agentic workflows into Oracle Cloud Infrastructure for enterprise finance automation
 - Corti Agentic Framework
@@ -102,6 +106,7 @@ The list of major or promising enterprise platforms:
 - **RedSage**: Cybersecurity generalist LLM
 - **Arcee Trinity Large**: U.S.-made open-source model with 10T checkpoint
 - **xAI Grok-3 base (405B params)**: Tops Hugging Face Open LLM Leaderboard (88% MMLU), Apache 2.0, optimized for edge deployment
+- **xAI Grok-3 (full release)**: 2T param mixture-of-experts, tops LMSYS Arena (92% ELO), available on Hugging Face under Apache 2.0
 - **Mistral AI Mistral-NeMo 12B**: Efficient MoE model optimized for edge devices, beats Llama 3.1 70B on MMLU, Apache 2.0 licensed
 
 ### Specialized Models & Tools
@@ -111,7 +116,8 @@ The list of major or promising enterprise platforms:
 - **Mistral Voxtral Transcribe 2**: Audio transcription model
 - **DiffSyn (MIT)**: Material synthesis recipe generation
 - **Grok Imagine API**: Image generation API
-- **Mistral Pixtral 12B**: Multimodal vision-language model rivaling GPT-4V on VQA benchmarks, fully open-weights
+- **Mistral Pixtral 12B**: Multimodal vision-language model rivaling GPT-4V on VQA benchmarks and MMMU (78%), fully open-weights, fine-tuned for edge devices
+- **Google DeepMind AlphaFold 4**: Open-sourced protein structure prediction with 95% accuracy including dynamics, includes training data
 
 ## Enterprise Agentic Flow framework capabilities
 
@@ -126,9 +132,11 @@ The list of major or promising enterprise platforms:
 - Standard for agent-to-agent interoperability
 
 ### Blockchain backing
-#### RFC 8004
+#### ERC 8004
+- **Ethereum Foundation ratifies ERC 8004**: Standardizing on-chain provenance for GenAI datasets; early adopters include SingularityNET
 - **Bittensor Subtensor v2.0**: Decentralized marketplace for fine-tuned GenAI models, on-chain provenance, 50% faster inference via subnet sharding
 - **Bittensor TAO-GenAI v2**: Open-source protocol integrating blockchain incentives for decentralized training of diffusion models, new subnet for video gen with 2x throughput via proof-of-compute
+- **Bittensor TAO 2.0 subnet**: Decentralized fine-tuning with blockchain-verified training, 5x throughput via new consensus; testnet live with 100+ validators
 - **Bittensor Subnet 42**: Decentralized fine-tuning network for vision-language models, tokenized compute sharing, initial TVL $50M in 12 hours; GenAI marketplace for trading fine-tuned models, Hugging Face integration, initial TVL $50M
 
 ### Identity
@@ -140,6 +148,7 @@ The list of major or promising enterprise platforms:
 
 ### Orchestration
 - **Microsoft Policy Graphs**: Framework to manage/tame agent interactions and enforce safety in multi-agent systems.
+- **LangChain Multi-Agent Orchestrator v2.0**: Open-source hierarchical agent swarms, real-time collaboration, supports 50+ LLMs, 10k GitHub stars
 - Governed orchestration layer: Single orchestrator for execution graphs, deterministic validation, and guardrail enforcement across multi-agent teams (Corti-style).
 - Outcome-based execution: Support for contracts/SLAs binding agents to measurable results (OpenAI Outcome Contracts), with automated monitoring and remediation.
 - Infrastructure co-administration patterns: Agents as autonomous co-managers for systems like storage, networks, or clouds (IBM FlashSystem model).
@@ -189,6 +198,7 @@ The list of major or promising enterprise platforms:
 - **Llama 3.1 vuln (CVE-2026-0216)**: Prompt injection flaw allowing model inversion attacks on fine-tuned variants; Meta patch issued, affects 40% of deployed instances; Stanford exploit PoC
 - **Meta Llama 3.1 Guard vuln (CVE-2026-017)**: Prompt injection flaw affecting 15% of deployed instances; emergency update released
 - **Llama 4 prompt injection vuln**: "Shadow prompt" attack bypassing safeguards (Robust Intelligence), CVSS 8.7
+- **Llama 4 Guardrail toolkit vuln (patched)**: Prompt injection flaw allowing model bypass in 15% scenarios; patched via Hugging Face
 
 ### Agent Collaboration & Teams
 - Plugin and expert ecosystem: Modular, open-source plugins for role-specific capabilities (Anthropic Cowork) and domain experts (Corti), discoverable via registry.
@@ -321,6 +331,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - MassGen: multi-agent system alternative to Claude Code Agent Teams, supports mixed models
 - **Microsoft AutoGen 4.0**: Hierarchical agent orchestration, native WebSocket integration for real-time collaboration, supports hierarchical agent swarms and tool-calling plugins in distributed environments, 50k+ GitHub stars
 - **Microsoft AutoGen 3.0**: Open-source upgrade with hierarchical agent orchestration, native WebSocket support for scalable simulations, 20+ pre-built agent templates for research
+- **LangChain Multi-Agent Orchestrator v2.0**: Hierarchical agent swarms, real-time collaboration, 50+ LLM integration, 10k GitHub stars
 - ChatDev 2.0: LLM-powered multi-agent collaboration for software development (29,946 stars)
 - MoltBook: open-source social network for AI agents
 - **Hive**: Self-evolving topology framework for multi-agent systems
@@ -426,7 +437,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - Governed autonomy to prevent drift
 - Data access controls and sovereignty
 - Enterprise safety and guardrails
-- **EU AI Act Phase 3**: Mandatory conformity assessments for high-risk AI systems (e.g., employment screening LLMs), fines up to €150M; enforcement impacts 200+ firms including xAI and Mistral; enforcement begins with third-party audits for high-risk systems
+- **EU AI Act Phase 3**: Mandatory conformity assessments for high-risk AI systems (e.g., employment screening LLMs), fines up to €150M; enforcement impacts 200+ firms including xAI and Mistral; enforcement begins with third-party audits for high-risk systems; first enforcement notices issued
 
 ### Development & Deployment
 - Shared business context and onboarding
@@ -559,6 +570,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **Modality Gap-Driven Subspace Alignment**: Training Paradigm for Multimodal LLMs
 - **Quantum-Enhanced Diffusion Models** (arXiv:2602.07912): IBM Research, hybrid quantum-classical samplers, 3x faster generation on noisy qubits
 - **"Quantum-Enhanced Diffusion Models" (IBM Research)**: Qubit-augmented samplers for faster image gen, 5x speedup on CIFAR-10 (arXiv:2602.04789)
+- **"Scaling Laws for Multimodal AGI"** (DeepMind, arXiv:2602.09876): Empirical laws predicting 10^6 FLOPs for human-level vision-language tasks
 
 ### Context & Efficiency
 - **Hybrid Linear Attention Done Right**: Efficient Distillation for Extremely Long Contexts (arXiv:2601.22156)
