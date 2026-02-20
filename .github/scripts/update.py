@@ -1,5 +1,6 @@
 import requests
 import os
+import re
 from datetime import datetime
 from pathlib import Path
 import urllib3
@@ -61,6 +62,14 @@ for placeholder, value in replacements.items():
     digest_prompt = digest_prompt.replace(placeholder, value)
     platforms_prompt = platforms_prompt.replace(placeholder, value)
 
+def clean_markdown_fences(content: str) -> str:
+    """Removes ```markdown and ``` fences if present."""
+    # Remove start fence (optionally with 'markdown')
+    content = re.sub(r'^```(?:markdown)?\s*\n', '', content, flags=re.IGNORECASE)
+    # Remove end fence
+    content = re.sub(r'\n```\s*$', '', content)
+    return content.strip()
+
 def call_api(prompt: str, max_tokens: int = 20000) -> str:
     payload = {
         "model": "grok-4-1-fast-reasoning",
@@ -72,12 +81,14 @@ def call_api(prompt: str, max_tokens: int = 20000) -> str:
     try:
         r = requests.post(API_URL, headers=HEADERS, json=payload, timeout=180)
         r.raise_for_status()
-        return r.json()["choices"][0]["message"]["content"].strip()
+        raw_content = r.json()["choices"][0]["message"]["content"].strip()
+        return clean_markdown_fences(raw_content)
     except requests.exceptions.SSLError:
         print("SSL error, retrying without verification...")
         r = requests.post(API_URL, headers=HEADERS, json=payload, verify=False, timeout=180)
         r.raise_for_status()
-        return r.json()["choices"][0]["message"]["content"].strip()
+        raw_content = r.json()["choices"][0]["message"]["content"].strip()
+        return clean_markdown_fences(raw_content)
 
 
 # Make two separate calls

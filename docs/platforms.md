@@ -1,4 +1,3 @@
-```markdown
 # Summary of Key Functionalities from Major Platforms
 
 ## OpenAI
@@ -7,6 +6,7 @@
 - **GPT-5.2 Instant Updates** — Regular quality, style, and efficiency improvements pushing enterprises toward newer, more capable models.
 
 ## Anthropic
+- **Claude Sonnet 4.6** — Latest production model; multi-agent teams, 1M token context window (beta), upgraded agent planning and knowledge work. Default in Claude.ai and Claude Cowork. Priced at $3/$15 per million tokens input/output. Positioned for enterprise multi-step task execution on desktops (CoWork framework).
 - **Anthropic's Cowork v3** — Desktop-centric agentic execution for multi-step knowledge work (file access/organization, report generation, browser/system interactions). Features customizable plugins/connectors for role-specific workflows (e.g., sales, finance, legal, CRM integrations like Notion/Asana), open-source plugin ecosystem, autonomous task completion with natural language outcomes; integrated into Microsoft Azure AI for enhanced agentic workflows in Teams (40% faster inference on H100 clusters, 92% accuracy on internal enterprise tasks). Partners with Oracle for integration into Oracle Cloud Infrastructure, targeting finance sector automation.
 - **Frontier Enterprise Suite (3.1 update)** — Scalable enterprise framework/toolkit for Claude 4 integration in corporate workflows, with real-time compliance auditing, RAG optimization, zero-shot RAG, federated learning, 1M+ token contexts, quantum-accelerated inference, zero-trust data pipelines, seamless integration with on-prem data lakes for compliance-heavy industries, 40% faster deployment for early adopters, 25% latency reduction, compliance auditing, and 40% cost reduction for Fortune 500 users. 3.1 update improves agentic workflows with 20% faster inference, native Cowork integration, superior SWE-bench performance.
 
@@ -38,8 +38,10 @@
 ## Glean
 - **Glean AI Intelligence Layer** — Model-agnostic enterprise infrastructure ($7.2B valuation) providing abstraction layer mixing ChatGPT, Gemini, Claude with open-source models. Features deep integrations with tools (Slack, Salesforce, etc.), permissions-aware retrieval respecting enterprise access controls, hallucination detection, and governance features. Positions as neutral "intelligence layer" beneath enterprise applications, challenging Microsoft and Google's integrated stacks.
 
-## xAI
+## xAI (acquired by SpaceX, Feb 2026)
+- **SpaceX-xAI Merger**: SpaceX acquired xAI forming a $1.25T combined company; integrating Grok AI into space operations (autonomous spacecraft, Mars robotics) and developing orbital solar-powered data centers for future AI compute needs.
 - **Grok-4** — 2T param multimodal model (text/vision/audio) with real-time video understanding and superior reasoning on math/physics benchmarks (95% on GSM8K, MMLU 96.8%, ARC-AGI 52%). Tops LMSYS leaderboard (Elo 1420). API access at $0.50/M tokens; open-weights for research use (base 405B params released, tops open LLM leaderboard). Enhances physical world and agentic operations.
+- **Grok 4.20 Beta** — Enhanced physical world understanding for robotics and autonomous systems; extends Grok-4 capabilities into real-world interaction domains.
 - **Grok-3 (open weights)** — 2T parameter mixture-of-experts model topping LMSYS Arena (92% ELO), available on Hugging Face under Apache 2.0.
 
 ## Amazon (AWS)
@@ -49,11 +51,32 @@
 - **Policy Graphs** — New framework designed to "tame" AI agents, ensuring safer multi-agent interactions and governance.
 - **AutoGen 3.0** — Hierarchical agent orchestration with native WebSocket support.
 
-## OpenClaw
-- **OpenClaw** — Viral open-source AI agent platform (190k+ GitHub stars) enabling natural language control via messaging apps. Creator hired by OpenAI. Crossmint payment standards now supported. Subject to scrutiny regarding prompt injection risks.
+## OpenClaw (acquired by OpenAI, Feb 2026)
+- **OpenClaw** — Viral open-source AI agent platform (190k+ GitHub stars) enabling natural language control via messaging apps. Acquired by OpenAI; creator Peter Steinberger joins OpenAI to advance agent capabilities, addressing enterprise security concerns in agent deployment. Crossmint payment standards supported. Subject to scrutiny regarding prompt injection risks.
 
 ## Frontier Labs
 - **Frontier v2.0** — Enterprise LLM orchestration framework with native support for hybrid cloud deployments and zero-shot RAG tuning. 40% latency reduction on benchmarks.
 
-Common themes across platforms include **MCP** (Model Context Protocol) for standardized tool/data access, strong governance/auditability for enterprises (EU AI Act Phase 3 impacts with mandatory audits for high-risk systems, fines up to €150M), hybrid/multi-model support, observability, quantum-enhanced efficiency (Anthropic Frontier, Google DeepMind research), and domain/infrastructure autonomy. Emerging open protocols (MCP for tools, A2A for agent-to-agent, ACP for messaging, ERC 8004 for AI Data Oracles) and frameworks (Microsoft AutoGen 3.0 with hierarchical agent orchestration and native WebSocket support for scalable simulations/20+ pre-built templates, LangChain Multi-Agent Orchestrator v2.0/LangSmith 2.0 open beta with hierarchical agent swarms, real-time collaboration tools, 50+ LLM support, multi-modal tracing/free tier 1M traces/month, CrewAI Swarm Simulator) align well with the digest's goals. Blockchain integration rising (Bittensor TAO 2.0/Subtensor v2.0/TAO-GenAI v2 with decentralized GenAI marketplace, on-chain provenance, decentralized fine-tuning subnets with 5x throughput and 50% faster inference; Subnet 42 live for vision-language fine-tuning, $50M TVL).
-```
+## Infosys
+- **AI Implementation Framework** — Structured guidance for business leaders on adopting AI technologies effectively; covers governance, integration patterns, ROI measurement, and risk management across enterprise workflows.
+
+## AIG
+- **Agentic AI Orchestration** — Insurance giant deploys agentic AI systems with orchestration layer for enhanced operational efficiency across claims, underwriting, and customer service workflows.
+
+## Tessl
+- **Tessl Platform** — Versioned, tested AI skills and context management platform; improves agent behavior consistency across changing models and libraries. Benchmarks show up to 3.3x better API usage across 300+ open-source libraries.
+
+## LexisNexis
+- **Legal AI Platform** — Advanced legal AI with graph RAG, planner agents, and reflection agents to enhance accuracy and completeness in high-stakes legal applications (contract review, case research, regulatory compliance).
+
+## Corpus OS
+- **Corpus OS** — Open-source protocol suite (Apache 2.0) unifying six major agentic AI frameworks: LangChain, LlamaIndex, AutoGen, CrewAI, Semantic Kernel, and MCP. Enables interoperability across LLM, vector, graph, and embedding domains for complex multi-agent systems.
+
+## Sarvam AI (India)
+- **Sarvam Models** — 30B and 105B parameter MoE models (open-source); text-to-speech, speech-to-text, and vision model for document parsing; announced at India AI Impact Summit 2026.
+- **Kaze AI Smart Glasses** — Offline-capable AI wearable for phones, cars, wearables, and enterprise use.
+
+## World Labs
+- **Marble** — 3D physical world reasoning platform; generates interactive 3D environments from text prompts. Founded by Fei-Fei Li; raised $1B from Nvidia, AMD, Andreessen Horowitz, Autodesk. Targets robotics, simulation, and spatial AI applications.
+
+Common themes across platforms include **MCP** (Model Context Protocol) for standardized tool/data access, strong governance/auditability for enterprises (EU AI Act Phase 3 impacts with mandatory audits for high-risk systems, fines up to €150M; EU Parliament banning AI chatbots on lawmakers' devices; U.S. Treasury FS AI RMF), hybrid/multi-model support, observability, quantum-enhanced efficiency (Anthropic Frontier, Google DeepMind research), and domain/infrastructure autonomy. Emerging open protocols (MCP for tools, A2A for agent-to-agent, ACP for messaging, ERC 8004 for AI Data Oracles) and frameworks (Microsoft AutoGen 3.0 with hierarchical agent orchestration and native WebSocket support, **Corpus OS** unifying six major frameworks under Apache 2.0, LangChain Multi-Agent Orchestrator v2.0/LangSmith 2.0 open beta, CrewAI Swarm Simulator) align well with the digest's goals. Blockchain integration rising (Bittensor TAO 2.0/Subtensor v2.0/TAO-GenAI v2 with decentralized GenAI marketplace, on-chain provenance, decentralized fine-tuning subnets with 5x throughput and 50% faster inference; Subnet 42 live for vision-language fine-tuning, $50M TVL). Major consolidation underway: SpaceX acquired xAI ($1.25T combined company) and OpenAI acquired OpenClaw. Global AI spending at $2.5T in 2026, Gartner forecasts $3.3T by 2027. India AI investment surging with $210B committed by Reliance and Adani alone.

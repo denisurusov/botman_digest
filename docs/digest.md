@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of Feb 14, 2026)](#current-state)
+- [Current State (as of Feb 19, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -49,7 +49,18 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **LangChain Multi-Agent Orchestrator v2.0**: Open-source hierarchical agent swarms with real-time collaboration
 - **EU AI Act Phase 3 Enforcement**: First notices issued for high-risk systems
 
-**Overall Industry Vibe**: Excitement over agentic capabilities and ultra-fast inference counterbalanced by disruption anxiety, with continued volatility as enterprises scale AI tools. Chinese AI labs accelerating with affordable, production-grade agent orchestration. Positive momentum in open-source efforts, security frameworks, and AI-driven scientific discovery.
+- **SpaceX Acquires xAI**: $1.25T combined company integrating Grok AI into space operations; plans for orbital solar-powered data centers for AI compute
+- **Corpus OS**: New Apache 2.0 open-source protocol suite unifying six major agentic frameworks (LangChain, LlamaIndex, AutoGen, CrewAI, Semantic Kernel, MCP) for cross-platform interoperability
+- **Claude Sonnet 4.6**: Anthropic's latest model with multi-agent teams, 1M token context window (beta), $3/$15 per million tokens input/output; now default in Claude.ai and Claude Cowork
+- **Enterprise AI Adoption Accelerating**: AIG deploys agentic AI orchestration layer; Infosys releases AI implementation framework for business leaders; DesignCon 2026 highlights agentic AI driving 448 Gbps signaling in high-speed data centers
+- **Global AI Spend Surge**: $2.5T projected for 2026, Gartner forecasts $3.3T by 2027
+- **Security & Regulatory Tightening**: Cisco State of AI Security 2026; EU Parliament bans AI chatbots on lawmakers' devices; U.S. Treasury releases AI Lexicon and FS AI RMF; FTC opens inquiries into OpenAI and Meta chatbots; unregulated AI experiments on children prompting state laws
+- **India AI Surge**: Sarvam AI launches 30B/105B MoE models + TTS/STT/vision; Reliance commits $110B, Adani $100B for AI infrastructure
+- **Open Model Economics**: MIT Sloan study finds reallocating demand from proprietary to open models could cut overall AI spending by 70%+
+- **AI for Materials Science**: UNH discovers 25 new high-temperature magnetic materials with AI; database of 67,573 compounds released
+- **Fei-Fei Li's World Labs**: $1B raised for 3D physical world reasoning; product Marble generates 3D environments from prompts (investments from Nvidia, AMD, Andreessen Horowitz, Autodesk)
+
+**Overall Industry Vibe**: Excitement over agentic capabilities and ultra-fast inference counterbalanced by disruption anxiety, with continued volatility as enterprises scale AI tools. Chinese AI labs accelerating with affordable, production-grade agent orchestration. Positive momentum in open-source efforts, security frameworks, and AI-driven scientific discovery. Consolidation accelerating with SpaceX-xAI merger and OpenAI acquiring OpenClaw. Regulatory pressure intensifying globally (EU, U.S. Treasury, FTC) while enterprise AI investment hits unprecedented levels ($2.5T+ in 2026).
 
 ## Enterprise Agentic AI platforms
 
@@ -62,6 +73,13 @@ The list of major or promising enterprise platforms:
 - **Anthropic Frontier 3.1**: Enterprise update with 20% faster inference, native Cowork integration, superior SWE-bench performance
 - **Frontier Labs Frontier v2.0**: Enterprise LLM orchestration framework update with native hybrid cloud deployments, zero-shot RAG tuning, 40% latency reduction on benchmarks
 - **Cowork AI-Oracle partnership**: Integration of Cowork agentic workflows into Oracle Cloud Infrastructure for enterprise finance automation
+- **Infosys AI Implementation Framework**: Structured guidance for business leaders on adopting AI technologies effectively across enterprise workflows
+- **AIG Agentic AI Orchestration**: Insurance giant deploys agentic AI systems with orchestration layer for enhanced operational efficiency
+- **Tessl**: New platform for versioned, tested AI skills and context; benchmarks show up to 3.3x better API usage across 300+ open-source libraries; improves agent behavior consistency across model/library changes
+- **LexisNexis Legal AI**: Advanced legal AI with graph RAG, planner agents, and reflection agents for enhanced accuracy in high-stakes legal applications
+- **Corpus OS**: Open-source protocol suite (Apache 2.0) unifying LangChain, LlamaIndex, AutoGen, CrewAI, Semantic Kernel, and MCP for cross-framework interoperability across LLM, vector, graph, and embedding domains
+- **Qodo 2.1**: Coding agent with session data retention to combat context "amnesia"; 11% precision boost
+- **DesignCon 2026**: Agentic AI identified as key driver for high-speed enterprise data centers; frontier models pushing 448 Gbps signaling requirements
 - Corti Agentic Framework
 - Google Enterprise Agent Hubs
 - IBM FlashSystem (Agentic AI for storage): Models 5600, 7600, 9600 acting as "co-administrators"
@@ -73,7 +91,9 @@ The list of major or promising enterprise platforms:
 - **OpenAI GPT-5.3-Codex-Spark**: Ultra-fast real-time coding variant (1000+ tokens/sec on Cerebras hardware), optimized for interactive development in Codex app/CLI/VS Code, first production deployment on non-Nvidia chips
 - **OpenAI GPT-5.2 Instant**: Updated for improved response style, quality, and efficiency; replaced legacy GPT-4o, GPT-4.1, o4-mini series
 - **OpenAI GPT-5.2**: Made novel discovery in theoretical physics (gluon tree amplitudes formula)
+- **Anthropic Claude Sonnet 4.6**: Multi-agent teams, 1M token context window (beta), upgraded agent planning and knowledge work; default model in Claude.ai and Claude Cowork; priced at $3/$15 per million tokens input/output
 - **Anthropic Claude Opus 4.6**: 1M token context, multi-agent teams, SOTA on agentic coding, Humanity's Last Exam, GDPval-AA, BigLaw Bench (90.2%), SWE-Bench Verified (81.42%)
+- **xAI Grok 4.20 Beta**: Enhanced physical world understanding for robotics and autonomous systems; extends Grok-4 capabilities into real-world interaction domains
 - **Google Gemini 3**: Flagship model for high-level reasoning and agentic operations
 - **Google DeepMind Gemini 2.5 Flash**: Ultra-fast inference variant optimized for edge devices, 50% cheaper than GPT-4o-mini
 - **ByteDance Doubao 2.0**: Advanced multi-step reasoning and tool use, matches GPT-5.2 and Gemini 3 Pro on deep reasoning
@@ -88,6 +108,7 @@ The list of major or promising enterprise platforms:
 - **Hedra Omnia Alpha**: Audio-driven generative model with full control
 
 ### Open-Source Models
+- **Alibaba Qwen 3.5-397B-A17B**: Open-weight multimodal MoE model (397B total, 17B active), vision/text/video processing across 200 languages; outperforms Qwen3-Max on key benchmarks
 - **MiniMax M2.5 & M2.5 Lightning**: Open-weight Mixture-of-Experts, rivals Claude Opus 4.6 on coding/agentic tasks/search at ~1/20th cost, positioned as "full-stack AI employee"
 - **GLM-5 (Zhipu AI)**: 744B parameters (40B active) MoE, 200K context, strong agentic/coding capabilities. Trained on Huawei Ascend.
 - **RynnBrain (Alibaba)**: Embodied AI model for robotics based on Qwen3-VL, SOTA on physical environment understanding.
@@ -108,16 +129,22 @@ The list of major or promising enterprise platforms:
 - **xAI Grok-3 base (405B params)**: Tops Hugging Face Open LLM Leaderboard (88% MMLU), Apache 2.0, optimized for edge deployment
 - **xAI Grok-3 (full release)**: 2T param mixture-of-experts, tops LMSYS Arena (92% ELO), available on Hugging Face under Apache 2.0
 - **Mistral AI Mistral-NeMo 12B**: Efficient MoE model optimized for edge devices, beats Llama 3.1 70B on MMLU, Apache 2.0 licensed
+- **Sarvam AI (India)**: 30B and 105B parameter MoE models; text-to-speech, speech-to-text, and vision model for document parsing; open-source; announced at India AI Impact Summit 2026
+- **Mistral Voxtral-Mini-4B-Realtime-2602**: Real-time multilingual audio processing model uploaded to Hugging Face; optimized for low-latency streaming
+- **Nanbeige4.1-3B**: Compact multilingual model uploaded to Hugging Face
 
 ### Specialized Models & Tools
 - **Carbon Robotics LPM**: Large Plant Model for real-time weed detection
 - **OpenAI Prism**: Research tool for scientific writing
-- **OpenScholar**: Open-source AI for scientific literature reviews, outperforms giant commercial LLMs on accuracy and citation fidelity, fully reproducible
+- **OpenScholar**: Open-source AI for scientific literature reviews, outperforms giant commercial LLMs on accuracy and citation fidelity, fully reproducible; follow-up **DR Tulu-8B** handles in-depth multi-source academic Q&A
 - **Mistral Voxtral Transcribe 2**: Audio transcription model
 - **DiffSyn (MIT)**: Material synthesis recipe generation
 - **Grok Imagine API**: Image generation API
 - **Mistral Pixtral 12B**: Multimodal vision-language model rivaling GPT-4V on VQA benchmarks and MMMU (78%), fully open-weights, fine-tuned for edge devices
 - **Google DeepMind AlphaFold 4**: Open-sourced protein structure prediction with 95% accuracy including dynamics, includes training data
+- **World Labs Marble**: Generates interactive 3D environments from text prompts; founded by Fei-Fei Li, raised $1B (Nvidia, AMD, Andreessen Horowitz, Autodesk investors)
+- **Sarvam "Kaze" AI Smart Glasses**: Offline-capable AI wearable for phones, cars, and enterprise use; announced at India AI Impact Summit 2026
+- **Qodo 2.1**: Coding agent with session data retention to combat context "amnesia," boosting precision by 11%
 
 ## Enterprise Agentic Flow framework capabilities
 
@@ -181,6 +208,11 @@ The list of major or promising enterprise platforms:
 ### Security
 - Autonomous threat response: Real-time detection, analysis, and recovery for infrastructure threats (e.g., ransomware patterns from IBM).
 - Protocol-native security: End-to-end encryption, zero-trust for A2A/MCP communications, and built-in provenance tracking.
+- **Cisco State of AI Security 2026**: Industry report covering emerging threats including agentic AI proliferation, regulatory changes, and attacker interest in open-weight model vulnerabilities (jailbreaks, prompt injections over extended interactions)
+- **EU Parliament Bans AI Chatbots**: European Parliament banned AI chatbots on lawmakers' devices citing data exposure and security risks
+- **KDD 2026 Privacy Research (University at Buffalo)**: Privacy-detection models for real-time warnings in AI interactions; addresses LLM-based data leakage in digital conversations
+- **ICLR 2026 Nullspace Steering (UFL)**: "Jailbreaking the Matrix" paper — Head-Masked Nullspace Steering to probe and manipulate LLM decision pathways for safety testing
+- **UC San Diego & MIT (Science)**: New method to steer LLM outputs by manipulating internal concepts; uncovers vulnerabilities and improvement paths
 - **Anthropic Prompt Injection Metrics**: Detailed failure rates for Claude agents across surfaces (constrained coding vs. GUI with extended thinking); rates scale with persistence (up to 78%+ without safeguards).
 - **Meta FERRET Framework**: Open framework for "expansion-reliant red teaming" to systematically probe and improve AI safety/resistance to adversarial attacks.
 - **Miko AI Toy Data Exposure**: Unsecured database exposing thousands of audio responses/conversations from AI toys interacting with children (flagged Dec 2025-Feb 2026).
@@ -459,6 +491,9 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - D-Wave: $30M in quantum computing contracts
 - Physical Intelligence Robotics: Stripe-backed for compact AI
 - NVIDIA $100B OpenAI plan (paused amid scrutiny)
+- **World Labs (Fei-Fei Li)**: $1B raised for 3D physical world reasoning; Marble product generates 3D environments from prompts; backed by Nvidia, AMD, Andreessen Horowitz, Autodesk, Sundar Pichai (via AlphaFold drug discovery emphasis)
+- **India AI Commitments**: Reliance Industries commits $110B and Adani Group $100B for AI infrastructure and data centers (India AI Impact Summit 2026)
+- **Global AI Spend**: $2.5T projected for 2026; Gartner forecasts $3.3T by 2027
 
 ### Enterprise Adoption & Trials
 - Early customers: Intuit, Uber, State Farm, Thermo Fisher (OpenAI Frontier)
@@ -482,6 +517,10 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - China state-mandated AI in school curricula
 - Indonesia conditional lift of Grok ban
 - China approval of DeepSeek H200 chip purchase
+- **U.S. Treasury AI Lexicon & FS AI RMF**: Treasury released an AI Lexicon and Financial Services AI Risk Management Framework to guide safe AI deployment in finance; supports President's AI Action Plan with standardized terms and risk practices
+- **FTC Inquiries into AI Chatbots**: FTC investigating OpenAI and Meta chatbots for potential harms including self-harm encouragement
+- **Unregulated AI & Children**: Reports of unregulated AI experiments on children; states drafting consumer protection laws against Big Tech opposition
+- **EU Parliament Chatbot Ban**: European Parliament banned AI chatbots on lawmakers' devices due to security and data exposure risks
 - International AI Safety Report 2026
 - AI consciousness and ethics concerns
 - Responsible AI adoption in public sector
@@ -489,9 +528,11 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 ### Competitive Landscape
 - OpenAI vs Anthropic: ad strategy debates (Super Bowl ads)
 - Amazon-OpenAI talks for Alexa enhancement
-- Musk company merger talks (SpaceX, Tesla, xAI)
+- **SpaceX acquires xAI**: $1.25T combined company; integrating Grok models into space operations (autonomous spacecraft, Mars robotics) and developing orbital solar-powered data centers for AI compute
+- **OpenAI acquires OpenClaw**: Peter Steinberger (OpenClaw creator) joins OpenAI to advance agent capabilities; addresses enterprise agent security concerns
 - Palantir defense of surveillance tech with government contracts
 - Open models at 20% usage despite 90% performance at 87% lower cost
+- **Open Model Economics**: MIT Sloan study finds reallocating demand from proprietary to open models could reduce overall AI spending by 70%+
 
 ## Research & Academic Developments
 
@@ -593,6 +634,8 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **Interpreting and Controlling Model Behavior via Constitutions**: Atomic Concept Edits (AISTATS 2026)
 - **Do VLMs Perceive or Recall?**: Probing Visual Perception vs. Memory (arXiv:2601.22149)
 - **Defending LLMs Against Speculative Jailbreaks**: SpecGuard runtime monitor (arXiv:2602.04567)
+- **Jailbreaking the Matrix: Nullspace Steering for Controlled Model Subversion** (ICLR 2026, University of Florida): Head-Masked Nullspace Steering to probe and manipulate LLM decision pathways for safety testing
+- **Steering LLM Outputs via Internal Concepts** (UC San Diego & MIT, *Science*): Manipulating internal model representations to steer outputs; uncovers vulnerabilities and improvement paths
 
 ### Medical & Information Extraction
 - **ChatGPT for Medical Information Extraction**: Performance, Explainability
@@ -637,6 +680,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - Material synthesis acceleration
 - Agricultural weed detection (Carbon AI)
 - AI in chemistry: 35 new compound synthesis
+- **AI-Discovered Magnetic Materials (UNH)**: 25 new high-temperature magnetic materials discovered with AI; could replace rare earth magnets in EVs; database of 67,573 compounds released
 
 ## Notable Tools & Announcements
 
@@ -669,6 +713,6 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **AI Staffer Exits**: Public warnings from departing AI researchers continue to surface
 - **ChatGPT Ad Rollout**: With restricted narrow targeting
 - **Amazon-OpenAI Alexa Talks**: Using OpenAI models to enhance Alexa
-- **SpaceX-xAI Integration**: Grok models for autonomous spacecraft and Mars robotics
+- **SpaceX-xAI Integration**: SpaceX acquires xAI ($1.25T combined); Grok models for autonomous spacecraft and Mars robotics; plans for orbital solar-powered AI data centers
 - **Euna Solutions Report**: State of AI in Public Sector
 - **USC AI System**: Tracking sex traffickers with court-admissible evidence
