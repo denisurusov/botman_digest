@@ -22,6 +22,7 @@
 
 ## Google
 - **Google Enterprise Agent Hubs (Vertex AI Agent Builder / related services)** — Comprehensive lifecycle support via Agent Development Kit (ADK) for multi-agent workflows (deterministic guardrails, orchestration, bidirectional streaming) and Agent Engine for production (scaling, memory banks, sessions, observability with OpenTelemetry tracing/logging/monitoring, evaluation). Deep enterprise integrations (connectors, RAG, code execution, MCP tools), agent marketplace (Gemini Enterprise) for sharing, and grounding in organizational data; DeepMind NeuroTech Labs acquisition for BCI integration.
+- **AlphaCode 3 (DeepMind)** — Code-gen model now handles full-stack apps from natural language specs. Tops HumanEval+ by 25%.
 - **Gemini 2.0 Ultra** — Native agentic capabilities for long-horizon planning; beats o1 on ARC-AGI by 12%. Limited preview for researchers.
 - **Gemini 2.5 Flash** — Ultra-fast inference variant optimized for edge devices, 50% cheaper than GPT-4o-mini. API live for enterprise agent deployment.
 
@@ -42,20 +43,20 @@
 - **SpaceX-xAI Merger**: SpaceX acquired xAI forming a $1.25T combined company; integrating Grok AI into space operations (autonomous spacecraft, Mars robotics) and developing orbital solar-powered data centers for future AI compute needs.
 - **Grok-4** — 2T param multimodal model (text/vision/audio) with real-time video understanding and superior reasoning on math/physics benchmarks (95% on GSM8K, MMLU 96.8%, ARC-AGI 52%). Tops LMSYS leaderboard (Elo 1420). API access at $0.50/M tokens; open-weights for research use (base 405B params released, tops open LLM leaderboard). Enhances physical world and agentic operations.
 - **Grok 4.20 Beta** — Enhanced physical world understanding for robotics and autonomous systems; extends Grok-4 capabilities into real-world interaction domains.
-- **Grok-3 (open weights)** — 2T parameter mixture-of-experts model topping LMSYS Arena (92% ELO), available on Hugging Face under Apache 2.0.
+- **Grok-3 (open weights)** — 2T parameter mixture-of-experts model topping LMSYS Arena (92% ELO), 95% on MMMU, 88% on GPQA. Open-weights preview available on Hugging Face under Apache 2.0; full release next week. Trained on 100PB Memphis Supercluster data.
 
 ## Amazon (AWS)
 - **Amazon Bedrock** — Expanded support for frontier open-weight models including DeepSeek V3.2, MiniMax M2.1, GLM 4.7 (Flash), Kimi K2.5, and Qwen3 Coder Next via Project Mantle for serverless inference. Boosting enterprise access to agentic/reasoning LLMs.
 
 ## Microsoft
 - **Policy Graphs** — New framework designed to "tame" AI agents, ensuring safer multi-agent interactions and governance.
-- **AutoGen 3.0** — Hierarchical agent orchestration with native WebSocket support.
+- **AutoGen v3.0 (Microsoft Research)** — Open-source multi-agent framework supporting dynamic agent hierarchies and real-time collaboration via WebSockets. Hierarchical agent orchestration with scalable multi-agent reasoning at 1M tokens/sec (SOTA on GAIA benchmark).
 
 ## OpenClaw (acquired by OpenAI, Feb 2026)
 - **OpenClaw** — Viral open-source AI agent platform (190k+ GitHub stars) enabling natural language control via messaging apps. Acquired by OpenAI; creator Peter Steinberger joins OpenAI to advance agent capabilities, addressing enterprise security concerns in agent deployment. Crossmint payment standards supported. Subject to scrutiny regarding prompt injection risks.
 
 ## Frontier Labs
-- **Frontier v2.0** — Enterprise LLM orchestration framework with native support for hybrid cloud deployments and zero-shot RAG tuning. 40% latency reduction on benchmarks.
+- **Frontier v2.0** — Major update to enterprise LLM orchestration framework with native support for hybrid on-prem/cloud deployments and improved RAG pipelines for compliance-heavy industries. Early benchmarks show 40% faster inference on proprietary models.
 
 ## Infosys
 - **AI Implementation Framework** — Structured guidance for business leaders on adopting AI technologies effectively; covers governance, integration patterns, ROI measurement, and risk management across enterprise workflows.
@@ -79,4 +80,7 @@
 ## World Labs
 - **Marble** — 3D physical world reasoning platform; generates interactive 3D environments from text prompts. Founded by Fei-Fei Li; raised $1B from Nvidia, AMD, Andreessen Horowitz, Autodesk. Targets robotics, simulation, and spatial AI applications.
 
-Common themes across platforms include **MCP** (Model Context Protocol) for standardized tool/data access, strong governance/auditability for enterprises (EU AI Act Phase 3 impacts with mandatory audits for high-risk systems, fines up to €150M; EU Parliament banning AI chatbots on lawmakers' devices; U.S. Treasury FS AI RMF), hybrid/multi-model support, observability, quantum-enhanced efficiency (Anthropic Frontier, Google DeepMind research), and domain/infrastructure autonomy. Emerging open protocols (MCP for tools, A2A for agent-to-agent, ACP for messaging, ERC 8004 for AI Data Oracles) and frameworks (Microsoft AutoGen 3.0 with hierarchical agent orchestration and native WebSocket support, **Corpus OS** unifying six major frameworks under Apache 2.0, LangChain Agents v2.0 (open-sourced, hierarchical agent swarms supporting 100+ agents, dynamic task delegation via reinforcement learning, 2x speedup on complex workflows), CrewAI Swarm Simulator) align well with the digest's goals. Blockchain integration rising (Bittensor TAO 2.0/Subtensor v2.0/TAO-GenAI v2 with decentralized GenAI marketplace, on-chain provenance, decentralized fine-tuning subnets with 5x throughput and 50% faster inference; Subnet 42 live for vision-language fine-tuning, $50M TVL). Major consolidation underway: SpaceX acquired xAI ($1.25T combined company) and OpenAI acquired OpenClaw. Global AI spending at $2.5T in 2026, Gartner forecasts $3.3T by 2027. India AI investment surging with $210B committed by Reliance and Adani alone.
+## Anyscale
+- **RayLLM 2.5** — Distributed inference engine with auto-sharding for 100+ GPU clusters. Supports all major LLMs.
+
+Common themes across platforms include **MCP** (Model Context Protocol) for standardized tool/data access, strong governance/auditability for enterprises (EU AI Act Phase 3 impacts with mandatory audits for high-risk systems, fines up to €150M; EU Parliament banning AI chatbots on lawmakers' devices; U.S. Treasury FS AI RMF), hybrid/multi-model support, observability, quantum-enhanced efficiency (Anthropic Frontier, Google DeepMind research), and domain/infrastructure autonomy. Emerging open protocols (MCP for tools, A2A for agent-to-agent, ACP for messaging, ERC 8004 for AI Data Oracles) and frameworks (Microsoft AutoGen 3.0 with hierarchical agent orchestration and native WebSocket support, **Corpus OS** unifying six major frameworks under Apache 2.0, LangChain Agents v2.0 (open-sourced, hierarchical agent swarms supporting 100+ agents, dynamic task delegation via reinforcement learning, 2x speedup on complex workflows), CrewAI Swarm Simulator) align well with the digest's goals. Blockchain integration rising (Bittensor TAO 2.0/Subtensor v2.0/TAO-GenAI v2 with decentralized GenAI marketplace, on-chain provenance, decentralized fine-tuning subnets with 5x throughput and 50% faster inference; Subtensor 42 live for vision-language fine-tuning, $50M TVL; TAO-GPT integration with blockchain-verified training data, micropayments for contributors, testnet live with 10x subnet growth). Major consolidation underway: SpaceX acquired xAI ($1.25T combined company) and OpenAI acquired OpenClaw. Global AI spending at $2.5T in 2026, Gartner forecasts $3.3T by 2027. India AI investment surging with $210B committed by Reliance and Adani alone.
