@@ -145,7 +145,8 @@ The list of major or promising enterprise platforms:
 - **Qodo 2.1**: Coding agent with session data retention to combat context "amnesia"; 11% precision boost
 - **DesignCon 2026**: Agentic AI identified as key driver for high-speed enterprise data centers; frontier models pushing 448 Gbps signaling requirements
 - **Frontier Labs Frontier 2.0**: Native RAG pipelines, zero-shot fine-tuning for custom domains, on-prem hardware integration
-Corti Agentic Framework
+- **Perplexity Computer**: Multi-model agentic workflow system (Opus 4.6, Gemini, Grok) for autonomous multi-step task execution with asynchronous processing; enterprise applications in procurement, competitive research, and data extraction; Perplexity Max ($200/month)
+- Corti Agentic Framework
 - Google Enterprise Agent Hubs
 - IBM FlashSystem (Agentic AI for storage): Models 5600, 7600, 9600 acting as "co-administrators"
 
@@ -173,6 +174,7 @@ Corti Agentic Framework
 - **Google DeepMind Gemini 2.0 Ultra**: Native agentic capabilities for long-horizon planning, beats o1 on ARC-AGI by 12%, limited preview for researchers; 10M token context, agentic capabilities, enterprise Q2 2026
 - **Google Project Genie**: 3D environment generation from prompts
 - **Perplexity Model Council**: Model aggregation system
+- **Perplexity Computer**: Multi-model AI workflow system that breaks complex tasks into subtasks and assigns them to specialized models (Opus 4.6, Gemini, Grok). Executes asynchronously — users can focus on other work while tasks complete. Handles shopping, booking, research, form-filling, data extraction, and multi-step web workflows. Available to Perplexity Max subscribers ($200/month), with broader access planned. Competes with Anthropic Computer Use, OpenAI Operator, and Google Project Mariner.
 - **Kling 3.0**: Highly realistic video generation
 - **Hedra Omnia Alpha**: Audio-driven generative model with full control
 - **DeepMind AlphaCode 3**: Code-gen model handles full-stack apps from natural language specs; tops HumanEval+ by 25%
@@ -292,6 +294,7 @@ Corti Agentic Framework
 ### Model Management
 - Enterprise policy-driven model selection: Hybrid/multi-vendor routing with constraints for sovereignty, cost, latency, and compliance (e.g., prefer local/open models for sensitive data).
 - Model Council (Perplexity)
+- **Perplexity Computer**: Multi-model workflow orchestration (Opus 4.6, Gemini, Grok) with task decomposition and asynchronous execution; enables enterprise data extraction, procurement workflows, competitive research
 - Hybrid model support (mixed Claude, Gemini, GPT, Grok, local)
 
 ### Context Management
@@ -409,7 +412,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - PowerPoint and Excel integration
 - MCP (Model Context Protocol) support
 - Tool-use capabilities across 119 languages (Qwen 3)
-- Computer use and desktop automation (OSWorld-Verified)
+- Computer use, desktop automation, and multi-model workflow orchestration (OSWorld-Verified, Perplexity Computer, Anthropic Computer Use, OpenAI Operator)
 
 ### Agent Autonomy & Reasoning
 - Long-running autonomous tasks (research, deployment, PRDs)
@@ -830,6 +833,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **Gemini CLI**: Enhanced terminal-based AI interactions with prompt chaining
 - **Google Developer Knowledge API**: MCP Server in public preview
 - **Perplexity Deep Research**: Enhanced comprehensive AI-driven investigations
+- **Perplexity Computer**: Multi-model agentic workflow system for autonomous multi-step web task completion (shopping, booking, research, form-filling); orchestrates Opus 4.6, Gemini, Grok asynchronously; Perplexity Max ($200/month)
 
 ### Integrations & Plugins
 - **Claude in Excel**: Enhanced spreadsheet integration

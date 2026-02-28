@@ -24,6 +24,11 @@
 - **Supply Chain AI Agents** — New suite of agents for multi-step automation in supply chain efficiency and enterprise workflows.
 - Partnered with Anthropic (Cowork) for finance sector automation.
 
+## Perplexity
+- **Perplexity Computer** — Multi-model AI workflow system that handles complex tasks by breaking them into subtasks and assigning them to specialized AI models (integrates Opus 4.6, Gemini, and Grok). Tasks execute asynchronously, allowing users to focus on other work while the system manages workflows. Capabilities include online shopping, travel booking, form filling, research compilation, and data extraction via autonomous web browser operation. Built on Perplexity's real-time search infrastructure for grounded web understanding. Available to Perplexity Max subscribers ($200/month), with plans for broader access. Competes with Anthropic Computer Use, OpenAI Operator, and Google Project Mariner. (Source: https://www.perplexity.ai/hub/blog/introducing-perplexity-computer)
+- **Perplexity Model Council** — Model aggregation system combining multiple LLMs for enhanced AI search and research capabilities.
+- **Perplexity Deep Research** — Enhanced comprehensive AI-driven investigation tool for in-depth, multi-source research with citations.
+
 ## Google
 - **Google Enterprise Agent Hubs (Vertex AI Agent Builder / related services)** — Comprehensive lifecycle support via Agent Development Kit (ADK) for multi-agent workflows (deterministic guardrails, orchestration, bidirectional streaming) and Agent Engine for production (scaling, memory banks, sessions, observability with OpenTelemetry tracing/logging/monitoring, evaluation). Deep enterprise integrations (connectors, RAG, code execution, MCP tools), agent marketplace (Gemini Enterprise) for sharing, and grounding in organizational data; DeepMind NeuroTech Labs acquisition for BCI integration.
 - **AlphaCode 3 (DeepMind)** — Code-gen model now handles full-stack apps from natural language specs. Tops HumanEval+ by 25%.
