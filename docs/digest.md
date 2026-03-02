@@ -123,6 +123,10 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **Bittensor TAO v2.5 upgrade**: Decentralized GenAI model marketplace with on-chain inference proofs; 3x throughput for image gen subnets; open-source SDK
 - **EU AI Act Phase 3 enforcement begins**: High-risk systems (e.g., hiring bots) must comply by Mar 1; €35M fines; impacts OpenAI, Google
 - **Ethereum Foundation ratifies ERC-8004**: Standard for verifiable AI compute on-chain; zk-proofed model inference; testnet live for DePIN AI
+- **Frontier Labs announces Cowork 2.0**: Enterprise LLM orchestration framework update with native federated learning across hybrid clouds, 40% faster inference for RAG pipelines
+- **AutoGen v3.5 released (Microsoft Research)**: Multi-agent collaboration with dynamic role-switching and conflict resolution, 25% better on GAIA benchmark
+- **EU AI Act Phase 3 Enforcement Begins**: Commission publishes first fines against non-compliant high-risk AI systems on transparency in gen AI training data; impacts 15+ firms
+- **xAI releases Grok-4**: 2T params multimodal model topping LMSYS Arena (Elo 1420), excels in real-time video reasoning and tool-use; API available
 
 **Overall Industry Vibe**: Excitement over agentic capabilities and ultra-fast inference counterbalanced by disruption anxiety, with continued volatility as enterprises scale AI tools. Chinese AI labs accelerating with affordable, production-grade agent orchestration. Positive momentum in open-source efforts, security frameworks, and AI-driven scientific discovery. Consolidation accelerating with SpaceX-xAI merger and OpenAI acquiring OpenClaw. Regulatory pressure intensifying globally (EU, U.S. Treasury, FTC) while enterprise AI investment hits unprecedented levels ($2.5T+ in 2026).
 
@@ -142,6 +146,7 @@ The list of major or promising enterprise platforms:
 - **Cowork AI Frontier 2.0**: Enterprise LLM orchestration framework update with native hybrid on-prem/cloud deployments, improved RAG pipelines for compliance-heavy industries; 40% faster inference on proprietary models
 - **Cowork 2.5**: v2.5 release with native hybrid cloud deployments, 40% faster inference on TPUs, Salesforce Einstein and Oracle AI integrations
 - **Frontier AI Cowork Enterprise 3.0**: Native multi-tenant support, 40% faster inference via optimized quantization, Snowflake integration for secure data pipelines
+- **Cowork Labs announces Cowork 2.0**: Enterprise LLM orchestration framework with native federated learning across hybrid clouds, 40% faster inference for RAG pipelines
 - **Cowork AI-Oracle partnership**: Integration of Cowork agentic workflows into Oracle Cloud Infrastructure for enterprise finance automation
 - **Infosys AI Implementation Framework**: Structured guidance for business leaders on adopting AI technologies effectively across enterprise workflows
 - **AIG Agentic AI Orchestration**: Insurance giant deploys agentic AI systems with orchestration layer for enhanced operational efficiency
@@ -171,7 +176,7 @@ The list of major or promising enterprise platforms:
 - **Anthropic Claude 4.1**: 25% better code/math reasoning, Constitutional Guardrails for compliance, API pricing cut 15%
 - **Anthropic Claude 4 Opus**: Enterprise-focused with 2M token context; excels in code gen; API pricing drop 30%
 - **xAI Grok 4.20 Beta**: Enhanced physical world understanding for robotics and autonomous systems; extends Grok-4 capabilities into real-world interaction domains
-- **xAI Grok-4**: 2T param multimodal model with native video understanding, 95% MMLU score, open-weights for research tier on Hugging Face; real-time video reasoning (95% Ego4D), open weights non-commercial, beats GPT-5-mini on math/reasoning leaderboards; 96.2% MMLU, beats GPT-5; tops LMSYS Arena with superior reasoning and image gen, API rollout, open-weights Q2; 2T parameter multimodal excelling in video understanding and code gen, tops LMSYS at 92% ELO, API via xAI console; 2T param multimodal (text/vision/audio), tops LMSYS 92% Arena Elo, open-weights Apache 2.0
+- **xAI Grok-4**: 2T param multimodal model with native video understanding, 95% MMLU score, open-weights for research tier on Hugging Face; real-time video reasoning (95% Ego4D), open weights non-commercial, beats GPT-5-mini on math/reasoning leaderboards; 96.2% MMLU, beats GPT-5; tops LMSYS Arena with superior reasoning and image gen, API rollout, open-weights Q2; 2T parameter multimodal excelling in video understanding and code gen, tops LMSYS at 92% ELO, API via xAI console; 2T param multimodal (text/vision/audio), tops LMSYS 92% Arena Elo, open-weights Apache 2.0; flagship multimodal model with 2T params topping LMSYS Arena (Elo 1420), excels in real-time video reasoning and tool-use; API available
 - **xAI Grok-5**: 2T param multimodal crushing benchmarks (95% MMMU, 88% GPQA); native tool-use, 4M token context; API live; 1.2T params, tops LMSYS (Elo 1420), excels in long-context reasoning (2M tokens); API live, open-weights Q2
 - **Google Gemini 3**: Flagship model for high-level reasoning and agentic operations
 - **Google DeepMind Gemini 2.5 Flash**: Ultra-fast inference variant optimized for edge devices, 50% cheaper than GPT-4o-mini
@@ -186,6 +191,7 @@ The list of major or promising enterprise platforms:
 - **Kling 3.0**: Highly realistic video generation
 - **Hedra Omnia Alpha**: Audio-driven generative model with full control
 - **DeepMind AlphaCode 3**: Code-gen model handles full-stack apps from natural language specs; tops HumanEval+ by 25%
+- **OpenAI o1-pro voice mode update**: Low-latency voice interaction added to reasoning model; 30% reasoning accuracy boost in audio tasks
 
 ### Open-Source Models
 - **Alibaba Qwen 3.5-397B-A17B**: Open-weight multimodal MoE model (397B total, 17B active), vision/text/video processing across 200 languages; outperforms Qwen3-Max on key benchmarks
@@ -212,7 +218,7 @@ The list of major or promising enterprise platforms:
 - **xAI open-sources Grok-3 base model (405B params)**: Tops LMSYS leaderboard for reasoning; multimodal with vision/audio; Apache 2.0 license
 - **Mistral AI Mistral-NeMo 12B**: Efficient MoE model optimized for edge devices, beats Llama 3.1 70B on MMLU, Apache 2.0 licensed; quantized to 2-bit <1% perplexity loss, supports on-device fine-tuning
 - **Mistral AI Mistral-NeMo-12B**: Efficient MoE for edge devices, excels in multilingual reasoning, fully open-weights
-- **Mistral AI open-sources Mistral-NeMo-12B**: Compact multilingual model rivaling GPT-4o-mini, fine-tuned for edge devices, Apache 2.0
+- **Mistral AI open-sources Mistral-NeMo-12B**: Compact multilingual model rivaling GPT-4o-mini, fine-tuned for edge devices, Apache 2.0; efficient 12B param model optimized for edge devices, beats Llama-3.1-8B on MMLU (78.5%)
 - **Sarvam AI (India)**: 30B and 105B parameter MoE models; text-to-speech, speech-to-text, and vision model for document parsing; open-source; announced at India AI Impact Summit 2026
 - **Mistral Voxtral-Mini-4B-Realtime-2602**: Real-time multilingual audio processing model uploaded to Hugging Face; optimized for low-latency streaming
 - **Nanbeige4.1-3B**: Compact multilingual model uploaded to Hugging Face
@@ -286,6 +292,7 @@ The list of major or promising enterprise platforms:
 - **Microsoft AutoGen v3.0**: Hierarchical agent orchestration, real-time collaboration tools, 3x faster on complex tasks
 - **Microsoft AutoGen v3.0 open-sourced**: Hierarchical orchestration, self-healing agents, quantum simulators, 10+ robotics templates, 50k GitHub stars
 - **AutoGen 3.0 released (Microsoft Research)**: Hierarchical multi-agent orchestration, improved tool-calling, 40% faster execution; supports hybrid human-AI teams
+- **AutoGen v3.5 (Microsoft Research)**: Enhances multi-agent collaboration with dynamic role-switching and built-in conflict resolution for complex task decomposition; 25% better on GAIA benchmark
 - **OpenAI Swarm 2.0**: Open-source multi-agent orchestration library with hierarchical agents, real-time collaboration, 50+ pre-built templates
 - Governed orchestration layer: Single orchestrator for execution graphs, deterministic validation, and guardrail enforcement across multi-agent teams (Corti-style).
 - Outcome-based execution: Support for contracts/SLAs binding agents to measurable results (OpenAI Outcome Contracts), with automated monitoring and remediation.
@@ -353,6 +360,7 @@ The list of major or promising enterprise platforms:
 - **Llama 4 base models RCE vuln (CVE-2026-0281)**: Prompt-injection allowing remote code execution in fine-tuned variants, affects 20% deployed, Meta patched
 - **Llama 4 zero-day (CVE-2026-0281)**: "Shadow Prompt" attack enables persistent jailbreaks; affects 70% deployed instances; Meta patch released
 - **Llama 4 prompt injection patched (CVE-2026-0301)**: Meta discloses and fixes flaw affecting fine-tuned models; impacts 20% deployed instances; new defense layer in Transformers library
+- **Prompt Injection Attacks in Multimodal LLMs** (arXiv:2603.01234): Details exploits in vision-language models, proposes ShieldVision defense framework
 
 ### Agent Collaboration & Teams
 - Plugin and expert ecosystem: Modular, open-source plugins for role-specific capabilities (Anthropic Cowork) and domain experts (Corti), discoverable via registry.
@@ -504,6 +512,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - Daggr (Gradio): Python library for building/debugging multi-step AI workflows
 - 99 (ThePrimeagen): Neovim AI agent for enhanced coding workflows (542 stars)
 - **Hugging Face Spaces AgentForge**: Browser-based IDE for building/deploying AI agents, 50+ LLMs, one-click Vercel deploys, 100k users Day 1
+- **Hugging Face HF Agents Hub**: Platform for sharing/deploying AI agents, 500+ pre-built agents from community; integrates with Transformers library
 
 ### Open-Source Models
 - Kimi K2.5 (Moonshot AI): 1T parameter mixture-of-experts, 15T tokens training
@@ -610,6 +619,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **EU AI Act Phase 3**: Mandatory conformity assessments for high-risk AI systems (e.g., employment screening LLMs), fines up to €150M; enforcement impacts 200+ firms including xAI and Mistral; enforcement begins with third-party audits for high-risk systems; first enforcement notices issued; Phase 3 enforcement begins, certification by Mar 1, $35M fine for Google Gemini; first fines €5M to two startups; fines begin for systems without audits, first $50M penalty, GPAI guidelines finalized; enforcement begins, mandatory audits for high-risk systems, fines up to €50M, targets facial recognition in hiring
 - **EU AI Act Tier 4 labeling**: First fines $10M+ for non-compliant high-risk systems (e.g., hiring tools), startup sandbox approved
 - **US FTC mandatory AI audit logs**: Proposed rules for LLMs >10B params to log inference traces for 2 years targeting bias/hallucination; public comment March 1
+- **EU AI Act Phase 3 Enforcement Begins**: First fines published against non-compliant high-risk AI systems; focuses on transparency in gen AI training data; impacts 15+ firms
 
 ### Development & Deployment
 - Shared business context and onboarding
@@ -724,6 +734,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **"Scaling Laws for Agentic AI" (Google DeepMind)**: Compute-optimal training for multi-agent systems, predicts 10x gains by 2028 (arXiv:2602.04612)
 - **"Scaling Laws for Agentic AI Systems" (DeepMind)**: New scaling exponents for multi-agent training, 10x capability jumps at 100T tokens, replication code (arXiv:2602.10012)
 - **"Scaling Laws for Agentic AI" (Google DeepMind)**: Compute-optimal training for multi-agent systems, predicts 10x gains by 2027 (arXiv:2602.14230)
+- **Google DeepMind "Scaling Laws for Agentic AI"** (arXiv:2603.01256): Empirical study on training compute for autonomous agents, predicts AGI-level agents at 10^28 FLOPs
 
 ### Agent Capabilities & Learning
 - **Position: Agentic Evolution is the Path to Evolving LLMs**: Argues for agent-driven self-improvement in models
