@@ -174,6 +174,16 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **Ethereum Foundation proposes ERC 8004 Extension**: AI model provenance attestation to smart contracts for verifiable on-chain inference; Sepolia testnet
 - **xAI drops Grok-3**: 2T MoE multimodal (text+vision+audio); tops LMSYS 89.2 ELO; open weights non-commercial
 - **Mistral AI unveils Mistral Large 3**: 500B params; HumanEval 92%; API and TorchServe self-hosting
+- **Frontier Labs releases Frontier 2.0**: Enterprise LLM orchestration framework update adding native hybrid cloud deployments and zero-shot RAG optimization; 40% latency reduction on Llama 4-scale models
+- **AutoGen v3.5 open-sourced by Microsoft**: "Swarm Coordination" for 100+ agent orchestration with fault-tolerant handoffs; new plugins for real-time video analysis agents
+- **CrewAI announces multi-agent benchmarking suite**: Open-source toolset for evaluating agent collaboration on complex tasks like supply chain simulation
+- **New vulnerability in Ollama (CVE-2026-0308)**: Remote code execution flaw in model serving API affects versions <2.15; patch released, impacts 20% of self-hosted deployments
+- **Anthropic publishes "AI Red Teaming Framework" paper**: Comprehensive guide to adversarial testing, including novel prompt injection defenses
+- **Bittensor Subnet 69 launches**: Dedicated subnet for decentralized video generation models, integrating TAO incentives with Flux.1 architecture; testnet TVL hits 50k TAO in first day
+- **EU AI Act Phase 3 enforcement begins**: High-risk AI systems (e.g., employment screening) require mandatory conformity assessments; first fines issued to two undisclosed firms
+- **Ethereum Foundation ratifies ERC-8004**: Standard for AI model provenance on-chain, enabling verifiable attribution for open models; initial implementations in Hugging Face Hub
+- **xAI drops Grok-4**: 2T param multimodal model (text/vision/audio), topping LMSYS Arena with 92% ELO; open-weights variant (Grok-4-Base) on torrent/HF; excels in long-context reasoning (4M tokens)
+- **NVIDIA Blackwell B300 GPUs shipping**: 50% perf/watt gain for inference; first benchmarks crush H100s on Grok-4
 
 **Overall Industry Vibe**: Excitement over agentic capabilities and ultra-fast inference counterbalanced by disruption anxiety, with continued volatility as enterprises scale AI tools. Chinese AI labs accelerating with affordable, production-grade agent orchestration. Positive momentum in open-source efforts, security frameworks, and AI-driven scientific discovery. Consolidation accelerating with SpaceX-xAI merger and OpenAI acquiring OpenClaw. Regulatory pressure intensifying globally (EU, U.S. Treasury, FTC) while enterprise AI investment hits unprecedented levels ($2.5T+ in 2026).
 
@@ -214,6 +224,7 @@ The list of major or promising enterprise platforms:
 - **Anthropic Claude Enterprise Frontier**: A new tier for high-scale deployments with 10x inference speed via custom ASICs. Includes zero-trust integrations for Fortune 500.
 - **Cowork AI v2.0 SDK**: Supports hybrid RAG with on-prem LLMs, benchmarked at 95% accuracy on enterprise datasets. Open beta for devs.
 - **Frontier Labs Frontier 3.0**: Native RAG optimization, 50% faster inference for on-prem deployments; supports Llama 4 and Mistral Large 2
+- **Frontier Labs Frontier 2.0**: Major update to enterprise LLM orchestration framework, adding native support for hybrid cloud deployments and zero-shot RAG optimization; 40% latency reduction on Llama 4-scale models
 
 ## Major AI Model Releases (2026)
 
@@ -251,6 +262,7 @@ The list of major or promising enterprise platforms:
 - **DeepMind Gemini Ultra 2**: 2T param MoE model, SOTA on MMLU-Pro (92%). Open weights for research.
 - **xAI Grok-3**: 2T MoE multimodal (text+vision+audio); tops LMSYS 89.2 ELO; open weights non-commercial
 - **Mistral Large 3**: 500B params; HumanEval 92%; API and TorchServe self-hosting
+- **xAI Grok-4**: 2T param multimodal model (text/vision/audio), topping LMSYS Arena with 92% ELO; excels in long-context reasoning (4M tokens)
 
 ### Open-Source Models
 - **Alibaba Qwen 3.5-397B-A17B**: Open-weight multimodal MoE model (397B total, 17B active), vision/text/video processing across 200 languages; outperforms Qwen3-Max on key benchmarks
@@ -285,6 +297,7 @@ The list of major or promising enterprise platforms:
 - **Mistral AI Mistral Large 2**: 123B params optimized for edge devices, 8-bit quantization, 88.5% MMLU beats GPT-4o, open weights on Hugging Face
 - **Hugging Face SmolLM-3B**: Ultra-efficient 3B param model for edge devices; rivals 13B on mobile benchmarks; Apache 2.0
 - **Llama-5-405B-Instruct (Meta)**: Fully open 405B param model, tops HuggingFace Open LLM Leaderboard. Apache 2.0 license
+- **Meta Llama 4.1 Scout**: 405B param open model optimized for edge devices, 2x speedups via FlashAttention-3; Apache 2.0 licensed
 
 ### Specialized Models & Tools
 - **Carbon Robotics LPM**: Large Plant Model for real-time weed detection
@@ -342,6 +355,8 @@ The list of major or promising enterprise platforms:
 - **Bittensor Subnet 42 launches GenAI Marketplace**: Decentralized fine-tuning on TAO tokens, with 5k+ models hosted. Integrates with Hugging Face.
 - **Bittensor announces TAO-AGI subnet**: Blockchain-based decentralized training for vision-language models, rewarding node operators with TAO tokens. Testnet live with 10k+ validators.
 - **Bittensor TaoNet v2**: Decentralized neural net marketplace supports live fine-tuning via subnet staking; 3x throughput
+- **Bittensor Subnet 69 launches**: Dedicated subnet for decentralized video generation models, integrating TAO incentives with Flux.1 architecture; testnet TVL hits 50k TAO in first day
+- **Ethereum Foundation ratifies ERC-8004**: Standard for AI model provenance on-chain, enabling verifiable attribution for open models; initial implementations in Hugging Face Hub
 
 ### Identity
 
@@ -375,6 +390,7 @@ The list of major or promising enterprise platforms:
 - Dynamic agent coordination and handoffs
 - Shared context and onboarding
 - **Microsoft AutoGen 3.0**: Hierarchical agent orchestration, native WebSocket integration for real-time collaboration, self-healing mechanisms, supports up to 100 agents in simulation, 25% better task completion on GAIA, 20+ pre-built agent templates, 12k GitHub stars in first hour
+- **AutoGen v3.5 open-sourced by Microsoft**: Introduces "Swarm Coordination" for 100+ agent orchestration with fault-tolerant handoffs; includes new plugins for real-time video analysis agents
 
 ### Routing
 - Policy-aware semantic routing: Combine DyTopo-style semantic matching with enterprise rules (compliance, cost, data residency, model preferences).
@@ -441,6 +457,8 @@ The list of major or promising enterprise platforms:
 - **New vulnerability in Stable Diffusion 4 (CVE-2026-0307)**: Prompt injection RCE in fine-tuned models; Stability AI patch affects 20% deployed instances
 - **New vulnerability in Llama 3.1 Guard**: Prompt injection flaw allowing model jailbreaks in safety guardrails; patch released same day. Affects deployed instances
 - **Critical vuln patched in Llama 3.1 ecosystem**: Meta discloses prompt injection flaw (CVE-2026-0306) affecting fine-tuned models; patch rolled out via Hugging Face Hub. Affects 20% of deployed instances.
+- **New vulnerability in Ollama (CVE-2026-0308)**: Remote code execution flaw in model serving API affects versions <2.15; patch released, impacts 20% of self-hosted deployments
+- **Anthropic "AI Red Teaming Framework" paper**: Comprehensive guide to adversarial testing, including novel prompt injection defenses (arXiv:2603.04567)
 
 ### Agent Collaboration & Teams
 - Plugin and expert ecosystem: Modular, open-source plugins for role-specific capabilities (Anthropic Cowork) and domain experts (Corti), discoverable via registry.
@@ -452,6 +470,7 @@ The list of major or promising enterprise platforms:
 - Mixed model agent systems (MassGen)
 - Agent swarm orchestration (Kimi K2.5 Agent Swarm)
 - **CrewAI Swarm v1.1**: Fault-tolerant agent handoffs and edge device integration, tested on 1000+ agent simulations
+- **CrewAI multi-agent benchmarking suite**: Open-source toolset for evaluating agent collaboration on complex tasks like supply chain simulation
 
 ### Agent profile
 - **Enterprise Role Mapping**: Agents mapped to organizational hierarchies, responsibilities, and approval chains.
@@ -586,6 +605,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **LangChain Multi-Agent Swarm v2**: Open-source upgrade with hierarchical agent orchestration and fault-tolerant handoffs. Supports 100+ agents in production-scale sims
 - **LangChain Agents 3.0**: Major update with hierarchical agent orchestration and real-time collaboration via WebSockets. Includes 20+ pre-built agents for code gen/debug.
 - **AutoGen Multi-Agent Swarm**: Microsoft open-sources Swarm framework for 100+ agent swarms, achieving 40% better task completion on GAIA benchmark.
+- **CrewAI multi-agent benchmarking suite**: Open-source toolset for evaluating agent collaboration on complex tasks like supply chain simulation
 
 ### Memory & Context Tools
 - claude-mem: TypeScript plugin for persistent memory in coding sessions (24K stars)
@@ -640,6 +660,8 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **Hugging Face Spaces update**: New "Inference Endpoints" for one-click model serving at $0.01/hr.
 - **Hugging Face Spaces real-time collaboration**: Fork and edit Spaces live with Git integration
 - **LlamaIndex v0.12**: Vector DB sharding for 10TB+ indexes
+- **Ray 3.0 by Anyscale**: Massive scale-out for distributed training/simulations, built-in support for Grok-4 and Llama 4.1
+- **OpenInterpreter v0.6**: Adds voice-to-code agent with 85% success on LeetCode Hard
 
 ### Specialized Tools
 - qlib (Microsoft): AI-oriented quant investment platform with RL (36,503 stars)
@@ -721,6 +743,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **EU AI Act Phase 3 Enforcement**: Fines issued to 3 firms for non-compliant high-risk systems; new sandbox for open-source AI approved.
 - **EU enforces AI Act Tier 1 audits**: First wave targets high-risk systems like Grok-2 and Gemini Ultra; fines up to €35M possible. 15 firms notified.
 - **EU AI Act Phase 3 Enforcement Begins**: High-risk systems (e.g., hiring LLMs) conformity assessments by Q2 2026; first fines to two French startups
+- **EU AI Act Phase 3 enforcement begins**: High-risk AI systems (e.g., employment screening) require mandatory conformity assessments; first fines issued to two undisclosed firms
 
 ### Development & Deployment
 - Shared business context and onboarding
@@ -745,6 +768,7 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **World Labs (Fei-Fei Li)**: $1B raised for 3D physical world reasoning; Marble product generates 3D environments from prompts; backed by Nvidia, AMD, Andreessen Horowitz, Autodesk, Sundar Pichai (via AlphaFold drug discovery emphasis)
 - **India AI Commitments**: Reliance Industries commits $110B and Adani Group $100B for AI infrastructure and data centers (India AI Impact Summit 2026)
 - **Global AI Spend**: $2.5T projected for 2026; Gartner forecasts $3.3T by 2027
+- **Apple acquires NeuraCore**: $2.5B deal for on-device personalization tech
 
 ### Enterprise Adoption & Trials
 - Early customers: Intuit, Uber, State Farm, Thermo Fisher (OpenAI Frontier)
@@ -835,44 +859,4 @@ Scaling Multiagent Systems with Process Rewards (https://arxiv.org/html/2601.232
 - **"Scaling Laws for Agentic AI" (Google DeepMind)**: Compute-optimal training for multi-agent systems, predicts 10x gains by 2028 (arXiv:2602.04612)
 - **"Scaling Laws for Agentic AI Systems" (DeepMind)**: New scaling exponents for multi-agent training, 10x capability jumps at 100T tokens, replication code (arXiv:2602.10012)
 - **"Scaling Laws for Agentic AI" (Google DeepMind)**: Compute-optimal training for multi-agent systems, predicts 10x gains by 2027 (arXiv:2602.14230)
-- **Google DeepMind "Scaling Laws for Agentic AI"** (arXiv:2603.01256): Empirical study on training compute for autonomous agents, predicts AGI-level agents at 10^28 FLOPs
-- **"Scaling Laws for Agentic AI" (DeepMind)**: Empirical study on compute-optimal training for multi-agent systems, predicting 10x gains by 2027
-- **"Scaling Laws for Agentic AI Beyond 10T Params" (Google DeepMind)**: Introduces new benchmarks showing emergent multi-step planning at extreme scales. Predicts AGI by 2028. (arXiv:2603.04567)
-- **"Scaling Laws for Agentic AI" (DeepMind, arXiv:2603.04567)**: Derives new laws predicting compute needs for multi-agent systems up to 10^28 FLOPs.
-- **Anthropic "SafeAGI Alignment"**: Scalable oversight with debate agents, 95% jailbreak detection (arXiv:2603.04612)
-
-### Agent Capabilities & Learning
-- **Position: Agentic Evolution is the Path to Evolving LLMs**: Argues for agent-driven self-improvement in models
-- **Agent World Model**: Infinity Synthetic Environments for Agentic Reinforcement Learning
-- **PABU**: Progress-Aware Belief Update for Efficient LLM Agents
-- **CODE-SHARP**: Hierarchical skill evolution
-- **MemSkill**: Learning and Evolving Memory Skills for Self-Evolving Agents
-- **ScaleEnv**: Synthesizing diverse training environments for generalist tool-use agents
-- **ASTRA**: Automated Synthesis of Agentic Trajectories
-- **Golden Goose**: Synthesize Unlimited RLVR Tasks
-- **Spider-Sense**: Intrinsic Risk Sensing for Efficient Agent Defense with Hierarchical Adaptive Screening
-- **Memory Mechanisms for Multi-Agent Systems**: Papers on polarized memory for verifiable agents
-- **Game-Theoretic Reasoning in Agents**: Including poker benchmarks and debate efficiency
-- **Self-Improving Agents via Online Distillation**: Meta paper on recursive self-training, SOTA on GAIA (arXiv:2602.12346)
-
-### Training & Fine-Tuning
-- **Self-Distillation Fine-Tuning (SDFT)**: Continual learning without catastrophic forgetting (MIT & ETH Zurich)
-- **Self-Improving Pretraining**: Using post-trained judge models for safer, factual LLMs (Meta AI)
-- **Scalable Power Sampling**: Training-free inference improvements
-- **STAR**: Similarity-guided Teacher-Assisted Refinement for Super-Tiny Function Calling Models (ICLR 2026)
-- **iGRPO**: Self-Feedback-Driven LLM Reasoning
-- **"Federated Learning for Edge AI" (Meta AI)**: Privacy-preserving training across 1M devices (arXiv:2603.04623)
-
-### Multimodal & Generation
-- **DynamicVLA**: Vision-Language-Action Model for Dynamic Object Manipulation (arXiv:2601.22153)
-- **JUST-DUB-IT**: Audio-Driven Generation and Manipulation of Talking Head Videos (arXiv:2601.22141)
-- **OmniVideo-R1**: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention
-- **MOVA**: Towards Scalable and Synchronized Video-Audio Generation
-- **AutoFigure**: Generating and Refining Publication-Ready Scientific Illustrations (ICLR 2026)
-- **Modality Gap-Driven Subspace Alignment**: Training Paradigm for Multimodal LLMs
-- **Quantum-Enhanced Diffusion Models** (arXiv:2602.07912): IBM Research, hybrid quantum-classical samplers, 3x faster generation on noisy qubits
-- **"Quantum-Enhanced Diffusion Models" (IBM Research)**: Qubit-augmented samplers for faster image gen, 5x speedup on CIFAR-10 (arXiv:2602.04789)
-- **"Scaling Laws for Multimodal AGI"** (DeepMind, arXiv:2602.09876): Empirical laws predicting 10^6 FLOPs for human-level vision-language tasks
-- **"Quantum-Enhanced Diffusion Models" (Google Quantum AI)**: 5x faster sampling using photonic chips, open-source simulator (NeurIPS Workshop, arXiv:2602.09987)
-- **"Quantum-Enhanced Diffusion Models" (Google Quantum AI)**: 10x speedup in image gen via NISQ hardware; code open-sourced (arXiv:2602.10234)
-- **"Scaling Laws for
+- **Google DeepMind "Scaling Laws for Agentic AI"** (arXiv:2603.01256): Empirical study on training compute for autonomous agents, predicts AGI-level
