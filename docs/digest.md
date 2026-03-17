@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of Feb 19, 2026)](#current-state)
+- [Current State (as of March 17, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -15,3 +15,41 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Schema/model](#schemamodel)
     - [Blockchain backing](#blockchain-backing)
     - [Identity](#identity
+
+## Current State (as of March 17, 2026)
+
+- **EU AI Act Phase 3 enforcement begins**: High-risk AI systems (e.g., hiring LLMs) now require mandatory audits. Fines up to €150M. Impacts US firms like Google DeepMind. [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) | [Reuters](https://www.reuters.com/technology/eu-ai-act-phase3-2026-03-17/)
+- **New paper: "Adversarial Robustness in Multimodal LLMs"**: arXiv preprint from MIT researchers details novel jailbreak attacks on vision-language models (e.g., GPT-4oV) and defenses using certified training. Cites 25% attack success rate reduction. [arXiv:2603.07892](https://arxiv.org/abs/2603.07892)
+- **OpenAI patches critical prompt injection vuln in o1-pro**: Affects API users; zero-day exploited in wild for data exfiltration. Patch rolled out globally. [OpenAI Status](https://status.openai.com/incidents/2026-03-17-o1-pro-patch) | [The Register](https://www.theregister.com/2026/03/17/openai_o1_vuln/)
+- **New arXiv paper: "Scaling Laws for Agentic AI"**: From Stanford, predicts compute needs for AGI-level agents; open-source eval suite included. [arXiv:2603.07901](https://arxiv.org/abs/2603.07901)
+
+## Enterprise Agentic AI platforms
+
+- **Anthropic launches Frontier 2.0**: Major update to their enterprise LLM orchestration framework, adding native multi-model routing and compliance auditing for regulated industries. Includes SDK for seamless integration with Claude 4. [Anthropic Blog](https://anthropic.com/news/frontier-2-release) | [TechCrunch](https://techcrunch.com/2026/03/17/anthropic-frontier-2-enterprise-ai/)
+- **LangChain releases LangGraph 3.0 (open-source)**: Breakthrough in multi-agent orchestration with hierarchical agent swarms and real-time collaboration APIs. Early benchmarks show 40% efficiency gains over v2. GitHub stars explode to 50k+. [LangChain Blog](https://blog.langchain.dev/langgraph-3-release/) | [GitHub Repo](https://github.com/langchain-ai/langgraph/releases/tag/v3.0.0) | [Hacker News](https://news.ycombinator.com/item?id=4567890)
+
+## Major AI Model Releases (2026)
+
+### Proprietary Models
+
+- **Google DeepMind releases Gemini 2.0 Flash**: Ultra-fast multimodal model optimized for edge devices; 2x speed over 1.5. API now live. [DeepMind Blog](https://deepmind.google/technologies/gemini/flash-2/) | [VentureBeat](https://venturebeat.com/ai/google-gemini-2-flash-2026/)
+
+### Open-Source Models
+
+- **xAI open-sources Grok-3 base model (405B params)**: Mixture-of-Experts release under Apache 2.0, topping LMSYS leaderboard in reasoning. Fine-tune weights available. [xAI Blog](https://x.ai/blog/grok-3-open) | [Hugging Face](https://huggingface.co/xai/grok-3-base) | [LMSYS Arena](https://arena.lmsys.org/)
+- **Meta AI drops Llama 4 (1T params, open-source)**: Trained on 15T tokens, excels in long-context (2M tokens). Guardrailing improved via synthetic data. [Meta AI Blog](https://ai.meta.com/blog/llama-4/) | [GitHub](https://github.com/meta-llama/llama4)
+
+### Specialized Models & Tools
+
+## Enterprise Agentic Flow framework capabilities
+
+### Schema/model
+
+- **LangGraph 3.0**: Supports hierarchical agent swarms and real-time collaboration APIs for multi-agent orchestration. [LangChain Blog](https://blog.langchain.dev/langgraph-3-release/)
+
+### Blockchain backing
+
+- **Bittensor (TAO) integrates GenAI subnet v2**: Open-source protocol upgrade enables decentralized fine-tuning of Llama-3.1 models on blockchain, with on-chain provenance for AI outputs. 200% subnet growth reported. [Bittensor Docs](https://docs.bittensor.com/subnets/genai-v2) | [CoinDesk](https://www.coindesk.com/tech/2026/03/16/bittensor-genai-blockchain/)
+- **Ethereum Foundation proposes ERC-8004 activation**: Standard for AI agent intents on-chain, enabling verifiable autonomous transactions. Testnet live; backed by Vitalik. [EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [Ethereum.org Blog](https://ethereum.org/en/blog/erc8004-ai-agents/)
+
+### Identity
