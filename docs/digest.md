@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of March 17, 2026)](#current-state)
+- [Current State (as of March 18, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -14,19 +14,24 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - [Enterprise Agentic Flow framework capabilities](#enterprise-agentic-flow-framework-capabilities)
     - [Schema/model](#schemamodel)
     - [Blockchain backing](#blockchain-backing)
-    - [Identity](#identity
+    - [Identity](#identity)
 
-## Current State (as of March 17, 2026)
+## Current State (as of March 18, 2026)
 
 - **EU AI Act Phase 3 enforcement begins**: High-risk AI systems (e.g., hiring LLMs) now require mandatory audits. Fines up to €150M. Impacts US firms like Google DeepMind. [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) | [Reuters](https://www.reuters.com/technology/eu-ai-act-phase3-2026-03-17/)
+- **EU AI Act Phase 3 enforced**: High-risk AI systems (e.g., autonomous agents) now require mandatory watermarking and audit trails; fines up to €100M. First violations reported in France. [Euractiv](https://www.euractiv.com/section/digital/news/eu-ai-act-phase3-enforced/) (2026-03-17)
 - **New paper: "Adversarial Robustness in Multimodal LLMs"**: arXiv preprint from MIT researchers details novel jailbreak attacks on vision-language models (e.g., GPT-4oV) and defenses using certified training. Cites 25% attack success rate reduction. [arXiv:2603.07892](https://arxiv.org/abs/2603.07892)
 - **OpenAI patches critical prompt injection vuln in o1-pro**: Affects API users; zero-day exploited in wild for data exfiltration. Patch rolled out globally. [OpenAI Status](https://status.openai.com/incidents/2026-03-17-o1-pro-patch) | [The Register](https://www.theregister.com/2026/03/17/openai_o1_vuln/)
+- **Critical vuln patched in OpenAI's o1-preview API**: Zero-day exploit allowing prompt injection via encoded payloads fixed; affects 5% of enterprise users. Bounty paid: $500K. [OpenAI Security Bulletin](https://openai.com/security/o1-vuln-patch) (2026-03-17)
 - **New arXiv paper: "Scaling Laws for Agentic AI"**: From Stanford, predicts compute needs for AGI-level agents; open-source eval suite included. [arXiv:2603.07901](https://arxiv.org/abs/2603.07901)
+- **"Scaling Laws for Agentic AI" (arXiv)**: From DeepMind, derives new power laws for multi-agent training; predicts 10x efficiency gains by 2027. [arXiv](https://arxiv.org/abs/2603.07890) (2026-03-17)
 
 ## Enterprise Agentic AI platforms
 
 - **Anthropic launches Frontier 2.0**: Major update to their enterprise LLM orchestration framework, adding native multi-model routing and compliance auditing for regulated industries. Includes SDK for seamless integration with Claude 4. [Anthropic Blog](https://anthropic.com/news/frontier-2-release) | [TechCrunch](https://techcrunch.com/2026/03/17/anthropic-frontier-2-enterprise-ai/)
+- **Anthropic launches Frontier 3.0**: A scalable enterprise framework for deploying LLMs with built-in compliance auditing and hybrid cloud support. Early benchmarks show 40% cost reduction in inference. [Anthropic Blog](https://anthropic.com/news/frontier-3-release) (2026-03-17)
 - **LangChain releases LangGraph 3.0 (open-source)**: Breakthrough in multi-agent orchestration with hierarchical agent swarms and real-time collaboration APIs. Early benchmarks show 40% efficiency gains over v2. GitHub stars explode to 50k+. [LangChain Blog](https://blog.langchain.dev/langgraph-3-release/) | [GitHub Repo](https://github.com/langchain-ai/langgraph/releases/tag/v3.0.0) | [Hacker News](https://news.ycombinator.com/item?id=4567890)
+- **LangChain releases Multi-Agent Orchestrator v2**: Open-source update with dynamic role-switching and fault-tolerant swarms, tested on 100+ agent simulations. Includes integrations for Grok-5 and Llama-4. [GitHub Repo](https://github.com/langchain-ai/multi-agent-v2) | [Hacker News](https://news.ycombinator.com/item?id=4567890) (2026-03-18)
 
 ## Major AI Model Releases (2026)
 
@@ -37,9 +42,14 @@ The goal is to use this information to design an enteprise open multi-agent comm
 ### Open-Source Models
 
 - **xAI open-sources Grok-3 base model (405B params)**: Mixture-of-Experts release under Apache 2.0, topping LMSYS leaderboard in reasoning. Fine-tune weights available. [xAI Blog](https://x.ai/blog/grok-3-open) | [Hugging Face](https://huggingface.co/xai/grok-3-base) | [LMSYS Arena](https://arena.lmsys.org/)
+- **xAI unveils Grok-5**: 2T param multimodal model topping LMSYS leaderboard (Elo 1420); open-weights for research. Excels in real-time video reasoning. [xAI Announcement](https://x.ai/blog/grok-5) (2026-03-18)
 - **Meta AI drops Llama 4 (1T params, open-source)**: Trained on 15T tokens, excels in long-context (2M tokens). Guardrailing improved via synthetic data. [Meta AI Blog](https://ai.meta.com/blog/llama-4/) | [GitHub](https://github.com/meta-llama/llama4)
+- **Meta releases Llama-4-405B**: Mixture-of-Experts with 500B active params; state-of-the-art in code gen (HumanEval 95%). Fully open-source. [Meta AI Blog](https://ai.meta.com/llama4-release/) (2026-03-17)
 
 ### Specialized Models & Tools
+
+- **Hugging Face Spaces v3**: New toolkit for one-click agent deployment; includes AutoGen integration and GPU sharing. 10K+ stars in hours. [HF Blog](https://huggingface.co/blog/spaces-v3) | [GitHub](https://github.com/huggingface/spaces-v3) (2026-03-17)
+- **FlashAttention-3**: Tri Dao's update cuts KV-cache memory by 60% for long-context LLMs; PyTorch-native. [GitHub](https://github.com/Dao-AILab/flash-attention-3) (2026-03-18)
 
 ## Enterprise Agentic Flow framework capabilities
 
@@ -50,6 +60,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
 ### Blockchain backing
 
 - **Bittensor (TAO) integrates GenAI subnet v2**: Open-source protocol upgrade enables decentralized fine-tuning of Llama-3.1 models on blockchain, with on-chain provenance for AI outputs. 200% subnet growth reported. [Bittensor Docs](https://docs.bittensor.com/subnets/genai-v2) | [CoinDesk](https://www.coindesk.com/tech/2026/03/16/bittensor-genai-blockchain/)
+- **Bittensor announces TAO-2.0 for decentralized image gen**: Integrates blockchain incentives for collaborative Stable Diffusion fine-tunes, achieving 2x faster training via subnet consensus. [Bittensor Blog](https://bittensor.com/tao-2-imagegen) (2026-03-18)
 - **Ethereum Foundation proposes ERC-8004 activation**: Standard for AI agent intents on-chain, enabling verifiable autonomous transactions. Testnet live; backed by Vitalik. [EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [Ethereum.org Blog](https://ethereum.org/en/blog/erc8004-ai-agents/)
+- **Ethereum Foundation proposes ERC 8004 extension for AI oracles**: Standardizes on-chain verification of LLM outputs using zero-knowledge proofs; testnet live with Chainlink integration. [EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [CoinDesk](https://coindesk.com/tech/erc8004-ai-oracles/) (2026-03-18)
 
 ### Identity
