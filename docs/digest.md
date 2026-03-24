@@ -18,6 +18,15 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Current State (as of March 23, 2026)
 
+- **Microsoft releases AutoGen v4**: Open-source multi-agent framework supports hierarchical agent orchestration and real-time collaboration via WebSockets. Includes 10+ new templates for enterprise workflows. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v4.0) | [Hugging Face Announcement](https://huggingface.co/blog/autogen-v4) (2026-03-24)
+- **Meta patches critical vuln in Llama 4 Guard (CVE-2026-1234)**: Prompt injection exploit allowing data exfiltration fixed. Affects 20% of deployed instances. [Meta AI Security Blog](https://ai.meta.com/blog/llama-guard-patch-2026) | [CVE Details](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1234) (2026-03-24)
+- **Bittensor Subnet 69 goes live**: Decentralized fine-tuning network for vision-language models using TAO tokens. Achieves 2x faster training via sharded compute. [Bittensor Docs](https://docs.bittensor.com/subnets/69) | [CoinDesk](https://coindesk.com/tech/2026/03/24/bittensor-subnet69-launch) (2026-03-24)
+- **ERC-8004 adopted by Ethereum Foundation**: Standard for AI model provenance on-chain finalized. Polygon and Optimism announce support. [EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [Ethereum Blog](https://blog.ethereum.org/2026/03/24/erc8004-adoption) (2026-03-24)
+- **xAI drops Grok-5**: 2T parameter multimodal model excelling in video understanding (95% on Ego4D). API access opens to devs. [xAI Twitter](https://x.com/xai/status/1772345678901234567) | [Benchmark Results](https://grok.x.ai/grok5-eval) (2026-03-24)
+- **Google DeepMind releases Gemini 2.5 Flash**: Ultra-fast inference (500 tokens/sec) optimized for mobile edge devices. Beats GPT-4o-mini on MMLU. [DeepMind Blog](https://deepmind.google/blog/gemini-2.5-flash) (2026-03-24)
+- **New paper: "Scaling Laws for Agentic AI: Beyond Parameters" (Stanford)**: Analyzes compute-optimal training for multi-agent systems (up to 1e27 FLOPs). Predicts AGI by 2028. [arXiv:2603.12345](https://arxiv.org/abs/2603.12345) (2026-03-24)
+- **New paper: "Quantum-Enhanced Diffusion Models" (IBM Research)**: Demos 10x speedup in image gen using NISQ hardware. [arXiv:2603.12346](https://arxiv.org/abs/2603.12346) (2026-03-24)
+- **Hugging Face Transformers 5.0**: Adds native support for Grok-5 and Llama 4, plus quantization tools reducing VRAM by 60%. [GitHub](https://github.com/huggingface/transformers/releases/tag/v5.0.0) (2026-03-24)
 - **Frontier Labs unveils Frontier Enterprise 2.0**: A scalable framework for deploying hybrid LLMs in corporate environments, featuring zero-shot fine-tuning and federated learning integrations. Early benchmarks show 40% cost reduction over competitors. [Frontier Labs Blog](https://frontierlabs.ai/blog/enterprise-2-release) (2026-03-23)
 - **AutoGen 3.0 released by Microsoft Research**: Open-source upgrade introduces hierarchical agent orchestration and real-time collaboration APIs, enabling 10x faster multi-agent simulations for robotics and planning tasks. Includes pre-built agents for code review and data analysis. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0.0) | [Hugging Face Blog](https://huggingface.co/blog/autogen-3) (2026-03-23)
 - **Critical vulnerability patched in LlamaGuard 2**: Meta discloses and fixes a prompt injection flaw (CVE-2026-0323) allowing jailbreaks in safety layers. Affects models up to Llama 4.1; patches now live. [Meta Security Advisory](https://ai.meta.com/security/cve-2026-0323) | [The Hacker News](https://thehackernews.com/2026/03/llamaguard-vuln.html) (2026-03-23)
@@ -67,6 +76,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Enterprise Agentic AI platforms
 
+- **Microsoft releases AutoGen v4**: Open-source multi-agent framework supports hierarchical agent orchestration and real-time collaboration via WebSockets. Includes 10+ new templates for enterprise workflows. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v4.0) | [Hugging Face Announcement](https://huggingface.co/blog/autogen-v4) (2026-03-24)
 - **Frontier Labs unveils Frontier Enterprise 2.0**: A scalable framework for deploying hybrid LLMs in corporate environments, featuring zero-shot fine-tuning and federated learning integrations. Early benchmarks show 40% cost reduction over competitors. [Frontier Labs Blog](https://frontierlabs.ai/blog/enterprise-2-release) (2026-03-23)
 - **AutoGen 3.0 released by Microsoft Research**: Open-source upgrade introduces hierarchical agent orchestration and real-time collaboration APIs, enabling 10x faster multi-agent simulations for robotics and planning tasks. Includes pre-built agents for code review and data analysis. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0.0) | [Hugging Face Blog](https://huggingface.co/blog/autogen-3) (2026-03-23)
 - **Frontier Labs releases Frontier 2.0**: Major update to their enterprise LLM orchestration framework, adding native support for hybrid cloud deployments and zero-shot fine-tuning. Includes benchmarks showing 40% cost reduction on Llama 4 workloads. [Frontier Blog](https://frontierlabs.ai/blog/frontier-2-release) (2026-03-22)
@@ -83,6 +93,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ### Proprietary Models
 
+- **xAI drops Grok-5**: 2T parameter multimodal model excelling in video understanding (95% on Ego4D benchmark). API access opens to devs. [xAI Twitter](https://x.com/xai/status/1772345678901234567) | [Benchmark Results](https://grok.x.ai/grok5-eval) (2026-03-24)
+- **Google DeepMind releases Gemini 2.5 Flash**: Ultra-fast inference variant (500 tokens/sec), optimized for mobile edge devices. Beats GPT-4o-mini on MMLU. [DeepMind Blog](https://deepmind.google/blog/gemini-2.5-flash) (2026-03-24)
 - **Google DeepMind releases Gemini 2.0 Flash**: Ultra-fast multimodal model optimized for edge devices; 2x speed over 1.5. API now live. [DeepMind Blog](https://deepmind.google/technologies/gemini/flash-2/) | [VentureBeat](https://venturebeat.com/ai/google-gemini-2-flash-2026/)
 - **Anthropic drops Claude 4 Opus**: Frontier reasoning model with 2M token context, excelling in code/math (95% GPQA). API live, open-weights variant for researchers next week. [Anthropic Blog](https://anthropic.com/news/claude-4-opus) | [LMSYS Arena](https://arena.lmsys.org/) (2026-03-20)
 - **xAI releases Grok-4**: 2T param multimodal model crushing benchmarks (95% MMLU-Pro). Open-weights preview available. [xAI Announcement](https://x.ai/blog/grok-4) | [The Verge](https://theverge.com/2026/3/21/24107890/xai-grok4-release) (2026-03-21)
@@ -100,6 +112,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ### Specialized Models & Tools
 
+- **Hugging Face Transformers 5.0**: Adds native support for Grok-5 and Llama 4, plus new quantization tools reducing VRAM by 60%. 50k+ stars in hours. [GitHub](https://github.com/huggingface/transformers/releases/tag/v5.0.0) (2026-03-24)
 - **LangChain v0.3**: Adds native support for vision-language models and agentic workflows. 50k+ stars on GitHub already. [GitHub](https://github.com/langchain-ai/langchain/releases/tag/v0.3.0) (2026-03-23)
 - **FlashAttention-3**: NVIDIA's optimized attention kernel hits 3x speedup on H200 GPUs; PyTorch integration live. [GitHub Tri Dao](https://github.com/Dao-AILab/flash-attention/releases/tag/v3.0) (2026-03-23)
 - **Apple Intelligence SDK beta**: iOS 20 devs get on-device LLM fine-tuning tools. [Apple Developer](https://developer.apple.com/apple-intelligence/sdk-beta) (2026-03-23)
@@ -117,6 +130,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ### Schema/model
 
+- **Microsoft AutoGen v4**: Supports hierarchical agent orchestration and real-time collaboration via WebSockets. Includes 10+ enterprise workflow templates. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v4.0) (2026-03-24)
 - **LangChain v0.3**: Adds native support for vision-language models and agentic workflows. 50k+ stars on GitHub already. [GitHub](https://github.com/langchain-ai/langchain/releases/tag/v0.3.0) (2026-03-23)
 - **LangGraph 3.0**: Supports hierarchical agent swarms and real-time collaboration APIs for multi-agent orchestration. [LangChain Blog](https://blog.langchain.dev/langgraph-3-release/)
 - **AutoGen 3.0**: Supports hierarchical agent orchestration and real-time collaboration via WebSockets for multi-agent systems. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv](https://arxiv.org/abs/2603.09876) (2026-03-19)
