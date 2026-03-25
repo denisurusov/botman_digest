@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of March 23, 2026)](#current-state)
+- [Current State (as of March 25, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -16,8 +16,18 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Blockchain backing](#blockchain-backing)
     - [Identity](#identity)
 
-## Current State (as of March 23, 2026)
+## Current State (as of March 25, 2026)
 
+- **Anthropic launches Frontier Enterprise Suite**: A new toolkit for deploying Claude 4 models in enterprise environments, featuring zero-shot RAG and compliance auditing. Includes integrations with Cowork for hybrid human-AI workflows. [Anthropic Blog](https://anthropic.com/news/frontier-enterprise-suite) (2026-03-25)
+- **AutoGen 3.0 released by Microsoft**: Open-source update with native support for hierarchical agents and real-time collaboration via WebSockets. Improves scalability for 100+ agent swarms. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv Paper](https://arxiv.org/abs/2603.12456) (2026-03-25)
+- **Critical vuln patched in Llama 4 Guard (CVE-2026-0345)**: Meta discloses and fixes a prompt injection flaw allowing model jailbreaks in safety layers. Affects all Llama 4 variants. [Meta Security Advisory](https://ai.meta.com/security/cve-2026-0345/) (2026-03-25)
+- **Bittensor releases TAO v2.0**: Upgraded decentralized AI compute network with GenAI-specific subnets for model training on-chain. 20x efficiency gains reported. [Bittensor Docs](https://docs.bittensor.com/tao-v2-release) (2026-03-25)
+- **EU AI Act Phase 3 enforced**: New rules mandate watermarking for all high-risk GenAI outputs starting today. Fines up to €50M for non-compliance. [EU Commission](https://ec.europa.eu/ai-act-phase3) (2026-03-25)
+- **Ethereum Foundation proposes ERC 8004 extension**: Standard for verifiable AI inferences on EVM chains, enabling on-chain model provenance. Gains traction with 15+ dApp integrations. [EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) (2026-03-25)
+- **xAI drops Grok-4 preview**: Multimodal model with 10T params, excels in video reasoning (90% on Ego4D). API access rolling out next week. [xAI Twitter](https://x.com/xai/status/grok4-preview) | [Hugging Face Demo](https://huggingface.co/xai/grok-4-preview) (2026-03-25)
+- **DeepMind publishes "Scaling Beyond 100T" paper**: Breakthrough in sparse MoE architectures, claiming 2x inference speed at 100T+ scale. Code open-sourced. [arXiv:2603.12500](https://arxiv.org/abs/2603.12500) | [GitHub](https://github.com/deepmind/scaling-beyond-100t) (2026-03-25)
+- **Hugging Face launches HF Spaces 2.0**: Real-time collaborative IDE for fine-tuning, with built-in quantization tools. Free tier now supports up to 1M tokens/day. [HF Blog](https://huggingface.co/blog/spaces-v2) (2026-03-25)
+- **Stability AI open-sources Stable Diffusion 4 Turbo**: 1-step image gen at 4K resolution, beats Midjourney v7 on benchmarks. [Stability AI](https://stability.ai/news/sd4-turbo) | [GitHub](https://github.com/Stability-AI/sd4-turbo) (2026-03-25)
 - **Microsoft releases AutoGen v4**: Open-source multi-agent framework supports hierarchical agent orchestration and real-time collaboration via WebSockets. Includes 10+ new templates for enterprise workflows. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v4.0) | [Hugging Face Announcement](https://huggingface.co/blog/autogen-v4) (2026-03-24)
 - **Meta patches critical vuln in Llama 4 Guard (CVE-2026-1234)**: Prompt injection exploit allowing data exfiltration fixed. Affects 20% of deployed instances. [Meta AI Security Blog](https://ai.meta.com/blog/llama-guard-patch-2026) | [CVE Details](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1234) (2026-03-24)
 - **Bittensor Subnet 69 goes live**: Decentralized fine-tuning network for vision-language models using TAO tokens. Achieves 2x faster training via sharded compute. [Bittensor Docs](https://docs.bittensor.com/subnets/69) | [CoinDesk](https://coindesk.com/tech/2026/03/24/bittensor-subnet69-launch) (2026-03-24)
@@ -77,8 +87,10 @@ The goal is to use this information to design an enteprise open multi-agent comm
 ## Enterprise Agentic AI platforms
 
 - **Microsoft releases AutoGen v4**: Open-source multi-agent framework supports hierarchical agent orchestration and real-time collaboration via WebSockets. Includes 10+ new templates for enterprise workflows. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v4.0) | [Hugging Face Announcement](https://huggingface.co/blog/autogen-v4) (2026-03-24)
+- **Anthropic launches Frontier Enterprise Suite**: A new toolkit for deploying Claude 4 models in enterprise environments, featuring zero-shot RAG and compliance auditing. Includes integrations with Cowork for hybrid human-AI workflows. [Anthropic Blog](https://anthropic.com/news/frontier-enterprise-suite) (2026-03-25)
 - **Frontier Labs unveils Frontier Enterprise 2.0**: A scalable framework for deploying hybrid LLMs in corporate environments, featuring zero-shot fine-tuning and federated learning integrations. Early benchmarks show 40% cost reduction over competitors. [Frontier Labs Blog](https://frontierlabs.ai/blog/enterprise-2-release) (2026-03-23)
 - **AutoGen 3.0 released by Microsoft Research**: Open-source upgrade introduces hierarchical agent orchestration and real-time collaboration APIs, enabling 10x faster multi-agent simulations for robotics and planning tasks. Includes pre-built agents for code review and data analysis. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0.0) | [Hugging Face Blog](https://huggingface.co/blog/autogen-3) (2026-03-23)
+- **AutoGen 3.0 released by Microsoft**: Open-source update with native support for hierarchical agents and real-time collaboration via WebSockets. Improves scalability for 100+ agent swarms. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv Paper](https://arxiv.org/abs/2603.12456) (2026-03-25)
 - **Frontier Labs releases Frontier 2.0**: Major update to their enterprise LLM orchestration framework, adding native support for hybrid cloud deployments and zero-shot fine-tuning. Includes benchmarks showing 40% cost reduction on Llama 4 workloads. [Frontier Blog](https://frontierlabs.ai/blog/frontier-2-release) (2026-03-22)
 - **AutoGen v3.0 launched by Microsoft Research**: Open-source multi-agent framework now supports dynamic agent hierarchies and real-time collaboration via WebSockets. Early tests show 2x speedup in complex task decomposition. GitHub repo exploded with 5k stars in hours. [GitHub Repo](https://github.com/microsoft/autogen) | [arXiv Paper](https://arxiv.org/abs/2603.09876) (2026-03-22)
 - **Anthropic launches Frontier 2.0**: Major update to their enterprise LLM orchestration framework, adding native multi-model routing and compliance auditing for regulated industries. Includes SDK for seamless integration with Claude 4. [Anthropic Blog](https://anthropic.com/news/frontier-2-release) | [TechCrunch](https://techcrunch.com/2026/03/17/anthropic-frontier-2-enterprise-ai/)
@@ -96,12 +108,14 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **xAI drops Grok-5**: 2T parameter multimodal model excelling in video understanding (95% on Ego4D benchmark). API access opens to devs. [xAI Twitter](https://x.com/xai/status/1772345678901234567) | [Benchmark Results](https://grok.x.ai/grok5-eval) (2026-03-24)
 - **Google DeepMind releases Gemini 2.5 Flash**: Ultra-fast inference variant (500 tokens/sec), optimized for mobile edge devices. Beats GPT-4o-mini on MMLU. [DeepMind Blog](https://deepmind.google/blog/gemini-2.5-flash) (2026-03-24)
 - **Google DeepMind releases Gemini 2.0 Flash**: Ultra-fast multimodal model optimized for edge devices; 2x speed over 1.5. API now live. [DeepMind Blog](https://deepmind.google/technologies/gemini/flash-2/) | [VentureBeat](https://venturebeat.com/ai/google-gemini-2-flash-2026/)
+- **xAI drops Grok-4 preview**: Multimodal model with 10T params, excels in video reasoning (90% on Ego4D). API access rolling out next week. [xAI Twitter](https://x.com/xai/status/grok4-preview) | [Hugging Face Demo](https://huggingface.co/xai/grok-4-preview) (2026-03-25)
 - **Anthropic drops Claude 4 Opus**: Frontier reasoning model with 2M token context, excelling in code/math (95% GPQA). API live, open-weights variant for researchers next week. [Anthropic Blog](https://anthropic.com/news/claude-4-opus) | [LMSYS Arena](https://arena.lmsys.org/) (2026-03-20)
 - **xAI releases Grok-4**: 2T param multimodal model crushing benchmarks (95% MMLU-Pro). Open-weights preview available. [xAI Announcement](https://x.ai/blog/grok-4) | [The Verge](https://theverge.com/2026/3/21/24107890/xai-grok4-release) (2026-03-21)
 
 ### Open-Source Models
 
 - **xAI drops Grok-3 Turbo**: 2T param multimodal model with 95% MMLU, open-weights for non-commercial use. Excels in real-time video reasoning. [xAI Blog](https://x.ai/blog/grok-3-turbo) | [Hugging Face](https://huggingface.co/xai/grok-3-turbo) (2026-03-23)
+- **Stability AI open-sources Stable Diffusion 4 Turbo**: 1-step image gen at 4K resolution, beats Midjourney v7 on benchmarks. [Stability AI](https://stability.ai/news/sd4-turbo) | [GitHub](https://github.com/Stability-AI/sd4-turbo) (2026-03-25)
 - **xAI open-sources Grok-3 base model (405B params)**: Mixture-of-Experts release under Apache 2.0, topping LMSYS leaderboard in reasoning. Fine-tune weights available. [xAI Blog](https://x.ai/blog/grok-3-open) | [Hugging Face](https://huggingface.co/xai/grok-3-base) | [LMSYS Arena](https://arena.lmsys.org/)
 - **xAI unveils Grok-5**: 2T param multimodal model topping LMSYS leaderboard (Elo 1420); open-weights for research. Excels in real-time video reasoning. [xAI Announcement](https://x.ai/blog/grok-5) (2026-03-18)
 - **Meta AI drops Llama 4 (1T params, open-source)**: Trained on 15T tokens, excels in long-context (2M tokens). Guardrailing improved via synthetic data. [Meta AI Blog](https://ai.meta.com/blog/llama-4/) | [GitHub](https://github.com/meta-llama/llama4)
@@ -117,6 +131,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **FlashAttention-3**: NVIDIA's optimized attention kernel hits 3x speedup on H200 GPUs; PyTorch integration live. [GitHub Tri Dao](https://github.com/Dao-AILab/flash-attention/releases/tag/v3.0) (2026-03-23)
 - **Apple Intelligence SDK beta**: iOS 20 devs get on-device LLM fine-tuning tools. [Apple Developer](https://developer.apple.com/apple-intelligence/sdk-beta) (2026-03-23)
 - **NVIDIA Blackwell B300 clusters online**: at major hyperscalers, promising 30 PFLOPS for AI training. [NVIDIA Newsroom](https://nvidianews.nvidia.com/blackwell-b300-launch) (2026-03-23)
+- **Hugging Face launches HF Spaces 2.0**: Real-time collaborative IDE for fine-tuning, with built-in quantization tools. Free tier now supports up to 1M tokens/day. [HF Blog](https://huggingface.co/blog/spaces-v2) (2026-03-25)
 - **Hugging Face Spaces v3**: New toolkit for one-click agent deployment; includes AutoGen integration and GPU sharing. 10K+ stars in hours. [HF Blog](https://huggingface.co/blog/spaces-v3) | [GitHub](https://github.com/huggingface/spaces-v3) (2026-03-17)
 - **FlashAttention-3**: Tri Dao's update cuts KV-cache memory by 60% for long-context LLMs; PyTorch-native. [GitHub](https://github.com/Dao-AILab/flash-attention-3) (2026-03-18)
 - **Hugging Face launches HF Spaces Pro**: Paid tier for production-grade Spaces with GPU persistence and custom domains. [Source: HF Blog](https://huggingface.co/blog/spaces-pro) (2026-03-19)
@@ -132,12 +147,15 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 - **Microsoft AutoGen v4**: Supports hierarchical agent orchestration and real-time collaboration via WebSockets. Includes 10+ enterprise workflow templates. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v4.0) (2026-03-24)
 - **LangChain v0.3**: Adds native support for vision-language models and agentic workflows. 50k+ stars on GitHub already. [GitHub](https://github.com/langchain-ai/langchain/releases/tag/v0.3.0) (2026-03-23)
+- **AutoGen 3.0 released by Microsoft**: Open-source update with native support for hierarchical agents and real-time collaboration via WebSockets. Improves scalability for 100+ agent swarms. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv Paper](https://arxiv.org/abs/2603.12456) (2026-03-25)
 - **LangGraph 3.0**: Supports hierarchical agent swarms and real-time collaboration APIs for multi-agent orchestration. [LangChain Blog](https://blog.langchain.dev/langgraph-3-release/)
 - **AutoGen 3.0**: Supports hierarchical agent orchestration and real-time collaboration via WebSockets for multi-agent systems. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv](https://arxiv.org/abs/2603.09876) (2026-03-19)
 - **AutoGen v3.0**: Supports dynamic agent hierarchies and real-time collaboration via WebSockets. Early tests show 2x speedup in complex task decomposition. [GitHub Repo](https://github.com/microsoft/autogen) | [arXiv](https://arxiv.org/abs/2603.09876) (2026-03-22)
 
 ### Blockchain backing
 
+- **Bittensor releases TAO v2.0**: Upgraded decentralized AI compute network with GenAI-specific subnets for model training on-chain. 20x efficiency gains reported. [Bittensor Docs](https://docs.bittensor.com/tao-v2-release) (2026-03-25)
+- **Ethereum Foundation proposes ERC 8004 extension**: Standard for verifiable AI inferences on EVM chains, enabling on-chain model provenance. Gains traction with 15+ dApp integrations. [EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) (2026-03-25)
 - **Bittensor releases TaoNet v2**: Decentralized AI compute network integrates blockchain for verifiable model training, with new subnets for image gen and RAG. TVL surges 25% post-launch. [Bittensor Docs](https://docs.bittensor.com/taonet-v2) | [CoinDesk](https://coindesk.com/tech/2026/03/23/bittensor-taonet-upgrade/) (2026-03-23)
 - **Ethereum Foundation proposes ERC-8004 Finalization**: Standard for on-chain AI model provenance and attestation gains traction; enables verifiable AI outputs via zero-knowledge proofs. 15+ projects signaling support. [EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [Ethereum Mag](https://ethmag.com/erc-8004-final/) (2026-03-23)
 - **Bittensor (TAO) integrates GenAI subnet v2**: Open-source protocol upgrade enables decentralized fine-tuning of Llama-3.1 models on blockchain, with on-chain provenance for AI outputs. 200% subnet growth reported. [Bittensor Docs](https://docs.bittensor.com/subnets/genai-v2) | [CoinDesk](https://www.coindesk.com/tech/2026/03/16/bittensor-genai-blockchain/)
