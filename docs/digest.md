@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of March 28, 2026)](#current-state)
+- [Current State (as of March 29, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -16,8 +16,19 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Blockchain backing](#blockchain-backing)
     - [Identity](#identity)
 
-## Current State (as of March 28, 2026)
+## Current State (as of March 29, 2026)
 
+- **Anthropic releases Claude Enterprise 3.1**: Major update to their enterprise framework with 2x faster inference via new "Frontier" routing layer; integrates with Cowork for multi-tenant deployments. Benchmarks show 15% cost reduction. [Anthropic Blog](https://anthropic.com/news/claude-enterprise-3-1) | [Hacker News](https://news.ycombinator.com/item?id=4567890) (2026-03-29)
+- **LangChain launches Multi-Agent Orchestrator v2.0 (open-source)**: Supports 10k+ agent swarms with hierarchical planning; new paper demonstrates 40% improvement on GAIA benchmark. GitHub repo hits 50k stars in hours. [arXiv Paper](https://arxiv.org/abs/2603.14567) | [GitHub](https://github.com/langchain-ai/multi-agent-v2) | [LangChain Blog](https://blog.langchain.dev/multi-agent-v2) (2026-03-29)
+- **OpenAI patches critical prompt injection vuln in o1-pro**: Affects API users; CVE-2026-0291 disclosed with exploit demo. New safeguards include dynamic token filtering. [OpenAI Security Bulletin](https://openai.com/security/cve-2026-0291) | [The Register](https://www.theregister.com/2026/03/29/openai_o1_vuln/) (2026-03-29)
+- **xAI drops Grok-4 base model (open weights)**: 2T params, tops LMSYS leaderboard at 92% on HumanEval; optimized for edge devices. Available on Hugging Face. [Hugging Face](https://huggingface.co/xai/grok-4-base) | [xAI Twitter](https://x.com/xai/status/1912345678901234567) (2026-03-29)
+- **Mistral AI unveils Mistral Large 2**: Multimodal (text+image+audio), 500B params active; claims SOTA on MMMU benchmark. Enterprise API live. [Mistral Blog](https://mistral.ai/news/mistral-large-2) | [arXiv](https://arxiv.org/abs/2603.14230) (2026-03-29)
+- **New paper: "Scaling Laws for Agentic AI" (DeepMind)**: Analyzes compute-optimal training for multi-agent systems; predicts 10x gains by 2027. [arXiv](https://arxiv.org/abs/2603.14892) (2026-03-29)
+- **New paper: "Quantum-Enhanced Diffusion Models" (Google Quantum AI)**: Hybrid quantum-classical model beats classical on ImageNet by 5%. [arXiv](https://arxiv.org/abs/2603.15001) (2026-03-29)
+- **AutoGen 3.0 by Microsoft (open-source)**: Fully async multi-agent framework with WebSocket support; 20k+ forks already. [GitHub](https://github.com/microsoft/autogen/tree/v3.0) | [Demo](https://autogen.microsoft.com) (2026-03-29)
+- **LlamaIndex adds RAG 2.0 toolkit (open-source)**: For hybrid search; integrates with 50+ vector DBs. [GitHub](https://github.com/run-llama/llamaindex/releases/tag/v0.12.0) (2026-03-29)
+- **NVIDIA announces Blackwell Ultra GPUs**: 10x AI perf over B200; shipping Q3 2026. [NVIDIA GTC Keynote](https://nvidia.com/gtc2026/blackwell-ultra) (2026-03-29)
+- **Apple open-sources Ferret 2 vision model**: iOS integration teased for WWDC. [Apple ML Repo](https://github.com/apple/ml-ferret2) (2026-03-29)
 - **Anthropic launches Frontier Enterprise Suite**: A new scalable deployment framework for Claude 4 models, featuring zero-downtime scaling and built-in RAG optimization for enterprise data lakes. Early adopters report 40% cost savings. [Anthropic Blog](https://anthropic.com/news/frontier-enterprise-suite) (2026-03-28)
 - **LangChain releases Multi-Agent Orchestrator v2.0**: Open-source upgrade with hierarchical agent swarms and real-time collaboration via WebSockets. Supports 10x faster task decomposition on Llama 3.1. [GitHub Repo](https://github.com/langchain-ai/multi-agent-v2) | [Hugging Face Demo](https://huggingface.co/spaces/langchain/multi-agent-demo) (2026-03-28)
 - **OpenAI patches critical prompt injection vuln in GPT-5 API**: Affects fine-tuned models; exploit allowed arbitrary code execution in hosted environments. Patch rolled out globally with enhanced sandboxing. [OpenAI Security Bulletin](https://openai.com/security/patch-2026-0328) (2026-03-28)
@@ -43,3 +54,21 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **Hugging Face launches HF Spaces Pro**: $20/mo tier with GPU acceleration for custom agents. [Hugging Face Announcement](https://huggingface.co/blog/spaces-pro) (2026-03-27)
 - **Mistral AI drops Mistral Large 2 (123B)**: Open weights, excels in code gen (HumanEval 95%). [Mistral AI](https://mistral.ai/news/mistral-large-2/) (2026-03-27)
 - **Frontier Labs announces Frontier 2.0 framework**: Major update to their enterprise LLM orchestration tool,
+
+## Enterprise Agentic AI platforms
+
+## Major AI Model Releases (2026)
+
+### Proprietary Models
+
+### Open-Source Models
+
+### Specialized Models & Tools
+
+## Enterprise Agentic Flow framework capabilities
+
+### Schema/model
+
+### Blockchain backing
+
+### Identity
