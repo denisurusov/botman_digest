@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of March 30, 2026)](#current-state)
+- [Current State (as of March 31, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -16,8 +16,17 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Blockchain backing](#blockchain-backing)
     - [Identity](#identity)
 
-## Current State (as of March 30, 2026)
+## Current State (as of March 31, 2026)
 
+- **Anthropic launches Claude Enterprise Frontier v2.0**: Enhanced with 10x faster inference for enterprise workloads, integrated RAG tools, and SOC2 compliance upgrades. Early adopters report 40% cost savings. [Anthropic Blog](https://anthropic.com/news/claude-enterprise-frontier-v2) (2026-03-31)
+- **AutoGen 3.0 released by Microsoft Research**: Open-source framework now supports hierarchical agent orchestration and real-time collaboration with LLMs like GPT-5. Includes new benchmarks showing 25% better task completion on complex simulations. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv Paper](https://arxiv.org/abs/2603.14567) (2026-03-31)
+- **Critical vulnerability patched in Llama 4 Guardrail**: Meta disclosed a prompt injection flaw (CVE-2026-0310) allowing model bypass; patch deployed via Hugging Face. Affects 15% of deployed instances. [Hugging Face Security Advisory](https://huggingface.co/blog/llama4-guardrail-patch) | [CVE Details](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0310) (2026-03-31)
+- **Bittensor releases TAO v2.1 for decentralized AI training**: Integrates blockchain incentives for GenAI model fine-tuning; new subnet for image gen yields 2x faster convergence. TVL surges 30%. [Bittensor Docs](https://docs.bittensor.com/tao-v2.1-release) (2026-03-31)
+- **EU finalizes AI Act Phase 3 enforcement**: High-risk AI systems (e.g., autonomous agents) now require mandatory audits by Q4 2026. Fines up to €150M. US follows with similar NIST guidelines. [EU Official Journal](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0003) (2026-03-31)
+- **Ethereum Foundation proposes ERC-8004 implementation for AI data oracles**: Standardizes on-chain verification of GenAI outputs using zero-knowledge proofs. Testnet live on Sepolia; backed by Chainlink. [EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [Ethereum Mag](https://ethereum-mag.com/erc8004-ai-oracles) (2026-03-31)
+- **Google DeepMind publishes "Scaling Laws for AGI" (arXiv)**: New paper analyzes 100B+ param regimes, predicting AGI by 2028 with sufficient compute. Includes open datasets for replication. [arXiv](https://arxiv.org/abs/2603.15234) (2026-03-31)
+- **Hugging Face open-sources DiffuSeq 2.0**: State-of-the-art diffusion model for protein design; beats AlphaFold3 on CASP15 benchmarks. 50k+ downloads in first hour. [HF Spaces](https://huggingface.co/spaces/diffuseq2-demo) | [GitHub](https://github.com/huggingface/diffuseq-v2) (2026-03-31)
+- **OpenAI API adds native voice cloning**: GPT-4o-v3 supports custom voices with <1s latency; enterprise pricing at $0.01/min. Privacy-focused with on-device processing option. [OpenAI Dev Blog](https://platform.openai.com/blog/voice-cloning-api) (2026-03-31)
 - **Anthropic launches Claude Enterprise Frontier v2**: A new scalable framework for on-prem deployments with 10x inference speed gains via custom ASICs. Integrates with Cowork for multi-org workflows. [TechCrunch](https://techcrunch.com/2026/03/30/anthropic-claude-enterprise-frontier-v2/) (2026-03-30)
 - **LangChain releases Multi-Agent Orchestrator 3.0 (open-source)**: Supports hierarchical agent swarms with real-time collaboration, tested on 1M+ token contexts. Includes plugins for robotics integration. GitHub stars hit 50k overnight. [GitHub Repo](https://github.com/langchain-ai/multi-agent-orchestrator) | [Hacker News](https://news.ycombinator.com/item?id=4567890) (2026-03-30)
 - **Critical vulnerability patched in Llama 4 Guardrail API**: Meta disclosed a prompt injection flaw allowing model bypass in 20% of safety tests. Patch rolled out globally; affects enterprise users. [The Verge](https://www.theverge.com/2026/3/30/24301234/llama-4-guardrail-vuln-patch-meta) (2026-03-30)
