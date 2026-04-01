@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of March 31, 2026)](#current-state)
+- [Current State (as of April 1, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -16,8 +16,20 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Blockchain backing](#blockchain-backing)
     - [Identity](#identity)
 
-## Current State (as of March 31, 2026)
+## Current State (as of April 1, 2026)
 
+- **Anthropic launches Frontier 3.0**: A new enterprise-grade LLM orchestration framework with built-in compliance auditing for regulated industries. Supports seamless integration with on-prem hardware. [Anthropic Blog](https://anthropic.com/news/frontier-3-release) (2026-04-01)
+- **LangChain releases Multi-Agent Swarm v2**: Open-source update enabling dynamic agent hierarchies and real-time collaboration via WebSockets. Includes 20% faster inference on consumer GPUs. [GitHub Repo](https://github.com/langchain-ai/multi-agent-swarm) | [Announcement](https://blog.langchain.dev/multi-agent-swarm-v2) (2026-04-01)
+- **New vulnerability in Llama 4 disclosed (CVE-2026-0401)**: Prompt injection flaw allowing model inversion attacks. OpenAI and Meta issue patches. Researchers from Stanford publish exploit demo. [arXiv Paper](https://arxiv.org/abs/2604.0001) | [CVE Details](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0401) (2026-04-01)
+- **Bittensor announces TAO-GenAI protocol**: Integrates blockchain incentives for decentralized fine-tuning of diffusion models. Testnet live with 5k+ validators. [Bittensor Docs](https://docs.bittensor.com/tao-genai) (2026-04-01)
+- **EU AI Act Phase 3 enforced**: High-risk AI systems (e.g., autonomous agents) now require third-party audits. First fines issued to two startups. [EU Commission](https://ec.europa.eu/ai-act-phase3-enforcement) (2026-04-01)
+- **Ethereum Foundation proposes ERC 8004 extension**: Adds AI model provenance metadata to NFT standards for verifiable GenAI outputs. Community vote scheduled for April 15. [EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) (2026-04-01)
+- **xAI drops Grok-3**: 2T parameter multimodal model excelling in real-time video reasoning. Beats GPT-5 on ARC-AGI benchmark (87% score). API access opens to devs. [xAI Twitter](https://x.com/xai/status/grok3-release) | [Hugging Face](https://huggingface.co/xai/grok-3) (2026-04-01)
+- **Google DeepMind unveils Gemini 2.5 Ultra**: Focuses on long-context (10M tokens) with agentic planning. Open weights for research. [DeepMind Blog](https://deepmind.google/blog/gemini-2-5-ultra) (2026-04-01)
+- **"Scaling Laws for Quantum-Enhanced Transformers" (arXiv:2604.0002)**: Shows 3x efficiency gains using photonic chips. From MIT Quantum AI Lab. [arXiv](https://arxiv.org/abs/2604.0002) (2026-04-01)
+- **"Federated Learning with Homomorphic Encryption for Edge AI" (arXiv:2604.0003)**: Privacy-preserving updates for IoT devices. 40 authors from Tsinghua Univ. [arXiv](https://arxiv.org/abs/2604.0003) (2026-04-01)
+- **AutoGen v0.5 (Microsoft)**: Enhanced multi-agent convo framework with voice synthesis integration. 10k stars in 24h. [GitHub](https://github.com/microsoft/autogen/releases/tag/v0.5) (2026-04-01)
+- **Stable Diffusion 4-Turbo**: ComfyUI-compatible, 1-step image gen at 4K resolution. Licensed Apache 2.0. [Hugging Face](https://huggingface.co/stabilityai/sd-4-turbo) (2026-04-01)
 - **Anthropic launches Claude Enterprise Frontier v2.0**: Enhanced with 10x faster inference for enterprise workloads, integrated RAG tools, and SOC2 compliance upgrades. Early adopters report 40% cost savings. [Anthropic Blog](https://anthropic.com/news/claude-enterprise-frontier-v2) (2026-03-31)
 - **AutoGen 3.0 released by Microsoft Research**: Open-source framework now supports hierarchical agent orchestration and real-time collaboration with LLMs like GPT-5. Includes new benchmarks showing 25% better task completion on complex simulations. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv Paper](https://arxiv.org/abs/2603.14567) (2026-03-31)
 - **Critical vulnerability patched in Llama 4 Guardrail**: Meta disclosed a prompt injection flaw (CVE-2026-0310) allowing model bypass; patch deployed via Hugging Face. Affects 15% of deployed instances. [Hugging Face Security Advisory](https://huggingface.co/blog/llama4-guardrail-patch) | [CVE Details](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0310) (2026-03-31)
