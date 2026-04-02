@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of April 1, 2026)](#current-state)
+- [Current State (as of April 2, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -16,8 +16,17 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Blockchain backing](#blockchain-backing)
     - [Identity](#identity)
 
-## Current State (as of April 1, 2026)
+## Current State (as of April 2, 2026)
 
+- **Frontier Labs releases FrontierOS 2.0**: Open-weight enterprise framework for hybrid on-prem/cloud LLMs with 50% faster inference via new Rust-based scheduler. Supports Cowork API natively for agent orchestration. [GitHub Repo](https://github.com/frontierlabs/frontieros) | [Announcement](https://frontierlabs.ai/blog/frontieros-2-release) (2026-04-02)
+- **AutoGen v4.0 launched by Microsoft**: Native support for hierarchical agents with real-time collaboration via WebRTC. Includes benchmarks showing 3x speedup on complex tasks like code review pipelines. Open-source. [GitHub](https://github.com/microsoft/autogen/releases/tag/v4.0) | [Blog](https://autogen.ai/blog/v4-release) (2026-04-02)
+- **New paper: "Adversarial Robustness in Multimodal LLMs" (DeepMind)**: Introduces EvalShield benchmark exposing vulnerabilities in vision-language models (e.g., GPT-Vision forks). Proposes federated fine-tuning fix. [arXiv](https://arxiv.org/abs/2604.01234) (2026-04-02)
+- **EU AI Act Phase 3 Enforcement Begins**: Fines up to €35M for non-compliant high-risk AI systems. First targets: facial recognition in hiring tools. Impacts 200+ startups. [Reuters](https://reuters.com/ai-act-phase3-20260402) (2026-04-02)
+- **xAI releases Grok-4**: 2T params, tops LMSYS Arena with 92% ELO. Native quantum-inspired sampling for math/physics tasks. API open beta. [xAI Blog](https://x.ai/blog/grok-4-release) | [LMSYS Leaderboard](https://arena.lmsys.org/) (2026-04-02)
+- **Meta releases LlamaForge 3.1**: Fine-tuning toolkit adds LoRA++ for 10x efficiency on consumer GPUs. 5K stars in 24h. [GitHub](https://github.com/meta-llama/llamaforge) (2026-04-02)
+- **"Scalable World Models for Robotics" (Google DeepMind)**: Diffusion-based sim-to-real transfer beats RT-2X by 40% on dexterous manipulation. [arXiv](https://arxiv.org/abs/2604.01345) (2026-04-02)
+- **Anthropic updates Claude 3.5 Opus**: Enterprise tier adds tool-use for Salesforce/Oracle integrations. 25% cost reduction. [Anthropic Blog](https://anthropic.com/news/claude-3.5-opus-update) (2026-04-02)
+- **Hugging Face Spaces hits 10M models**: New "Instant Deploy" for custom RLHF pipelines. [HF Blog](https://huggingface.co/blog/spaces-10m) (2026-04-02)
 - **Anthropic launches Frontier 3.0**: A new enterprise-grade LLM orchestration framework with built-in compliance auditing for regulated industries. Supports seamless integration with on-prem hardware. [Anthropic Blog](https://anthropic.com/news/frontier-3-release) (2026-04-01)
 - **LangChain releases Multi-Agent Swarm v2**: Open-source update enabling dynamic agent hierarchies and real-time collaboration via WebSockets. Includes 20% faster inference on consumer GPUs. [GitHub Repo](https://github.com/langchain-ai/multi-agent-swarm) | [Announcement](https://blog.langchain.dev/multi-agent-swarm-v2) (2026-04-01)
 - **New vulnerability in Llama 4 disclosed (CVE-2026-0401)**: Prompt injection flaw allowing model inversion attacks. OpenAI and Meta issue patches. Researchers from Stanford publish exploit demo. [arXiv Paper](https://arxiv.org/abs/2604.0001) | [CVE Details](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0401) (2026-04-01)
