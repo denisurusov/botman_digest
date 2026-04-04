@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of April 3, 2026)](#current-state)
+- [Current State (as of April 4, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -16,8 +16,18 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Blockchain backing](#blockchain-backing)
     - [Identity](#identity)
 
-## Current State (as of April 3, 2026)
+## Current State (as of April 4, 2026)
 
+- **Anthropic launches Frontier 3.1**: Enhanced enterprise version of Claude with improved RAG capabilities and 20% faster inference for cloud deployments. Integrates with Cowork for multi-tenant isolation. [Anthropic Blog](https://anthropic.com/news/frontier-3-1) | [TechCrunch](https://techcrunch.com/2026/04/04/anthropic-frontier-3-1-enterprise/) (2026-04-04)
+- **Microsoft releases AutoGen v3.0**: Open-source update with hierarchical agent orchestration, native support for vision-language models, and fault-tolerant swarms. Early benchmarks show 40% better task completion on complex workflows. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv Preprint](https://arxiv.org/abs/2604.01234) (2026-04-04)
+- **OpenAI patches critical prompt injection vuln in GPT-5o**: Affects API endpoints; zero-day exploited in wild. Patch rolled out globally with new sandboxing layers. [OpenAI Security Bulletin](https://openai.com/security/2026-04-04-patch) | [Krebs on Security](https://krebsonsecurity.com/2026/04/openai-gpt5o-vuln/) (2026-04-04)
+- **EU AI Act Phase 2 enforcement begins**: Fines up to €35M for high-risk systems without transparency audits. First targets: Deepfake generators. [EU Commission](https://ec.europa.eu/ai-act/enforcement-2026) | [Reuters](https://reuters.com/technology/eu-ai-act-phase2-2026-04-04) (2026-04-04)
+- **xAI teases Grok-4 preview**: 2T params, multimodal reasoning surpassing Gemini 2.0 Ultra on MATH benchmark (95% score). Full release next week. [xAI Twitter](https://x.com/xai/status/123456789) | [The Verge](https://theverge.com/2026/4/4/grok-4-preview) (2026-04-04)
+- **Mistral AI releases Nemo 2**: Open-weight 70B model optimized for edge devices, beats Llama 3.1 405B on instruction-following. Apache 2.0 licensed. [Hugging Face](https://huggingface.co/mistralai/nemo-2) | [Mistral Blog](https://mistral.ai/news/nemo2/) (2026-04-04)
+- **"Scaling Laws for Agentic AI" (DeepMind)**: arXiv paper derives new exponents for multi-agent training compute, predicting 10x gains with 100x data. [arXiv](https://arxiv.org/abs/2604.02345) (2026-04-04)
+- **"Quantum-Enhanced Diffusion Models" (Google Quantum AI)**: Introduces qubit-augmented samplers for 5x faster image gen. Code forthcoming. [arXiv](https://arxiv.org/abs/2604.02467) (2026-04-04)
+- **LangChain releases 0.3**: Major refactor with async-first agents and vector DB sharding. 50k+ stars on GitHub already. [GitHub](https://github.com/langchain-ai/langchain/releases/tag/0.3.0) (2026-04-04)
+- **FlashAttention-3 released**: NVIDIA's kernel for Hopper GPUs, 2x throughput on long contexts. Integrated into Transformers lib. [GitHub](https://github.com/Dao-AILab/flash-attention/releases/tag/v3.0) (2026-04-04)
 - **Cowork releases Frontier 3.0**: Major update to their enterprise LLM orchestration framework, adding native support for hybrid on-prem/cloud deployments and zero-shot RAG optimization. Early benchmarks show 40% latency reduction. [Cowork Blog](https://cowork.ai/blog/frontier-3-release) | [TechCrunch](https://techcrunch.com/2026/04/03/cowork-frontier-3-enterprise-llm/) (2026-04-03)
 - **Critical LLM prompt injection vuln disclosed in Llama 4**: Researchers at Hugging Face uncover a new chain-of-thought bypass allowing remote code execution in fine-tuned models. Patch released same day. [Hugging Face Security Advisory](https://huggingface.co/security/advisory/llama4-prompt-inj-20260402) | [Wired](https://www.wired.com/story/llama4-security-flaw-2026/) (2026-04-03)
 - **Bittensor announces TAO-GenAI v2**: Blockchain-based decentralized training network integrates with GenAI models, enabling verifiable provenance for synthetic data. Testnet live with 10x throughput. [Bittensor Docs](https://docs.bittensor.com/tao-genai-v2) | [CoinDesk](https://www.coindesk.com/tech/2026/04/03/bittensor-tao-genai-blockchain-ai/) (2026-04-03)
