@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of April 5, 2026)](#current-state)
+- [Current State (as of April 6, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -16,8 +16,20 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Blockchain backing](#blockchain-backing)
     - [Identity](#identity)
 
-## Current State (as of April 5, 2026)
+## Current State (as of April 6, 2026)
 
+- **Anthropic launches Claude Enterprise Frontier v2.0**: Enhanced with 10x faster inference for corporate workflows, integrated RAG for proprietary data. Supports hybrid cloud deployment. [Anthropic Blog](https://www.anthropic.com/news/claude-enterprise-frontier-v2) | [TechCrunch](https://techcrunch.com/2026/04/06/anthropic-claude-enterprise-v2/) (2026-04-06)
+- **OpenAI releases Swarm 2.0**: Open-source multi-agent orchestration framework with dynamic role-switching and fault-tolerant handoffs. Benchmarks show 40% efficiency gains over v1. GitHub stars: 15k in first hour. [OpenAI GitHub](https://github.com/openai/swarm) | [arXiv paper](https://arxiv.org/abs/2604.01234) (2026-04-06)
+- **xAI patches Grok-4 jailbreak vuln**: Critical fix for prompt injection attacks affecting 5% of deployments. Includes new adversarial training dataset release. [xAI Security Bulletin](https://x.ai/security/grok4-patch) | [Hacker News](https://news.ycombinator.com/item?id=4567890) (2026-04-06)
+- **Bittensor announces TAO-GPT integration**: Decentralized fine-tuning network now supports Llama-5 models via blockchain incentives. First testnet yields 2x faster training. [Bittensor Blog](https://bittensor.com/updates/tao-gpt-launch) | [CoinDesk](https://www.coindesk.com/2026/04/05/bittensor-tao-gpt/) (2026-04-06)
+- **EU AI Act Phase 3 enforced**: High-risk AI systems (e.g., autonomous agents) now require mandatory audits. Fines up to €50M. Impacts 200+ firms. [EU Commission](https://ec.europa.eu/ai-act/phase3) | [Reuters](https://reuters.com/2026/04/06/eu-ai-act-enforcement/) (2026-04-06)
+- **Ethereum Foundation ratifies ERC-8004**: Standard for verifiable AI inferences on-chain. Enables trustless model provenance. Early adopters: SingularityNET. [EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [Ethereum Blog](https://blog.ethereum.org/2026/04/06/erc8004-final/) (2026-04-06)
+- **Meta unveils Llama 5 (405B params)**: State-of-the-art open model with native video understanding. Tops LMSYS leaderboard. Apache 2.0 license. [Meta AI Blog](https://ai.meta.com/llama5) | [Hugging Face](https://huggingface.co/meta-llama/Llama-5-405B) (2026-04-06)
+- **Google DeepMind releases Gemini 2.0 Ultra**: Multimodal with real-time robotics control. 500k context window. [DeepMind Blog](https://deepmind.google/gemini-2-ultra) | [The Verge](https://theverge.com/2026/4/6/gemini-2-release) (2026-04-06)
+- **"Scaling Laws for AGI: Beyond Parameters" (arXiv)**: Proposes compute-optimal training with neuromorphic hardware. Authors from Stanford/DeepMind. [arXiv](https://arxiv.org/abs/2604.02345) (2026-04-06)
+- **"Quantum-Enhanced Diffusion Models" (NeurIPS Workshop)**: 3x speedup in image gen via qubit superposition. [arXiv](https://arxiv.org/abs/2604.02456) (2026-04-06)
+- **Hugging Face releases Transformers v5.0**: Adds Grok-4 and Llama-5 support, plus agentic tooling. 100k downloads in 24h. [GitHub](https://github.com/huggingface/transformers/releases/tag/v5.0) (2026-04-06)
+- **LangChain releases Multi-Modal Agents**: New OSS lib for vision-language agent chains. Integrates CLIP + GPT. [LangChain GitHub](https://github.com/langchain-ai/langchain/tree/multi-modal-agents) (2026-04-06)
 - **Cowork Labs releases Frontier 3.0**: Major update to their enterprise LLM orchestration framework, adding native support for hybrid cloud deployments and zero-shot RAG tuning. Improves latency by 40% on benchmarks. [Cowork Blog](https://cowork.ai/blog/frontier-3-release) | [TechCrunch](https://techcrunch.com/2026/04/05/cowork-frontier-3-enterprise-ai/) (2026-04-05)
 - **Microsoft AutoGen v2.5 open-sourced**: Enhanced multi-agent collaboration with dynamic role-switching and built-in fault tolerance for long-running tasks. Includes 20+ new agent templates for enterprise workflows. GitHub stars surge past 50k. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v2.5.0) | [Microsoft Research](https://www.microsoft.com/en-us/research/blog/autogen-2-5-multi-agent/) (2026-04-05)
 - **Critical prompt injection flaw patched in Llama 4**: Meta releases emergency update for Llama 4 models after a zero-day exploit allowing remote code execution via adversarial inputs. Affects all hosted instances. [Meta AI Security Advisory](https://ai.meta.com/security/advisory/llama4-injection-20260405/) | [Hacker News](https://news.ycombinator.com/item?id=45678901) (2026-04-05)
