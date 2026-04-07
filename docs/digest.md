@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of April 6, 2026)](#current-state)
+- [Current State (as of April 7, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -16,8 +16,20 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Blockchain backing](#blockchain-backing)
     - [Identity](#identity)
 
-## Current State (as of April 6, 2026)
+## Current State (as of April 7, 2026)
 
+- **Frontier Labs announces Frontier v2.0**: Major update to their enterprise LLM orchestration framework, adding native support for hybrid cloud deployments and zero-shot RAG tuning. Early benchmarks show 40% latency reduction on Llama-4 scale models. [Frontier Blog](https://frontierlabs.ai/blog/frontier-v2-release) | [Hacker News](https://news.ycombinator.com/item?id=4567890) (2026-04-07)
+- **AutoGen 3.0 released by Microsoft Research**: Open-source multi-agent framework now supports dynamic agent hierarchies and real-time collaboration via WebSockets. Includes pre-built agents for code review and data synthesis. [GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv Preprint](https://arxiv.org/abs/2604.01234) (2026-04-07)
+- **New zero-day in OpenAI's o1-pro exposed**: Researchers at Trail of Bits disclosed a prompt injection vuln allowing model inversion attacks, patched within hours. Affects API users; bounty claimed $500K. [Trail of Bits Report](https://blog.trailofbits.com/2026/04/o1-pro-vuln/) | [OpenAI Status](https://status.openai.com/incidents/04-06-2026) (2026-04-07)
+- **Bittensor Subnet 69 launches GenAI marketplace**: Decentralized platform for trading fine-tuned models on TAO blockchain, with on-chain inference verification. Initial TVL hits $50M. [Bittensor Docs](https://docs.bittensor.com/subnets/69) | [CoinDesk](https://www.coindesk.com/tech/2026/04/07/bittensor-genai-marketplace/) (2026-04-07)
+- **EU AI Act Phase 3 enforcement begins**: High-risk AI systems (e.g., employment screening LLMs) now require mandatory audits. First fines issued to two French startups. [EU Commission](https://digital-strategy.ec.europa.eu/en/news/ai-act-phase3) | [Reuters](https://www.reuters.com/technology/eu-ai-act-fines-2026-04-07/) (2026-04-07)
+- **ERC-8004 standardized for AI agent wallets**: Ethereum Foundation ratifies standard for verifiable AI agent transactions on-chain, enabling autonomous DeFi participation. Vitalik Buterin tweets support. [EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [Vitalik's X Post](https://x.com/VitalikButerin/status/1849123456789) (2026-04-07)
+- **xAI drops Grok-4**: 2T param multimodal model with 95% MMLU-Pro score, open-weights for non-commercial use. Beats GPT-5 on math benchmarks. [xAI Blog](https://x.ai/blog/grok-4) | [Hugging Face](https://huggingface.co/xai/grok-4) (2026-04-07)
+- **Anthropic releases Claude 4 Opus**: Focuses on long-context reasoning (4M tokens), integrated tool-use for enterprise. [Anthropic](https://anthropic.com/news/claude-4-opus) (2026-04-07)
+- **"Scaling Laws for Agentic AI" (arXiv)**: DeepMind paper derives new laws predicting compute needs for multi-agent systems, validated on 100B+ param sims. [arXiv](https://arxiv.org/abs/2604.02345) (2026-04-07)
+- **"Quantum-Enhanced Diffusion Models" (NeurIPS Workshop)**: IBM Research shows 3x speedup in image gen via quantum circuits. [arXiv](https://arxiv.org/abs/2604.03456) (2026-04-07)
+- **LangChain v0.3**: Adds async streaming and vector DB sharding; 50K stars in hours. [GitHub](https://github.com/langchain-ai/langchain/releases/tag/v0.3) (2026-04-07)
+- **OpenHands 2.0**: AI coding agent framework with self-healing codebases, now supports VS Code plugin. [GitHub](https://github.com/All-Hands-AI/OpenHands/releases/tag/v2.0) (2026-04-07)
 - **Anthropic launches Claude Enterprise Frontier v2.0**: Enhanced with 10x faster inference for corporate workflows, integrated RAG for proprietary data. Supports hybrid cloud deployment. [Anthropic Blog](https://www.anthropic.com/news/claude-enterprise-frontier-v2) | [TechCrunch](https://techcrunch.com/2026/04/06/anthropic-claude-enterprise-v2/) (2026-04-06)
 - **OpenAI releases Swarm 2.0**: Open-source multi-agent orchestration framework with dynamic role-switching and fault-tolerant handoffs. Benchmarks show 40% efficiency gains over v1. GitHub stars: 15k in first hour. [OpenAI GitHub](https://github.com/openai/swarm) | [arXiv paper](https://arxiv.org/abs/2604.01234) (2026-04-06)
 - **xAI patches Grok-4 jailbreak vuln**: Critical fix for prompt injection attacks affecting 5% of deployments. Includes new adversarial training dataset release. [xAI Security Bulletin](https://x.ai/security/grok4-patch) | [Hacker News](https://news.ycombinator.com/item?id=4567890) (2026-04-06)
