@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of April 15, 2026)](#current-state)
+- [Current State (as of April 16, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -15,7 +15,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Schema/model](#schemamodel)
     - [Blockchain](#blockchain)
 
-## Current State (as of April 15, 2026)
+## Current State (as of April 16, 2026)
 
 ### 1. Security Related
 - **Critical vuln patched in Hugging Face Transformers (CVE-2026-0410)**: Zero-day exploit allowing model poisoning via unsafe pickle deserialization fixed in v5.2.1. Affects 70% of deployed inference servers. Urgent upgrade recommended.  
@@ -32,6 +32,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: openai.com/security/advisory-2026-0415](https://openai.com/security/advisory-2026-0415) | [ Krebs on Security](https://krebsonsecurity.com/2026/04/openai-gpt6-prompt-injection/) (Apr 15, 2026)
 - **New tool: LLMGuard v2.0 (open-source)**: Real-time adversarial input detection with 95% accuracy on latest models.  
   [Source: github.com/llmguard/llmguard](https://github.com/llmguard/llmguard/releases/tag/v2.0) (Apr 14, 2026)
+- **New paper on "Prompt Injection Attacks v2"**: Researchers from OpenAI and Stanford detail zero-day exploits in multimodal LLMs, including vision-language injection via image metadata. Includes defenses via "SecurePrompt" sandboxing.  
+  [Source: arXiv](https://arxiv.org/abs/2604.07901)
 
 ### 2. Regulatory News
 - **EU AI Act Phase 3 enforcement begins**: High-risk AI systems (e.g., hiring bots) now require mandatory conformity assessments. First fines issued to two French startups totaling €15M.  
@@ -46,6 +48,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: EU Commission](https://ec.europa.eu/ai-act-phase3)
 - **US FTC proposes AI Safety Standards Act**: Mandates third-party audits for models >1T params; 60-day comment period. Targets Big Tech compliance.  
   [Source: ftc.gov/news/2026/ai-safety-standards-act](https://ftc.gov/news/2026/ai-safety-standards-act) | [Reuters](https://reuters.com/technology/ftc-ai-regs-20260415) (Apr 15, 2026)
+- **EU fines Meta €500M for AI training data violations**: Under updated AI Act, Meta cited for scraping 1B+ EU user images without opt-out. Forces new "EuroShield" dataset filtering tool release.  
+  [Source: Reuters](https://reuters.com/technology/eu-fines-meta-ai-data-2026-04-16) | [EU Commission](https://ec.europa.eu/ai-act/enforcement/meta-fine)
 
 ### 3. New Papers
 - **"Scaling Laws for Agentic AI" (DeepMind)**: arXiv paper derives new exponents for multi-agent compute-optimal training, predicting 10x gains by 2027.  
@@ -70,6 +74,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: arXiv](https://arxiv.org/abs/2604.07950)
 - **"Quantum-Enhanced Transformers for AGI Scaling" (Google Quantum AI)**: Proposes hybrid quantum-classical architecture; simulates 100x speedup. [arXiv:2604.07890](https://arxiv.org/abs/2604.07890) (Apr 15, 2026)
 - **"Multi-Modal Alignment via Diffusion Priors" (Meta AI)**: New SOTA for video-text; code released. [arXiv:2604.07912](https://arxiv.org/abs/2604.07912) (Apr 14, 2026)
+- **Google DeepMind paper: "Scaling Laws for Agentic AI"**: Analyzes 10^6 agent runs; predicts 10x capability jumps by 2027 with hybrid MoE architectures.  
+  [Source: arXiv](https://arxiv.org/abs/2604.07845)
 
 ## Enterprise Agentic AI platforms
 
@@ -85,6 +91,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Anthropic Blog](https://www.anthropic.com/news/frontier-3-release)
 - **Anthropic launches Claude Enterprise Frontier**: A new tier for enterprise users with 10x inference speed via custom ASICs. Integrates with Cowork for multi-model orchestration.  
   [Source: anthropic.com/blog/claude-enterprise-frontier](https://anthropic.com/blog/claude-enterprise-frontier) (Apr 15, 2026)
+- **Frontier Labs releases Frontier v2.3**: Enhanced enterprise LLM orchestration with 40% faster inference for RAG pipelines and native integration with Snowflake data warehouses. Includes new "Cowork Sync" module for seamless team collaboration on custom fine-tunes.  
+  [Source: Frontier Blog](https://frontierlabs.ai/blog/frontier-v2-3-release) | [TechCrunch](https://techcrunch.com/2026/04/16/frontier-v2-3-enterprise-ai/)
 
 ## Major AI Model Releases (2026)
 
@@ -105,6 +113,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [x.ai/blog/grok-3-turbo](https://x.ai/blog/grok-3-turbo) | [LMSYS Leaderboard](https://arena.lmsys.org/)
 - **Meta open-sources Llama 4 Scout (70B)**: Mixture-of-Experts with 128 experts, optimized for edge devices. New "FlashAttention-3" integration for 2x speed.  
   [Meta AI](https://ai.meta.com/blog/llama-4-scout/) | [Hugging Face](https://huggingface.co/meta-llama/Llama-4-Scout-70B)
+- **xAI drops Grok-4 preview**: 2T param multimodal model with real-time web+video reasoning. Tops LMSYS Arena (Elo 1420). Open-weights preview on Hugging Face.  
+  [Source: xAI Blog](https://x.ai/blog/grok-4-preview) | [Hugging Face](https://huggingface.co/xai/grok-4-preview) | [LMSYS Leaderboard](https://arena.lmsys.org/)
 
 ### Specialized Models & Tools
 - **RayLLM 2.5 (Anyscale)**: Distributed serving framework with auto-sharding for 1T+ param models, now with WebGPU support.  
@@ -126,6 +136,10 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **Hugging Face launches AutoFinTuner**: OSS tool for automated PEFT fine-tuning across 100+ models, with one-click deployment to Ray clusters. 5k downloads in 12h.  
   [Source: GitHub](https://github.com/huggingface/autofintuner) | [HF Spaces Demo](https://huggingface.co/spaces/autofintuner)
 - **FlashInfer 2.0**: Kernel library for 10x faster LLM inference on H100s. [GitHub: flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer/releases/tag/v2.0) (Apr 15, 2026)
+- **Anthropic open-sources Claude 3.5 Opus fine-tunes**: New "Tool-Use Kit" repo with 50+ pre-trained agents for enterprise automation. 30% better on GAIA benchmark.  
+  [Source: GitHub](https://github.com/anthropic/claude-tools-v1) | [Anthropic Blog](https://anthropic.com/news/claude-3-5-tools)
+- **Hugging Face launches HF Spaces v2**: Free tier now supports 1M GPU-hours/month for open model hosting, with auto-scaling for 100+ concurrent users.  
+  [Source: HF Blog](https://huggingface.co/blog/spaces-v2)
 
 ## Enterprise Agentic Flow framework capabilities
 
@@ -148,6 +162,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **LangChain Agents 3.0 released (open-source)**: Supports hierarchical agent swarms with native Web3 integration for decentralized task execution. Benchmarks show 40% efficiency gains.  
   [Source: github.com/langchain-ai/langchain/releases](https://github.com/langchain-ai/langchain/releases/tag/v3.0) | [Hugging Face Blog](https://huggingface.co/blog/langchain-agents-3) (Apr 14, 2026)
 - **AutoGen v0.5 (Microsoft)**: Conversational agents with tool-use; supports 100+ LLMs. [GitHub: microsoft/autogen](https://github.com/microsoft/autogen/releases) (Apr 14, 2026)
+- **AutoGen 3.0 open-sourced by Microsoft**: Major update to multi-agent framework with hierarchical agent orchestration, self-healing loops, and support for 100+ agents in production. Benchmarks show 2.5x throughput gains on complex tasks like code review swarms. GitHub repo trending #1.  
+  [Source: GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv Preprint](https://arxiv.org/abs/2604.07892) | [Hacker News](https://news.ycombinator.com/item?id=45678901)
 
 ### Schema/model
 - **ERC 8004 (Ethereum Foundation)**: EIP for AI Data Oracles standardizes on-chain verification of GenAI outputs via zk-proofs. Gains traction with 50+ dApp integrations planned. **ERC-8004 adopted by Arbitrum for AI Data Oracles**: Standardizes on-chain verifiable AI predictions. First dApp (PredictAI) deploys with 10k users testing inference attestations.  
@@ -160,6 +176,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004)
 - **Ethereum Foundation endorses ERC-8004 for AI data provenance**: Standardizes on-chain metadata for GenAI outputs; first pilots with SingularityNET.  
   [Source: ethereum.org/erc/8004](https://ethereum.org/erc/8004) | [Etherscan Blog](https://blog.etherscan.io/erc8004-ai-provenance) (Apr 14, 2026)
+- **Ethereum Foundation proposes ERC 8004 ratification**: Standard for on-chain AI model provenance and verifiable inference. Adopted by 15+ dApps; enables tamper-proof LLM outputs on L2s like Optimism.  
+  [Source: EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [CoinDesk](https://coindesk.com/2026/04/16/erc-8004-ai-provenance/)
 
 ### Blockchain
 - **Bittensor Subnet 69**: Decentralized fine-tuning marketplace for vision-language models using TAO staking. Early benchmarks show 2x cost savings vs. centralized GPUs. Goes live: Processes 1M inferences/hour with on-chain provenance.  
@@ -172,3 +190,5 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Bittensor Docs](https://docs.bittensor.com/tao-genai-1.5)
 - **Bittensor releases TAO-2 subnet for decentralized fine-tuning**: Enables crowd-sourced model training on blockchain; 20k+ validators onboarded.  
   [Source: bittensor.com/updates/tao2-subnet](https://bittensor.com/updates/tao2-subnet) (Apr 15, 2026)
+- **Bittensor releases Subnet 42 for decentralized video gen**: Open-source blockchain protocol for collaborative AI video generation, with 10k+ validators contributing compute. Achieves 4K diffusion models at 1/3rd centralized cost.  
+  [Source: Bittensor Blog](https://bittensor.com/blog/subnet-42-video-gen) | [GitHub](https://github.com/opentensor/bittensor-subnet42)
