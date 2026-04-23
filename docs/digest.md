@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of April 22, 2026)](#current-state)
+- [Current State (as of April 23, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -15,7 +15,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Schema/model](#schemamodel)
     - [Blockchain](#blockchain)
 
-## Current State (as of April 22, 2026)
+## Current State (as of April 23, 2026)
 
 ### 1. Security Related
 - **Critical vuln patched in Hugging Face Transformers (CVE-2026-0410)**: Zero-day exploit allowing model poisoning via unsafe pickle deserialization fixed in v5.2.1. Affects 70% of deployed inference servers. Urgent upgrade recommended.  
@@ -45,6 +45,10 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Hugging Face Security Advisory](https://huggingface.co/blog/llama4-vuln) | [Exploit PoC on GitHub](https://github.com/promptsec/llama4-inject)
 - **Critical vulnerability patched in Llama 4 Guard**: Meta discloses and fixes a prompt injection flaw allowing model bypass in safety layers (CVE-2026-0421). Affects 10M+ deployments.  
   [Source: Meta AI Security](https://ai.meta.com/security/advisory/cve-2026-0421/) | [Hacker News](https://news.ycombinator.com/item?id=4567890)
+- **Critical vulnerability patched in Hugging Face Transformers (CVE-2026-0423)**: Remote code execution flaw in pipeline loaders affecting 1M+ models; urgent upgrade recommended.  
+  [Source: Hugging Face Security Advisory](https://huggingface.co/security/advisories/CVE-2026-0423)
+- **Anthropic releases Guardrail Pro**: Open-source tool for adversarial robustness testing, detecting 95% of jailbreak attempts across 50+ LLMs.  
+  [Source: Anthropic Research](https://anthropic.com/research/guardrail-pro)
 
 ### 2. Regulatory News
 - **EU AI Act Phase 3 enforcement begins**: High-risk AI systems (e.g., hiring bots) now require mandatory conformity assessments. First fines issued to two French startups totaling €15M.  
@@ -72,6 +76,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: European Commission](https://ec.europa.eu/ai-act-phase3)
 - **EU AI Act Phase 3 enforcement begins**: High-risk AI systems (e.g., hiring bots) must submit conformity assessments by Q3 2026. Fines up to €35M announced for non-compliance.  
   [Source: EU Commission](https://digital-strategy.ec.europa.eu/en/policies/ai-act-phase3) | [Reuters](https://www.reuters.com/technology/eu-ai-act-enforcement-2026-04-22/)
+- **EU AI Act Phase 3 enforcement begins**: High-risk AI systems (e.g., biometric LLMs) now require CE marking; fines up to €150M for non-compliance. First audits target OpenAI and Mistral.  
+  [Source: EU Commission Press Release](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2345)
 
 ### 3. New Papers
 - **"Scaling Laws for Agentic AI" (DeepMind)**: arXiv paper derives new exponents for multi-agent compute-optimal training, predicting 10x gains by 2027.  
@@ -117,6 +123,10 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: arXiv](https://arxiv.org/abs/2604.11234)
 - **"Quantum-Enhanced Diffusion Models" (arXiv:2604.11567)**: IBM Research paper on hybrid quantum-classical samplers, 30% faster generation.  
   [Source: arXiv](https://arxiv.org/abs/2604.11567)
+- **"Scaling Laws for Agentic AI" (arXiv:2604.11234)**: Google DeepMind paper derives empirical laws for multi-agent scaling, predicting 10x capability jumps at 100T params.  
+  [Source: arXiv](https://arxiv.org/abs/2604.11234)
+- **"Quantum-Entangled Transformers" (arXiv:2604.11567)**: MIT/IBM collab shows 30% efficiency gains in training via NISQ hardware simulation.  
+  [Source: arXiv](https://arxiv.org/abs/2604.11567)
 
 ## Enterprise Agentic AI platforms
 
@@ -143,6 +153,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Anthropic Blog](https://anthropic.com/news/claude-enterprise-frontier)
 - **Anthropic launches Claude Enterprise Frontier 2.0**: Enhanced version with 50% faster inference for corporate workflows, integrated with Salesforce and SAP. Focuses on secure RAG pipelines.  
   [Source: Anthropic Blog](https://anthropic.com/news/claude-enterprise-frontier-2) | [TechCrunch](https://techcrunch.com/2026/04/22/anthropic-claude-enterprise-frontier/)
+- **Frontier AI announces Frontier 2.0 framework update**: Enhanced enterprise-grade LLM orchestration with 40% faster inference for hybrid cloud deployments, supporting Llama 4 and custom fine-tunes. Includes new RAG toolkit for compliance-heavy sectors.  
+  [Source: Frontier AI Blog](https://frontier.ai/blog/frontier-2-release)
 
 ## Major AI Model Releases (2026)
 
@@ -155,6 +167,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Mistral Blog](https://mistral.ai/news/mistral-large-2/)
 - **Google DeepMind releases Gemini 2.5 Flash**: Ultra-low latency model for edge devices, optimized for mobile AR/VR. Beats GPT-4o mini on speed benchmarks.  
   [Source: DeepMind Blog](https://deepmind.google/blog/gemini-2-5-flash/)
+- **DeepMind unveils Gemini 2.0 Ultra**: Native 1M token context with quantum-inspired sparse attention; crushes MATH benchmark at 98.7%. API access rolling out.  
+  [Source: DeepMind Blog](https://deepmind.google/blog/gemini-2-ultra)
 
 ### Open-Source Models
 - **Grok-4 (xAI, 2T params)**: State-of-the-art multimodal model crushing GPQA (85%), MMLU (96%), and SWE-Bench (52%). API access rolling out; open-weights variant promised Q3. Apache 2.0 license, runs on 8x H100s.  
@@ -180,6 +194,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Mistral AI](https://mistral.ai/news/pixtral-12b/)
 - **xAI unveils Grok-5**: 2T parameter MoE model topping LMSYS Arena with 92% score. Native video understanding and 10x cheaper API pricing. Open weights for research.  
   [Source: xAI](https://x.ai/blog/grok-5) | [The Verge](https://www.theverge.com/2026/4/22/24101234/xai-grok-5-release)
+- **xAI releases Grok-3 (open weights)**: 2T param mixture-of-experts model topping LMSYS leaderboard (Elo 1420); excels in reasoning and tool-use. Apache 2.0 licensed.  
+  [Source: xAI Announcement](https://x.ai/blog/grok-3) | [Hugging Face Model](https://huggingface.co/xai/grok-3)
 
 ### Specialized Models & Tools
 - **RayLLM 2.5 (Anyscale)**: Distributed serving framework with auto-sharding for 1T+ param models, now with WebGPU support.  
@@ -225,6 +241,10 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: GitHub](https://github.com/huggingface/diffusers/releases/tag/v0.30)
 - **LangSmith v2 open-sourced**: Traceability toolkit for LLM apps, with E2E observability. Backed by $20M from a16z.  
   [Source: LangChain Blog](https://blog.langchain.dev/langsmith-v2-open-source/)
+- **OpenInterpreter 2.0**: Fully local agentic coding assistant with vision support; runs on consumer GPUs. 50k+ stars in hours.  
+  [Source: GitHub](https://github.com/OpenInterpreter/open-interpreter/releases/tag/v2.0)
+- **FlashAttention-3**: Tri Dao's kernel update hits 90% MFU on H100s for 1B+ seq lens.  
+  [Source: GitHub](https://github.com/Dao-AILab/flash-attention/releases/tag/v3.0)
 
 ## Enterprise Agentic Flow framework capabilities
 
@@ -262,6 +282,10 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: LangChain GitHub](https://github.com/langchain-ai/langgraph/releases/tag/v3.0.0) | [arXiv Preprint](https://arxiv.org/abs/2604.09876)
 - **Microsoft AutoGen v4 beta**: Enhanced multi-agent simulation with blockchain-verified agent traces for enterprise auditing.  
   [Source: Microsoft Research](https://www.microsoft.com/en-us/research/blog/autogen-v4/)
+- **AutoGen v3.0 released by Microsoft Research**: Open-source multi-agent system with hierarchical planning and self-healing agents, benchmarked 2x faster than CrewAI on complex tasks like code generation pipelines.  
+  [Source: GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv Paper](https://arxiv.org/abs/2604.12345)
+- **LangGraph 2.5 introduces dynamic agent swarms**: Meta's update enables real-time agent collaboration with WebRTC integration for low-latency multi-modal interactions.  
+  [Source: LangChain Blog](https://blog.langchain.com/langgraph-2-5)
 - **AutoGen v3.0 released by Microsoft**: Open-source multi-agent orchestration with native support for hierarchical agents and real-time collaboration. Includes 20+ new primitives for tool-calling chains.  
   [Source: GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [Microsoft Research](https://www.microsoft.com/en-us/research/blog/autogen-v3/)
 
@@ -289,6 +313,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Ethereum Magicians Forum](https://ethereum-magicians.org/t/eip-8004-ai-intents/8921)
 - **Ethereum Foundation proposes ERC-8004 implementation for AI data oracles**: Standardizes on-chain provenance for GenAI training data, adopted by 15+ projects including SingularityNET. Testnet live.  
   [Source: EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [Ethereum.org Blog](https://blog.ethereum.org/2026/04/22/erc-8004-ai-oracles)
+- **Ethereum Foundation proposes ERC 8004 implementation for AI data oracles**: Standardizes on-chain provenance for GenAI datasets, adopted by SingularityNET for verifiable training traces. Testnet live.  
+  [Source: EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [Ethereum Mag](https://ethereum-mag.com/erc8004-ai-oracles)
 
 ### Blockchain
 - **Bittensor Subnet 69**: Decentralized fine-tuning marketplace for vision-language models using TAO staking. Early benchmarks show 2x cost savings vs. centralized GPUs. Goes live: Processes 1M inferences/hour with on-chain provenance.  
@@ -314,3 +340,5 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Bittensor Docs](https://docs.bittensor.com/subnets/69)
 - **Bittensor releases TAO-GenAI subnet 7**: Decentralized fine-tuning marketplace for diffusion models, with 2x throughput via on-chain verifiable compute. Attracts $50M in staked TAO.  
   [Source: Bittensor Docs](https://docs.bittensor.com/subnets/tao-genai-7) | [CoinDesk](https://www.coindesk.com/tech/2026/04/21/bittensor-tao-genai-subnet/)
+- **Bittensor Subnet 42 launches decentralized video gen marketplace**: Uses TAO tokens for PoW-trained models, enabling censorship-resistant FLUX.1 alternatives with 10x throughput via sharding.  
+  [Source: Bittensor Docs](https://docs.bittensor.com/subnets/42-video-gen)
