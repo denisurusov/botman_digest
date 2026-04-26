@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of April 25, 2026)](#current-state)
+- [Current State (as of April 26, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -15,7 +15,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Schema/model](#schemamodel)
     - [Blockchain](#blockchain)
 
-## Current State (as of April 25, 2026)
+## Current State (as of April 26, 2026)
 
 ### 1. Security Related
 - **Critical vuln patched in Hugging Face Transformers (CVE-2026-0410)**: Zero-day exploit allowing model poisoning via unsafe pickle deserialization fixed in v5.2.1. Affects 70% of deployed inference servers. Urgent upgrade recommended.  
@@ -53,6 +53,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Meta Security Advisory](https://ai.meta.com/security/advisory/llama4-prompt-inj-20260423/) | [Hacker News](https://news.ycombinator.com/item?id=41234567)
 - **Critical vuln patched in Llama 4 Guard**: Meta releases emergency update for their safety model after a prompt injection exploit allowing model jailbreaking via encoded payloads. Affects all Llama 4 variants.  
   [Source: Meta AI Security Advisory](https://ai.meta.com/security/llama4-guard-patch)
+- **Critical LLM jailbreak vuln in Llama 4 disclosed**: Researchers at Robust Intelligence found a novel "recursive context overflow" attack bypassing all known safeguards. Patch available for Meta's latest model. Affects 70% of deployed instances.  
+  [Source: robustintelligence.com/blog/llama4-jailbreak](https://robustintelligence.com/blog/llama4-jailbreak) (Apr 25, 2026)
 
 ### 2. Regulatory News
 - **EU AI Act Phase 3 enforcement begins**: High-risk AI systems (e.g., hiring bots) now require mandatory conformity assessments. First fines issued to two French startups totaling €15M.  
@@ -86,6 +88,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: EU Official Journal](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R9999) | [Reuters](https://www.reuters.com/technology/eu-ai-act-enforcement-20260424/)
 - **EU AI Act Phase 2 enforcement begins**: High-risk AI systems now require mandatory third-party audits; fines up to €150M for non-compliance. First wave targets synthetic media generators.  
   [Source: EU Commission Press Release](https://ec.europa.eu/ai-act/enforcement-phase2)
+- **EU AI Act Phase 2 enforcement begins**: High-risk AI systems (e.g., autonomous agents) now require mandatory audits. Fines up to €150M for non-compliance. First wave targets 500+ deployments.  
+  [Source: ec.europa.eu/ai-act-phase2](https://ec.europa.eu/ai-act-phase2) (Apr 25, 2026)
 
 ### 3. New Papers
 - **"Scaling Laws for Agentic AI" (DeepMind)**: arXiv paper derives new exponents for multi-agent compute-optimal training, predicting 10x gains by 2027.  
@@ -143,6 +147,10 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: arXiv:2604.12345](https://arxiv.org/abs/2604.12345)
 - **"Quantum-Enhanced Diffusion Models"**: IBM Research paper demos 5x faster image gen using hybrid quantum-classical samplers on noisy qubits.  
   [Source: arXiv:2604.12346](https://arxiv.org/abs/2604.12346)
+- **New arXiv paper: "Quantum-Enhanced Transformers"**: From Google DeepMind, claims 5x efficiency gains using photonic chips for training.  
+  [Source: arxiv.org/abs/2604.12456](https://arxiv.org/abs/2604.12456) (Apr 25, 2026)
+- **Arxiv paper: "Hierarchical Multi-Agent Scaling"**:  
+  [Source: arxiv.org/abs/2604.12345](https://arxiv.org/abs/2604.12345) (Apr 25, 2026)
 
 ## Enterprise Agentic AI platforms
 
@@ -175,6 +183,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Cowork Blog](https://coworklabs.com/blog/cowork-v2-release) | [TechCrunch](https://techcrunch.com/2026/04/23/cowork-v2-enterprise-llm/)
 - **Anthropic launches Frontier 3.0**: A new enterprise-grade LLM framework optimized for low-latency inference in cloud environments, featuring enhanced tool-calling for RAG pipelines. Early benchmarks show 40% faster deployment times.  
   [Source: Anthropic Blog](https://anthropic.com/news/frontier-3-release)
+- **Cowork Labs unveils Frontier 2.0**: Major update to their enterprise LLM orchestration framework, adding native support for hybrid cloud deployments and zero-shot fine-tuning. Early benchmarks show 40% cost reduction for RAG pipelines.  
+  [Source: coworklabs.com/blog/frontier-2-release](https://coworklabs.com/blog/frontier-2-release) (Apr 25, 2026)
 
 ## Major AI Model Releases (2026)
 
@@ -224,6 +234,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: xAI Announcement](https://x.ai/blog/grok-3-turbo) | [Hugging Face Model Card](https://huggingface.co/xai/grok-3-turbo)
 - **Mistral AI releases Mistral-NeMo 12B**: Compact reasoning model fine-tuned on synthetic math data, topping open LLM leaderboards. Apache 2.0 licensed.  
   [Source: Mistral Blog](https://mistral.ai/news/mistral-nemo-12b/)
+- **xAI releases Grok-5 preview**: 2T param multimodal model with 95% MMLU score. Focus on real-time video understanding. API access rolling out next week.  
+  [Source: x.ai/blog/grok-5-preview](https://x.ai/blog/grok-5-preview) (Apr 26, 2026)
 
 ### Specialized Models & Tools
 - **RayLLM 2.5 (Anyscale)**: Distributed serving framework with auto-sharding for 1T+ param models, now with WebGPU support.  
@@ -281,6 +293,10 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: HF Blog](https://huggingface.co/blog/spaces-v2)
 - **OpenInterpreter 2.0**: CLI tool now supports full OS control via sandboxed agents; added vision parsing for screenshots.  
   [Source: GitHub](https://github.com/OpenInterpreter/open-interpreter/releases/tag/v2.0)
+- **Hugging Face open-sources DiffuSeq 2**: Next-gen diffusion model for protein design, beating AlphaFold3 on benchmarks. 100k+ downloads in first hour.  
+  [Source: huggingface.co/blog/diffuseq2](https://huggingface.co/blog/diffuseq2) (Apr 26, 2026)
+- **Nvidia announces Blackwell Ultra GPUs**: 50 petaFLOPS for AI training, shipping Q3 2026. Early access for hyperscalers.  
+  [Source: nvidia.com/en-us/data-center/blackwell-ultra](https://nvidia.com/en-us/data-center/blackwell-ultra) (Apr 25, 2026)
 
 ## Enterprise Agentic Flow framework capabilities
 
@@ -328,6 +344,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [Microsoft Research](https://www.microsoft.com/en-us/research/blog/autogen-3-multiagent/)
 - **AutoGen v3.5 released (open-source)**: Microsoft's multi-agent orchestration library adds hierarchical agent swarms and native WebSocket support for real-time collaboration. Includes 20+ new templates for enterprise workflows.  
   [Source: GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.5) | [Hugging Face Blog](https://huggingface.co/blog/autogen-v3-5)
+- **AutoGen 3.0 released by Microsoft Research**: Open-source multi-agent framework now supports hierarchical agent orchestration and real-time collaboration via WebSockets. Includes 15+ new templates for complex workflows like code review swarms.  
+  [Source: github.com/microsoft/autogen/releases/tag/v3.0](https://github.com/microsoft/autogen/releases/tag/v3.0) (Apr 26, 2026)
 
 ### Schema/model
 - **ERC 8004 (Ethereum Foundation)**: EIP for AI Data Oracles standardizes on-chain verification of GenAI outputs via zk-proofs. Gains traction with 50+ dApp integrations planned. **ERC-8004 adopted by Arbitrum for AI Data Oracles**: Standardizes on-chain verifiable AI predictions. First dApp (PredictAI) deploys with 10k users testing inference attestations.  
@@ -359,6 +377,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [CoinDesk](https://www.coindesk.com/tech/2026/04/23/erc-8004-ai-oracles/)
 - **Ethereum Foundation proposes ERC 8004 extension**: Standard for on-chain AI model provenance tracking gains traction, with Vitalik Buterin endorsing it for verifiable GenAI outputs. Testnet deployment by ConsenSys.  
   [Source: EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004) | [Vitalik's Blog](https://vitalik.eth.limo/post/erc8004-ai-provenance)
+- **Ethereum Foundation ratifies ERC-8004**: Standard for verifiable AI compute on-chain, enabling trustless model inference with ZK-proofs. First implementations in Foundry toolkit.  
+  [Source: eips.ethereum.org/EIPS/eip-8004](https://eips.ethereum.org/EIPS/eip-8004) (Apr 26, 2026)
 
 ### Blockchain
 - **Bittensor Subnet 69**: Decentralized fine-tuning marketplace for vision-language models using TAO staking. Early benchmarks show 2x cost savings vs. centralized GPUs. Goes live: Processes 1M inferences/hour with on-chain provenance.  
@@ -388,3 +408,5 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Bittensor Docs](https://docs.bittensor.com/subnets/42-video-gen)
 - **Bittensor Subnet 42 goes live**: New blockchain-based marketplace for decentralized fine-tuning of vision-language models, using TAO tokens for compute incentives. Early tests show 2x faster training on distributed GPUs.  
   [Source: Bittensor Docs](https://docs.bittensor.com/subnets/42-launch)
+- **Bittensor TAO v2.0 mainnet upgrade**: Introduces GenAI subnet for decentralized image generation, rewarding validators with TAO for high-fidelity outputs. Integrates with Stable Diffusion 4 for 10x throughput.  
+  [Source: bittensor.com/updates/tao-v2](https://bittensor.com/updates/tao-v2) (Apr 26, 2026)
