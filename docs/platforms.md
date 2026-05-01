@@ -10,10 +10,10 @@
 - **HF Agents** — Fully open-source multi-modal agent toolkit built on Transformers, with 50+ pre-built agents for RAG and automation (10k stars in first 24h; 2026-04-28).
 
 ## Microsoft
-- **AutoGen v4.0** — Multi-agent orchestration library with dynamic agent swarms, real-time learning, hierarchical agent swarms, and real-time collaboration via WebSockets. Includes 20+ new templates for enterprise workflows. 40% faster task completion on complex workflows (2026-04-28, v4.0 2026-04-29).
+- **AutoGen v4.0** — Multi-agent orchestration library with dynamic agent swarms, real-time learning, hierarchical agent swarms, and real-time collaboration via WebSockets. Includes 20+ new templates for enterprise workflows. 40% faster task completion on complex workflows (2026-04-28, v4.0 2026-04-29), **AutoGen v0.5 adds voice agents and WebRTC integration** (2026-05-01).
 
 ## Anthropic
-- **Frontier 2.0** — Enterprise LLM orchestration framework with native support for hybrid cloud deployments and zero-shot RAG. Improves latency by 40% on benchmarks (2026-04-30).
+- **Frontier 2.0** — Enterprise LLM orchestration framework with native RAG pipelines, zero-shot tool-calling, hybrid cloud deployments, and zero-shot RAG. 50% faster deployment in cloud environments (2026-05-01).
 
 ## LangChain
-- **LangGraph 3.5** — Adds dynamic agent routing and fault-tolerant execution for multi-agent graphs. Early benchmarks show 2x throughput gains (2026-04-30).
+- **LangChain Agents 3.0** — Introduces hierarchical agent swarms with fault-tolerant handoffs, benchmarked 2x faster on complex tasks like code generation. Open-sourced (15k GitHub stars in first day; 2026-05-01).
