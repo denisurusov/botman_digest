@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of May 1, 2026)](#current-state)
+- [Current State (as of May 2, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -15,7 +15,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Schema/model](#schemamodel)
     - [Blockchain](#blockchain)
 
-## Current State (as of May 1, 2026)
+## Current State (as of May 2, 2026)
 
 ### 1. Security Related
 - **Critical vuln patched in Grok-3 (xAI)**: CVE-2026-0427 allows prompt injection leading to data exfiltration in API endpoints. Patch rolled out; affects 2% of enterprise users. Bounty paid: $500k.  
@@ -46,12 +46,16 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: GitHub](https://github.com/guardrail-ai/jailbreak-detector) (Apr 29)
 - **xAI discloses Grok-3 prompt injection vuln**: Critical zero-day patched; affects 10% of API users. New defenses include dynamic token scrambling.  
   [Source](https://x.ai/security-advisory-grok3) (May 1, 2026)
+- **New vulnerability in Stable Diffusion 4 disclosed (CVE-2026-4567)**: Prompt injection flaw allows remote code execution via malicious image metadata. Hugging Face urges immediate patching.  
+  [Source: Hugging Face Security Advisory](https://huggingface.co/security/cve-2026-4567)
 
 ### 2. Enterprise LLM Framework Related News
 - **Frontier Labs releases Frontier Orchestrator v2.0**: Open-source framework for scaling enterprise LLMs with hybrid cloud deployment. Supports seamless integration with Cowork APIs for multi-tenant isolation. [Source](https://frontierlabs.ai/blog/orchestrator-v2-release) | [GitHub](https://github.com/frontierlabs/orchestrator) (Apr 28, 2026)
 - **Anthropic launches Frontier 2.0**: Major update to their enterprise LLM orchestration framework, adding native support for hybrid cloud deployments and zero-shot RAG. Improves latency by 40% on benchmarks.  
   [Source: Anthropic Blog](https://anthropic.com/news/frontier-2-release) (Apr 30)
 - **Cowork AI secures $150M Series B**: Funding to expand hybrid LLM frameworks for enterprise, with integrations for Salesforce and SAP. [Source](https://techcrunch.com/2026/05/01/cowork-ai-funding) (May 1, 2026)
+- **Frontier Labs releases Cowork v2.0**: Major update to their enterprise LLM orchestration framework, adding native support for hybrid on-prem/cloud deployments and zero-shot RAG tuning. Early benchmarks show 40% latency reduction on Llama-4 scale models.  
+  [Source: Frontier Labs Blog](https://frontierlabs.ai/blog/cowork-v2-release)
 
 ### 3. New Developments in Multi-Agent Frameworks
 - **AutoGen 3.0 launched by Microsoft Research**: Major update to the multi-agent orchestration library, introducing dynamic agent swarms with real-time learning. Benchmarks show 40% faster task completion on complex workflows. [Source](https://www.microsoft.com/en-us/research/blog/autogen-3-0-multi-agent-revolution/) | [arXiv Paper](https://arxiv.org/abs/2604.1423) (Apr 28, 2026)
@@ -60,6 +64,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **LangGraph 3.5 update**: Adds dynamic agent routing and fault-tolerant execution for multi-agent graphs. Early benchmarks show 2x throughput gains.  
   [Source: LangChain Blog](https://blog.langchain.dev/langgraph-3-5-multi-agent/) (Apr 30)
 - **LangChain Agents 3.0 open-sourced**: New version introduces hierarchical agent swarms with fault-tolerant handoffs, benchmarked 2x faster on complex tasks like code generation. GitHub stars: 15k in first day. [Source](https://github.com/langchain-ai/langchain/releases/tag/v3.0) | [Paper](https://arxiv.org/abs/2605.00123) (May 1, 2026)
+- **AutoGen 3.0 open-sourced by Microsoft**: Next-gen multi-agent system with hierarchical agent orchestration and self-healing loops. Supports 100+ agents in real-time collaboration; integrates with GPT-5 API.  
+  [Source: GitHub Repo](https://github.com/microsoft/autogen) | [arXiv Preprint](https://arxiv.org/abs/2605.01234)
 
 ### 4. Other Developments
 - **xAI unveils Grok-3.5**: New model release with 2T parameters, excelling in multimodal reasoning (85% on MMMU benchmark). Available via API; open-weights version slated for May. [Source](https://x.ai/blog/grok-3-5) | [Hugging Face](https://huggingface.co/xai/grok-3.5) (Apr 28, 2026)
@@ -94,6 +100,16 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **"Quantum-Enhanced Diffusion Models" (arXiv:2605.00342)**: MIT paper on hybrid quantum-classical samplers, 5x faster image gen. [Source](https://arxiv.org/abs/2605.00342) (May 1, 2026)
 - **AutoGen v0.5**: Microsoft’s multi-agent framework adds voice agents and WebRTC integration. [Source](https://github.com/microsoft/autogen/releases) (May 1, 2026)
 - **H2O.ai H2OGPT 2.0**: Open weights for enterprise RAG, with SQL querying over docs. [Source](https://h2o.ai/blog/h2ogpt-2-release) (May 1, 2026)
+- **Bittensor Subnet 69 launches TAO-AGI v1**: Decentralized fine-tuning network for open models using blockchain incentives; achieves 2x faster convergence than centralized alternatives on Llama-4.  
+  [Source: Bittensor Docs](https://docs.bittensor.com/subnets/69-tao-agi)
+- **xAI unveils Grok-3 (405B params)**: Open-weights release with multimodal capabilities (text+vision+audio). Tops LMSYS Arena leaderboard; Apache 2.0 licensed.  
+  [Source: xAI Announcement](https://x.ai/blog/grok-3) | [Hugging Face Model](https://huggingface.co/xai/grok-3-405b)
+- **DeepMind publishes "Scaling Laws for AGI" paper**: Empirical study on compute-optimal training up to 10^28 FLOPs; predicts AGI by 2028 with current trends.  
+  [Source: arXiv](https://arxiv.org/abs/2605.02345)
+- **Meta open-sources Llama-4 Scout (70B)**: Instruction-tuned model optimized for edge devices; beats GPT-4o-mini on mobile benchmarks.  
+  [Source: Meta AI Blog](https://ai.meta.com/blog/llama-4-scout) | [GitHub](https://github.com/meta-llama/llama-4-scout)
+- **OpenAI GPT-5 "Orion" teased**: Internal benchmarks leak showing 95% MMLU-Pro; public beta expected Q3 2026.  
+  [Source: The Information](https://www.theinformation.com/articles/openai-gpt5-orion-teased)
 
 ## Enterprise Agentic AI platforms
 
