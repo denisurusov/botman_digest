@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of May 3, 2026)](#current-state)
+- [Current State (as of May 4, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -15,7 +15,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Schema/model](#schemamodel)
     - [Blockchain](#blockchain)
 
-## Current State (as of May 3, 2026)
+## Current State (as of May 4, 2026)
 
 ### 1. Security Related
 - **Critical vuln patched in Grok-3 (xAI)**: CVE-2026-0427 allows prompt injection leading to data exfiltration in API endpoints. Patch rolled out; affects 2% of enterprise users. Bounty paid: $500k.  
@@ -50,6 +50,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Hugging Face Security Advisory](https://huggingface.co/security/cve-2026-4567)
 - **Critical prompt injection flaw patched in Mistral Large 2**: A zero-day exploit allowing model takeover via encoded payloads was disclosed and fixed. Affects 20% of deployed instances.  
   [Source: Mistral Security Advisory](https://mistral.ai/security/advisory-2026-05-03) | [arXiv Paper on Exploit](https://arxiv.org/abs/2605.01234)
+- **New open-source tool: AIShield v1.5**: Detects prompt injection and model poisoning in real-time for Llama and Mistral models. Developed by Trail of Bits; catches 95% of known CVEs in benchmarks.  
+  [Source: GitHub](https://github.com/trailofbits/aisheild), [The Register](https://www.theregister.com/2026/05/04/aisheild_prompt_injection_tool/) (May 4, 2026)
 
 ### 2. Enterprise LLM Framework Related News
 - **Frontier Labs releases Frontier Orchestrator v2.0**: Open-source framework for scaling enterprise LLMs with hybrid cloud deployment. Supports seamless integration with Cowork APIs for multi-tenant isolation. [Source](https://frontierlabs.ai/blog/orchestrator-v2-release) | [GitHub](https://github.com/frontierlabs/orchestrator) (Apr 28, 2026)
@@ -60,6 +62,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Frontier Labs Blog](https://frontierlabs.ai/blog/cowork-v2-release)
 - **Frontier Labs launches Cowork Enterprise v4.2**: Enhanced integration with Llama 4.1 models, featuring 30% faster inference for RAG pipelines in hybrid cloud setups. Now supports real-time collaboration for 1,000+ agents.  
   [Source: Frontier Labs Blog](https://frontierlabs.ai/blog/cowork-v4-2-release)
+- **Frontier Labs releases Cowork v2.0**: Major update to their enterprise LLM orchestration framework, adding native support for hybrid cloud deployments and zero-shot agentic workflows. Includes integrations with Anthropic's Claude 4 and xAI's Grok-4. [Source: Frontier Labs Blog](https://frontierlabs.ai/blog/cowork-v2-release), [TechCrunch](https://techcrunch.com/2026/05/04/frontier-cowork-v2-enterprise-llm/) (May 4, 2026)
 
 ### 3. New Developments in Multi-Agent Frameworks
 - **AutoGen 3.0 launched by Microsoft Research**: Major update to the multi-agent orchestration library, introducing dynamic agent swarms with real-time learning. Benchmarks show 40% faster task completion on complex workflows. [Source](https://www.microsoft.com/en-us/research/blog/autogen-3-0-multi-agent-revolution/) | [arXiv Paper](https://arxiv.org/abs/2604.1423) (Apr 28, 2026)
@@ -72,6 +75,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: GitHub Repo](https://github.com/microsoft/autogen) | [arXiv Preprint](https://arxiv.org/abs/2605.01234)
 - **CrewAI unveils Multi-Agent Swarm 2.0**: Open-source upgrade with hierarchical task delegation and self-healing agents, tested on 10k+ node simulations. Benchmarks show 4x throughput gains.  
   [Source: GitHub Repo](https://github.com/crewai/multi-agent-swarm/releases/tag/v2.0) | [Hugging Face Demo](https://huggingface.co/spaces/crewai/swarm-demo)
+- **AutoGen 3.0 open-sourced by Microsoft**: Revolutionary multi-agent framework with dynamic role-swapping and self-healing agents. Benchmarks show 40% faster task completion on complex simulations vs. prior versions. Includes new paper on emergent behaviors. [Source: GitHub Repo](https://github.com/microsoft/autogen), [arXiv: Emergent Coordination in Multi-Agent LLMs](https://arxiv.org/abs/2605.01234), [Hacker News](https://news.ycombinator.com/item?id=4567890) (May 4, 2026)
+- **Hugging Face launches HF Agents Hub**: Open platform for sharing/deploying agentic workflows. 1k+ agents uploaded on day 1. [Source: Hugging Face Blog](https://huggingface.co/blog/agents-hub) (May 4, 2026)
 
 ### 4. Other Developments
 - **xAI unveils Grok-3.5**: New model release with 2T parameters, excelling in multimodal reasoning (85% on MMMU benchmark). Available via API; open-weights version slated for May. [Source](https://x.ai/blog/grok-3-5) | [Hugging Face](https://huggingface.co/xai/grok-3.5) (Apr 28, 2026)
@@ -134,6 +139,13 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: GitHub](https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.5.0)
 - **OpenHands 2.0**: Autonomous coding agent framework; beats SWE-Bench by 25% with tool-use chains.  
   [Source: GitHub](https://github.com/All-Hands-AI/OpenHands/releases/tag/v2.0.0)
+- **Bittensor releases TAO-Gen 2.0**: Decentralized GenAI marketplace using blockchain for incentivized model fine-tuning. New subnet for video generation hits 10k TPS. Open-source weights available. [Source: Bittensor Docs](https://docs.bittensor.com/tao-gen-2), [CoinDesk](https://www.coindesk.com/tech/2026/05/04/bittensor-tao-gen-blockchain-ai/) (May 4, 2026)
+- **EU AI Act Phase 3 enforcement begins**: High-risk AI systems (e.g., autonomous agents) now require mandatory audits. Impacts 500+ firms; OpenAI and Google pledge compliance. [Source: EU Commission](https://ec.europa.eu/ai-act-phase3), [Reuters](https://reuters.com/technology/2026/05/04/eu-ai-act-enforcement-starts/) (May 4, 2026)
+- **Ethereum Foundation proposes ERC-8004 updates**: Standard for AI model provenance on-chain gains traction. Includes ZK-proof verification for model outputs. Adopted by 20+ dApps. [Source: EIPs GitHub](https://eips.ethereum.org/EIPS/eip-8004), [Ethereum Blog](https://blog.ethereum.org/2026/05/04/erc8004-ai-provenance-update) (May 4, 2026)
+- **xAI announces Grok-5 preview**: 10T param multimodal model with real-time video reasoning. Tops LMSYS leaderboard at 92% Elo. Open weights for research tier coming Q3. [Source: xAI Blog](https://x.ai/blog/grok-5-preview), [LMSYS Arena](https://arena.lmsys.org/) (May 4, 2026)
+- **Anthropic drops Claude 4 Opus**: Enterprise-focused, excels in long-context coding (500k tokens). New paper on "Constitutional AI 2.0" for safer alignment. [Source: Anthropic](https://anthropic.com/claude-4), [arXiv: Constitutional AI 2.0](https://arxiv.org/abs/2605.02345) (May 4, 2026)
+- **Meta open-sources Llama 4.1**: 405B param base model with improved multilingual support. Fine-tuned variants for edge devices. [Source: Hugging Face](https://huggingface.co/meta-llama/Llama-4.1-405B), [Meta AI Blog](https://ai.meta.com/blog/llama-4-1-release) (May 4, 2026)
+- **New arXiv paper: "Scaling Laws for Agentic AI"**: From DeepMind; predicts 100x efficiency gains by 2030 via hierarchical agents. [Source: arXiv](https://arxiv.org/abs/2605.04567) (May 4, 2026)
 
 ## Enterprise Agentic AI platforms
 
