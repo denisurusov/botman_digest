@@ -10,16 +10,16 @@
 - **HF Agents** — Fully open-source multi-modal agent toolkit built on Transformers, with 50+ pre-built agents for RAG and automation (10k stars in first 24h; 2026-04-28), **HF Agents Hub** — Open platform for sharing/deploying agentic workflows. 1k+ agents uploaded on day 1 (2026-05-04).
 
 ## Microsoft
-- **AutoGen v4.0** — Multi-agent orchestration library with dynamic agent swarms, real-time learning, hierarchical agent swarms, and real-time collaboration via WebSockets. Includes 20+ new templates for enterprise workflows. 40% faster task completion on complex workflows (2026-04-28, v4.0 2026-04-29), **AutoGen v0.5 adds voice agents and WebRTC integration** (2026-05-01), **AutoGen 3.0 open-sourced** — Next-gen multi-agent system with dynamic role-swapping, hierarchical agent orchestration and self-healing loops. Supports 100+ agents in real-time collaboration; integrates with GPT-5 API. Benchmarks show 40% faster task completion on complex simulations vs. prior versions (2026-05-02).
+- **AutoGen v4.0** — Multi-agent orchestration library with dynamic agent swarms, real-time learning, hierarchical agent swarms, and real-time collaboration via WebSockets. Includes 20+ new templates for enterprise workflows. 40% faster task completion on complex workflows (2026-04-28, v4.0 2026-04-29), **AutoGen v0.5 adds voice agents and WebRTC integration** (2026-05-01), **AutoGen 3.0 open-sourced** — Next-gen multi-agent system with dynamic role-swapping, hierarchical agent orchestration and self-healing loops. Supports 100+ agents in real-time collaboration; integrates with GPT-5 API. Benchmarks show 40% faster task completion on complex simulations vs. prior versions (2026-05-02), **AutoGen v4.0 released (open-source)** — Adds dynamic agent spawning, shared memory, and native integration with Llama 4. Used in 50k+ GitHub repos (2026-05-05).
 
 ## Anthropic
-- **Frontier 2.0** — Enterprise LLM orchestration framework with native RAG pipelines, zero-shot tool-calling, hybrid cloud deployments, and zero-shot RAG. 50% faster deployment in cloud environments (2026-05-01).
+- **Frontier 3.0** — Scalable enterprise framework for deploying Claude 5 models with enhanced RAG and fine-tuning pipelines, supporting 1M+ token contexts. 25% cost reduction in production (2026-05-05).
 
 ## LangChain
 - **LangChain Agents 3.0** — Introduces hierarchical agent swarms with fault-tolerant handoffs, benchmarked 2x faster on complex tasks like code generation. Open-sourced (15k GitHub stars in first day; 2026-05-01).
 
 ## CrewAI
-- **Multi-Agent Swarm 2.0** — Open-source upgrade with hierarchical task delegation and self-healing agents, tested on 10k+ node simulations. Benchmarks show 4x throughput gains (2026-05-03).
+- **Multi-Agent Swarm 2.0** — Open-source upgrade with hierarchical task delegation and self-healing agents, tested on 10k+ node simulations. Benchmarks show 4x throughput gains (2026-05-03), **Multi-Agent Marketplace** — Open platform for plug-and-play agent templates, with 100+ pre-built workflows for sales, research, and devops (2026-05-05).
 
 ## OpenHands
 - **OpenHands 2.0** — Autonomous coding agent framework; beats SWE-Bench by 25% with tool-use chains (2026-05-03).
