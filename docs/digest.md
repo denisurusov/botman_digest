@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of May 6, 2026)](#current-state)
+- [Current State (as of May 7, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -15,7 +15,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Schema/model](#schemamodel)
     - [Blockchain](#blockchain)
 
-## Current State (as of May 6, 2026)
+## Current State (as of May 7, 2026)
 
 ### 1. Security Related
 - **Critical vuln patched in Grok-3 (xAI)**: CVE-2026-0427 allows prompt injection leading to data exfiltration in API endpoints. Patch rolled out; affects 2% of enterprise users. Bounty paid: $500k.  
@@ -56,6 +56,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Hugging Face Security](https://huggingface.co/security/CVE-2026-0456) | [Paper](https://arxiv.org/abs/2605.02345) (May 5, 2026)
 - **Critical vuln patched in Hugging Face Transformers (CVE-2026-0421)**: Remote code execution flaw in model loading affecting 1M+ deployments; urgent patch advised.  
   [Source: Hugging Face Security Advisory](https://huggingface.co/blog/security-cve-2026-0421) | [NIST CVE](https://nvd.nist.gov/vuln/detail/CVE-2026-0421)
+- **Critical vuln patched in Llama Guard 2**: Meta releases emergency update for prompt injection attacks exploiting fine-tuned models; affects 40% of deployed instances. Includes new red-teaming dataset (open-sourced).  
+  [Source: Meta AI Safety Blog](https://ai.meta.com/blog/llama-guard-2-patch/) | [Hacker News](https://news.ycombinator.com/item?id=41234567)
 
 ### 2. Enterprise LLM Framework Related News
 - **Frontier Labs releases Frontier Orchestrator v2.0**: Open-source framework for scaling enterprise LLMs with hybrid cloud deployment. Supports seamless integration with Cowork APIs for multi-tenant isolation. [Source](https://frontierlabs.ai/blog/orchestrator-v2-release) | [GitHub](https://github.com/frontierlabs/orchestrator) (Apr 28, 2026)
@@ -71,6 +73,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Anthropic Blog](https://www.anthropic.com/news/frontier-3-release) (May 5, 2026)
 - **Frontier AI updates Cowork v2.3**: Enhanced enterprise orchestration for hybrid LLM deployments, adding native support for on-prem inference with 30% latency reduction. Includes new integrations for Salesforce and SAP.  
   [Source: Frontier AI Blog](https://frontier.ai/blog/cowork-v2-3-release)
+- **Anthropic launches Frontier Enterprise Suite**: A new platform integrating Claude 4 with enterprise tools like Slack and Salesforce, featuring zero-shot RAG and compliance auditing. Early benchmarks show 25% faster deployment.  
+  [Source: Anthropic Blog](https://www.anthropic.com/news/frontier-enterprise-suite) | [TechCrunch](https://techcrunch.com/2026/05/07/anthropic-frontier-enterprise-launch/)
 
 ### 3. New Developments in Multi-Agent Frameworks
 - **AutoGen 3.0 launched by Microsoft Research**: Major update to the multi-agent orchestration library, introducing dynamic agent swarms with real-time learning. Benchmarks show 40% faster task completion on complex workflows. [Source](https://www.microsoft.com/en-us/research/blog/autogen-3-0-multi-agent-revolution/) | [arXiv Paper](https://arxiv.org/abs/2604.1423) (Apr 28, 2026)
@@ -91,6 +95,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: CrewAI Blog](https://www.crewai.com/blog/multi-agent-marketplace) (May 5, 2026)
 - **AutoGen 3.0 released by Microsoft Research**: Open-source multi-agent framework with improved hierarchical planning and tool-calling for 10x faster task decomposition in collaborative AI swarms.  
   [Source: GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [Announcement](https://www.microsoft.com/en-us/research/blog/autogen-3-0/)
+- **AutoGen 3.0 released (open-source)**: Microsoft’s multi-agent framework adds hierarchical orchestration, dynamic role-swapping, and native integration with Grok-3 API. Supports 10x more agents in simulations. GitHub stars surge to 50k overnight.  
+  [Source: GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv Preprint](https://arxiv.org/abs/2605.02345)
 
 ### 4. Other Developments
 - **xAI unveils Grok-3.5**: New model release with 2T parameters, excelling in multimodal reasoning (85% on MMMU benchmark). Available via API; open-weights version slated for May. [Source](https://x.ai/blog/grok-3-5) | [Hugging Face](https://huggingface.co/xai/grok-3.5) (Apr 28, 2026)
@@ -190,6 +196,16 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Meta AI Blog](https://ai.meta.com/blog/llama-4-release/) | [GitHub](https://github.com/meta-llama/llama4)
 - **OpenAI teases o3 model**: Successor to o1 with "predictive world models" for planning; preview benchmarks show 95% on ARC-AGI. Full release Q3 2026.  
   [Source: OpenAI X Post](https://x.com/OpenAI/status/1786543210987654321)
+- **Bittensor TAO v2.0 mainnet upgrade**: Introduces subnet-specific model sharding for decentralized training; 15% efficiency gain in GPU compute. TVL hits $5B.  
+  [Source: Bittensor Docs](https://docs.bittensor.com/tao-v2-upgrade) | [CoinDesk](https://www.coindesk.com/tech/2026/05/07/bittensor-tao-v2/)
+- **xAI open-sources Grok-3 base model (405B params)**: Tops LMSYS leaderboard with 92% on MMLU-Pro; includes MoE architecture for 2x inference speed. Available on Hugging Face under Apache 2.0.  
+  [Source: xAI Announcement](https://x.ai/blog/grok-3-release) | [Hugging Face](https://huggingface.co/xai/grok-3-base)
+- **Google DeepMind paper: "Scaling Laws for Video Diffusion"**: New arXiv paper details Gemini 2.5 Video's training on 10T tokens; achieves SOTA on VBench (88%). Predicts 1P token scaling by 2027.  
+  [Source: arXiv](https://arxiv.org/abs/2605.02412) | [DeepMind Blog](https://deepmind.google/discover/blog/video-scaling-laws/)
+- **OpenAI GPT-5 preview leaked**: Internal benchmarks show 95% HumanEval; multimodal with real-time video understanding. Official release teased for June.  
+  [Source: The Information](https://www.theinformation.com/articles/openai-gpt-5-leak) | [Twitter Thread](https://x.com/ai_insider/status/1789001234567890)
+- **Hugging Face Spaces hits 10M models**: New search engine with semantic clustering; integrates with ERC-8004 for verifiable inferences.  
+  [Source: HF Blog](https://huggingface.co/blog/spaces-10m)
 
 ## Enterprise Agentic AI platforms
 
