@@ -13,7 +13,7 @@
 - **AutoGen v4.0** — Multi-agent orchestration library with dynamic agent swarms, real-time learning, hierarchical agent swarms, and real-time collaboration via WebSockets. Includes 20+ new templates for enterprise workflows. 40% faster task completion on complex workflows (2026-04-28, v4.0 2026-04-29), **AutoGen v0.5 adds voice agents and WebRTC integration** (2026-05-01), **AutoGen 3.0 open-sourced** — Next-gen multi-agent system with dynamic role-swapping, hierarchical agent orchestration and self-healing loops. Supports 100+ agents in real-time collaboration; integrates with GPT-5 API. Benchmarks show 40% faster task completion on complex simulations vs. prior versions (2026-05-02), **AutoGen v4.0 released (open-source)** — Adds dynamic agent spawning, shared memory, and native integration with Llama 4. Used in 50k+ GitHub repos (2026-05-05), **AutoGen 3.0 released** — Open-source multi-agent framework with hierarchical orchestration, dynamic role-swapping, native integration with Grok-3 API, improved hierarchical planning and tool-calling for 10x faster task decomposition in collaborative AI swarms, supports 10x more agents in simulations. GitHub stars surge to 50k (2026-05-07).
 
 ## Anthropic
-- **Frontier 3.0** — Scalable enterprise framework for deploying Claude 5 models with enhanced RAG and fine-tuning pipelines, supporting 1M+ token contexts. 25% cost reduction in production (2026-05-05), **Frontier Enterprise Suite** — New platform integrating Claude 4 with enterprise tools like Slack and Salesforce, featuring zero-shot RAG and compliance auditing. Early benchmarks show 25% faster deployment (2026-05-07).
+- **Frontier 3.0** — Scalable enterprise framework for deploying Claude 5 models with enhanced RAG and fine-tuning pipelines, supporting 1M+ token contexts. 25% cost reduction in production (2026-05-05), featuring 2x faster inference and enhanced tool-calling for workflows. Includes integrations with Cowork for seamless agent orchestration (2026-05-08), **Frontier Enterprise Suite** — New platform integrating Claude 4 with enterprise tools like Slack and Salesforce, featuring zero-shot RAG and compliance auditing. Early benchmarks show 25% faster deployment (2026-05-07).
 
 ## LangChain
 - **LangChain Agents 3.0** — Introduces hierarchical agent swarms with fault-tolerant handoffs, benchmarked 2x faster on complex tasks like code generation. Open-sourced (15k GitHub stars in first day; 2026-05-01).
@@ -23,3 +23,9 @@
 
 ## OpenHands
 - **OpenHands 2.0** — Autonomous coding agent framework; beats SWE-Bench by 25% with tool-use chains (2026-05-03).
+
+## Mistral AI
+- **Enterprise Gateway v2** — Open-source framework optimizing multi-model routing for cost savings up to 40% in production environments (2026-05-08).
+
+## xAI
+- **Grok Agents 2.0** — Open-source multi-agent framework with hierarchical task delegation and real-time collaboration features, outperforming AutoGen in benchmarks. Includes Docker-ready templates (2026-05-08).
