@@ -5,7 +5,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 
 ## Table of Contents
 
-- [Current State (as of May 12, 2026)](#current-state)
+- [Current State (as of May 13, 2026)](#current-state)
 - [Enterprise Agentic AI platforms](#enterprise-agentic-ai-platforms)
 - [Major AI Model Releases (2026)](#major-ai-model-releases-2026)
     - [Proprietary Models](#proprietary-models)
@@ -15,7 +15,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
     - [Schema/model](#schemamodel)
     - [Blockchain](#blockchain)
 
-## Current State (as of May 12, 2026)
+## Current State (as of May 13, 2026)
 
 ### 1. Security Related
 - **Critical vuln patched in Grok-3 (xAI)**: CVE-2026-0427 allows prompt injection leading to data exfiltration in API endpoints. Patch rolled out; affects 2% of enterprise users. Bounty paid: $500k.  
@@ -54,10 +54,14 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: GitHub](https://github.com/trailofbits/aisheild), [The Register](https://www.theregister.com/2026/05/04/aisheild_prompt_injection_tool/) (May 4,
 - **New paper: "Adversarial Robustness in Multimodal LLMs"**: Introduces RedShield benchmark exposing vulnerabilities in vision-language models like GPT-4V and Claude-3.5. Proposes a novel defense mechanism reducing attack success by 85%.  
   [Source: arXiv](https://arxiv.org/abs/2605.XXXXX) (May 12, 2026)
+- **Prompt Injection Zero-Day in Gemini 2.5**: Google discloses and patches a high-severity prompt injection vuln allowing model inversion attacks via adversarial embeddings. Affects API users; bounty paid $500k.  
+  [Source: google.com/security/blog/gemini-patch](https://google.com/security/blog/gemini-patch) (May 13, 2026)
 
 ### 2. Regulatory Developments
 - **EU AI Act Phase 2 enforcement begins**: Mandating watermarking for all GenAI outputs >1B params. Fines up to €50M for non-compliance.  
   [Source: EU Commission](https://ec.europa.eu/ai-act-phase2) (May 12, 2026)
+- **EU AI Act Phase 3 Enforcement Begins**: European Commission starts fining non-compliant high-risk AI systems under Phase 3, targeting deepfake detectors and autonomous agents. First fines: €10M to two startups.  
+  [Source: ec.europa.eu/ai-act/enforcement](https://ec.europa.eu/ai-act/enforcement) (May 12, 2026)
 
 ## Enterprise Agentic AI platforms
 
@@ -65,6 +69,12 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Frontier Labs Blog](https://frontierlabs.ai/blog/frontier-2-release) (May 12, 2026)
 - **AutoGen v3.0 open-sourced by Microsoft**: Next-gen multi-agent system with hierarchical agent orchestration and built-in fault tolerance for production-scale deployments. Supports 100+ agents in real-time collaboration.  
   [Source: GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [Hugging Face Spaces Demo](https://huggingface.co/spaces/microsoft/autogen-v3-demo) (May 12, 2026)
+- **Frontier Labs v3.0 Release**: Frontier announces major update to its enterprise LLM orchestration framework, adding native support for hybrid cloud deployment and zero-shot RAG optimization. Improves latency by 40% on benchmarks.  
+  [Source: frontierlabs.ai/blog/v3-release](https://frontierlabs.ai/blog/v3-release) (May 13, 2026)
+- **SwarmForge 2.0 Open-Sourced**: LangChain team launches SwarmForge, a modular multi-agent framework for collaborative task decomposition, with built-in fault-tolerant handoffs and GPU orchestration. GitHub repo hits 10k stars in hours.  
+  [Source: github.com/langchain/swarmforge](https://github.com/langchain/swarmforge) (May 12, 2026)
+- **Hugging Face Spaces v2**: Major update adds serverless agent hosting with persistent memory and WebRTC integration for live demos. 1M+ spaces migrated seamlessly.  
+  [Source: huggingface.co/blog/spaces-v2](https://huggingface.co/blog/spaces-v2) (May 13, 2026)
 
 ## Major AI Model Releases (2026)
 
@@ -75,6 +85,12 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: xAI Twitter](https://x.com/xai/status/grok3-release) | [LMSYS Arena](https://arena.lmsys.org/) (May 12, 2026)
 - **Meta Llama 4**: 405B parameter flagship with enhanced multilingual support (200+ languages) and tool-use integration. Beats GPT-4o on MMLU. Fine-tunes available on HF.  
   [Source: Meta AI Blog](https://ai.meta.com/blog/llama-4/) | [Hugging Face Model Hub](https://huggingface.co/meta-llama/Llama-4-405B) (May 12, 2026)
+- **xAI Grok-5 Release**: Elon Musk unveils Grok-5, a 2T-param multimodal model topping LMSYS Arena with 92% win rate. Open-weights for research; excels in real-time video reasoning.  
+  [Source: x.ai/blog/grok-5](https://x.ai/blog/grok-5) (May 13, 2026)
+- **Meta Llama 5.1 Paper on arXiv**: "Llama 5.1: Towards Unified Scaling of Mixture-of-Experts" details 8x MoE efficiency gains, achieving SOTA on MMLU-Pro (89.7%). Code forthcoming.  
+  [Source: arxiv.org/abs/2605.07892](https://arxiv.org/abs/2605.07892) (May 12, 2026)
+- **OpenAI o1-Pro Open-Sourced (Partial)**: Reasoning model weights released under non-commercial license; includes safety-tuned variants. Sparks 50k forks on HF.  
+  [Source: openai.com/research/o1-pro-open](https://openai.com/research/o1-pro-open) (May 13, 2026)
 
 ### Specialized Models & Tools
 - **Google DeepMind's AlphaFold 4**: Breakthrough in protein structure prediction, now handling RNA-protein complexes with 95% accuracy. Open dataset released for biotech research.  
@@ -87,3 +103,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 ### Schema/model
 
 ### Blockchain
+- **Bittensor Subnet 69 Launch**: Decentralized AI network Bittensor rolls out Subnet 69 for blockchain-verified multimodal generation, enabling trustless image/video synthesis with on-chain provenance. TAO price surges 15%.  
+  [Source: bittensor.com/announcements/subnet69](https://bittensor.com/announcements/subnet69) (May 13, 2026)
+- **ERC-8004 Standard Adopted by EigenLayer**: EigenLayer integrates ERC-8004 for AI model attestation on Ethereum, allowing verifiable off-chain inference proofs. First AVS deployment live.  
+  [Source: ethereum.org/erc/8004-eigenlayer](https://ethereum.org/erc/8004-eigenlayer) (May 13, 2026)
