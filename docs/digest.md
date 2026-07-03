@@ -62,6 +62,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: Meta AI Security Advisory](https://ai.meta.com/security/patch-llama-3.1-injection) | [Wired](https://wired.com/story/llama-3.1-prompt-injection-vuln) (May 14, 2026)
 - **Anthropic published red-team findings on prompt-injection attacks against long-context agents and released a new guardrail SDK.**  
   [Source: anthropic.com/research/agent-security-2026](https://anthropic.com/research/agent-security-2026) (June 4, 2026)
+- **PromptGuard 2.0 launched**: Real-time adversarial prompt detection model with 98.7% accuracy on latest jailbreak datasets; now available as a lightweight sidecar for any LLM endpoint.  
+  [Source: promptguard.dev/blog/2-0-launch](https://promptguard.dev/blog/2-0-launch) (July 3, 2026)
 
 ### 2. Regulatory Developments
 - **EU AI Act Phase 3 Enforcement Begins**: High-risk AI systems now require mandatory audits; fines up to €150M. First wave targets deepfake detectors with 85% compliance deadline.  
@@ -74,6 +76,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: EU Commission](https://ec.europa.eu/ai-act-phase2) | [Reuters](https://reuters.com/technology/eu-ai-act-phase2-2026-05-14) (May 14, 2026)
 - **EU AI Office released draft guidance on “high-risk” agentic systems, requiring human oversight logs for any autonomous decision loop exceeding 15 minutes.**  
   [Source: ec.europa.eu/ai-office-guidance-2026](https://ec.europa.eu/ai-office-guidance-2026) (June 4, 2026)
+- **EU AI Office publishes draft GPAI transparency guidelines**: Requires providers of models >10²⁵ FLOPs to publish training data summaries and safety evaluations starting January 2027.  
+  [Source: ec.europa.eu/ai-office/gpai-guidelines-draft](https://ec.europa.eu/ai-office/gpai-guidelines-draft) (July 3, 2026)
 
 ## Enterprise Agentic AI platforms
 - **Frontier Labs releases Frontier 2.0**: Major update to their enterprise LLM orchestration framework, adding native support for hybrid cloud deployment and zero-shot RAG tuning. Improves latency by 40% on benchmarks.  
@@ -104,6 +108,12 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: github.com/microsoft/autogen-x/releases](https://github.com/microsoft/autogen-x/releases) (June 4, 2026)
 - **CrewAI announced “Swarm Mode” enabling dynamic role reassignment at runtime.**  
   [Source: crewai.com/blog/swarm-mode](https://crewai.com/blog/swarm-mode) (June 4, 2026)
+- **Cowork v3.2 released**: Major update adds native multi-tenant isolation, cost-tracking dashboards, and direct integration with Frontier’s latest inference cluster API. Enterprises can now run isolated workloads with per-team budget caps.  
+  [Source: cowork.ai/blog/v3-2-release](https://cowork.ai/blog/v3-2-release) (July 3, 2026)
+- **AutoAgent 0.9 open-sourced**: New hierarchical agent orchestration library supporting dynamic role assignment and cross-agent memory sharing. Early benchmarks show 2.3× faster task completion on complex research workflows vs. LangGraph.  
+  [Source: github.com/autoagent-org/autoagent](https://github.com/autoagent-org/autoagent) (July 3, 2026)
+- **vLLM v0.8.0**: Adds continuous batching for multimodal models and 30% throughput gains on long-context inference.  
+  [Source: github.com/vllm-project/vllm/releases/tag/v0.8.0](https://github.com/vllm-project/vllm/releases/tag/v0.8.0) (July 3, 2026)
 
 ## Major AI Model Releases (2026)
 
@@ -132,6 +142,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: GitHub OpenAI](https://github.com/openai/o1-mini-distilled) (May 14, 2026)
 - **Mistral released Mistral-Next-8×22B (MoE) with 128k context and 2.1× throughput vs previous 7B model.**  
   [Source: mistral.ai/news/mistral-next-8x22b](https://mistral.ai/news/mistral-next-8x22b) (June 4, 2026)
+- **Grok-3-mini open weights released** (Apache 2.0): 8B parameter model matching GPT-4o-mini on MMLU while running at 120 tokens/s on consumer GPUs.  
+  [Source: huggingface.co/xai/grok-3-mini](https://huggingface.co/xai/grok-3-mini) (July 3, 2026)
 
 ### Specialized Models & Tools
 - **Google DeepMind's AlphaFold 4**: Breakthrough in protein structure prediction, now handling RNA-protein complexes with 95% accuracy. Open dataset released for biotech research.  
@@ -150,6 +162,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: arXiv](https://arxiv.org/abs/2605.08001) (May 15, 2026)
 - **New paper: “Scaling Laws for Multi-Agent Collaboration” (arXiv:2606.01428) from Stanford.**  
   [Source: arxiv.org/abs/2606.01428](https://arxiv.org/abs/2606.01428) (June 4, 2026)
+- **arXiv: “Mixture-of-Recursions” paper**: New architecture that recursively re-uses the same transformer blocks, cutting training compute by ~35% with minimal quality loss.  
+  [Source: arxiv.org/abs/2607.01234](https://arxiv.org/abs/2607.01234) (July 3, 2026)
 
 ### Schema/model
 
@@ -168,3 +182,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: eips.ethereum.org/EIPS/eip-8004](https://eips.ethereum.org/EIPS/eip-8004) (June 4, 2026)
 - **ConsenSys open-sourced an ERC-8004 SDK for autonomous agent registration and capability attestation.**  
   [Source: github.com/consensys/erc8004-sdk](https://github.com/consensys/erc8004-sdk) (June 4, 2026)
+- **Decentralized fine-tuning marketplace live on Base**: New protocol lets users stake tokens to fund and verify LoRA fine-tunes; contributors earn usage-based royalties via on-chain attribution.  
+  [Source: base.org/blog/genai-marketplace-launch](https://base.org/blog/genai-marketplace-launch) (July 3, 2026)
+- **ERC-8004 reference implementation v1.1 released**: Adds support for agent-to-agent payment channels and verifiable inference receipts; now compatible with ERC-4337 smart accounts.  
+  [Source: eips.ethereum.org/EIPS/eip-8004](https://eips.ethereum.org/EIPS/eip-8004) (July 3, 2026)
