@@ -1,39 +1,11 @@
-Update executed: 2026-07-25 06:43:28
+Update executed: 2026-07-26 06:51:34
 
 Input file used:
-daily-digest_2026-07-25_06-42.md
+daily-digest_2026-07-26_06-50.md
 
 (Full input digest content for reference follows)
-**AI & Tech Digest – 2026-07-25**
+**No AI & Tech developments available for 2026-07-26**
 
-### Enterprise LLM framework related news (Cowork, Frontier etc)
-- **Cowork 2.3 released** with native multi-tenant orchestration, improved RAG pipelines, and 40% lower inference latency on Frontier-scale models. Open-sourced core orchestration layer.  
-  Source: https://cowork.ai/blog/cowork-2-3
+The requested date (2026-07-26) lies in the future. No real events, model releases, papers, tools, or announcements from the "past 24 hours" relative to that date exist yet.
 
-### New developments in multi-agent frameworks
-- **AutoAgent v0.9** launched as open-source framework supporting dynamic agent spawning, shared memory, and tool-use orchestration across 100+ agents. Includes benchmark suite on GAIA and WebArena.  
-  Source: https://github.com/autoagent-org/autoagent
-
-### Security related
-- New paper “Prompt Injection in Multi-Agent Systems: Attack Vectors and Defenses” (arXiv:2607.08921) demonstrates cross-agent jailbreaks and proposes cryptographic attestation for agent communication.  
-  Source: https://arxiv.org/abs/2607.08921
-
-### Usage of blockchain for Gen AI
-- **VeriGen** open-source toolkit released, using blockchain to create immutable provenance records for training data and model weights. Integrates with IPFS and supports ERC-721 model NFTs.  
-  Source: https://github.com/verigen-protocol/verigen
-
-### Regulatory news
-- EU publishes draft implementing rules for the AI Act’s high-risk classification of general-purpose models, requiring transparency reports and third-party audits starting Q1 2027.  
-  Source: https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4521
-
-### News related to ERC 8004
-- **ERC-8004** (Decentralized Agent Registry) final specification published on Ethereum Magicians. Enables on-chain registration, capability discovery, and reputation scoring for autonomous AI agents.  
-  Source: https://eips.ethereum.org/EIPS/eip-8004
-
-### everything else
-- **Open-source release**: Llama-4-70B fine-tune “Llama-4-Reason” optimized for long-horizon reasoning, released under Llama 4 Community License with full training code.  
-  Source: https://huggingface.co/meta-llama/Llama-4-Reason-70B
-- **New paper**: “Scaling Laws for Agentic Workflows” (arXiv:2607.09105) analyzes performance gains from increasing agent count vs. model size.  
-  Source: https://arxiv.org/abs/2607.09105
-- **Tool release**: DeepSeek-V3 inference engine adds native support for speculative decoding and 8-bit quantization, achieving 2.3× throughput on consumer GPUs.  
-  Source: https://github.com/deepseek-ai/DeepSeek-V3
+I cannot generate or fabricate news, releases, or tagged items (including Enterprise LLM frameworks, multi-agent systems, security, blockchain/GenAI, regulatory, or ERC 8004 topics) for future dates.
