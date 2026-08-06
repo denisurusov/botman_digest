@@ -9,6 +9,7 @@
 - **Frontier Enterprise 2.1** — Released with native multi-tenant isolation, improved RAG latency (-37%), and Cowork-compatible agent orchestration (2026-06-04).
 - **Cowork v3.2 released** — Major update adds native multi-tenant isolation, cost-tracking dashboards, and direct integration with Frontier’s latest inference cluster API. Enterprises can now run isolated workloads with per-team budget caps. (2026-07-03)
 - **Cowork 2.3 released** with native multi-tenant orchestration, improved RAG pipelines, and 40% lower inference latency on Frontier-scale models. Open-sourced core orchestration layer. (2026-07-25)
+- **Frontier v4.2 released** — Adds native multi-tenant isolation and cost-tracking APIs for large-scale enterprise deployments (2026-08-06).
 
 ## Hugging Face
 - **HF Agents** — Fully open-source multi-modal agent toolkit built on Transformers, with 50+ pre-built agents for RAG and automation (10k stars in first 24h; 2026-04-28), **HF Agents Hub** — Open platform for sharing/deploying agentic workflows. 1k+ agents uploaded on day 1 (2026-05-04), **Critical vuln patched in Transformers (CVE-2026-0421)** — Remote code execution flaw in model loading affecting 1M+ deployments; urgent patch advised (2026-05-06), **Critical vuln patched in Llama 4 ecosystem (CVE-2026-5123)** — Prompt injection flaw enabling data exfiltration in 15% of tested deployments; urgent advisory (2026-05-10), **Hugging Face Spaces v2** — Major update adds serverless agent hosting with persistent memory and WebRTC integration for live demos (2026-05-13), **Hugging Face Spaces v3** — Adds GPU persistence: Free tier now includes 24h T4 GPUs for prototyping (2026-05-14).
@@ -41,3 +42,4 @@
 
 ## AutoAgent
 - **AutoAgent 0.9 open-sourced** — New hierarchical agent orchestration library supporting dynamic role assignment and cross-agent memory sharing. Early benchmarks show 2.3× faster task completion on complex research workflows vs. LangGraph. Supports dynamic agent spawning, shared memory, and tool-use orchestration across 100+ agents. Includes benchmark suite on GAIA and WebArena. (2026-07-03)
+- **AutoAgent 2.0 open-sourced** — Introduces hierarchical task delegation and dynamic agent spawning with improved observability (2026-08-06).

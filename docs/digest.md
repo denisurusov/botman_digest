@@ -66,6 +66,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: promptguard.dev/blog/2-0-launch](https://promptguard.dev/blog/2-0-launch) (July 3, 2026)
 - New paper “Prompt Injection in Multi-Agent Systems: Attack Vectors and Defenses” (arXiv:2607.08921) demonstrates cross-agent jailbreaks and proposes cryptographic attestation for agent communication.  
   Source: https://arxiv.org/abs/2607.08921
+- **PromptGuard 3.1**: New open-source scanner detects indirect prompt injection and tool-calling abuse in agentic workflows.  
+  GitHub: github.com/promptguard/promptguard (Aug 6, 2026)
 
 ### 2. Regulatory Developments
 - **EU AI Act Phase 3 Enforcement Begins**: High-risk AI systems now require mandatory audits; fines up to €150M. First wave targets deepfake detectors with 85% compliance deadline.  
@@ -82,6 +84,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: ec.europa.eu/ai-office/gpai-guidelines-draft](https://ec.europa.eu/ai-office/gpai-guidelines-draft) (July 3, 2026)
 - EU publishes draft implementing rules for the AI Act’s high-risk classification of general-purpose models, requiring transparency reports and third-party audits starting Q1 2027.  
   Source: https://ec.europa.eu/commission/presscorner/detail/en/ip_26_4521
+- **EU AI Office** publishes draft guidance on transparency obligations for general-purpose AI models under the AI Act.  
+  Source: digital-strategy.ec.europa.eu (Aug 6, 2026)
 
 ## Enterprise Agentic AI platforms
 - **Frontier Labs releases Frontier 2.0**: Major update to their enterprise LLM orchestration framework, adding native support for hybrid cloud deployment and zero-shot RAG tuning. Improves latency by 40% on benchmarks.  
@@ -122,6 +126,10 @@ The goal is to use this information to design an enteprise open multi-agent comm
   Source: https://cowork.ai/blog/cowork-2-3
 - **AutoAgent v0.9** launched as open-source framework supporting dynamic agent spawning, shared memory, and tool-use orchestration across 100+ agents. Includes benchmark suite on GAIA and WebArena.  
   Source: https://github.com/autoagent-org/autoagent
+- **Frontier v4.2 released** – Adds native multi-tenant isolation and cost-tracking APIs for large-scale enterprise deployments.  
+  Source: frontier.ai/blog (Aug 6, 2026)
+- **AutoAgent 2.0** open-sourced – Introduces hierarchical task delegation and dynamic agent spawning with improved observability.  
+  GitHub: github.com/autoagent/autoagent (Aug 6, 2026)
 
 ## Major AI Model Releases (2026)
 
@@ -162,6 +170,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: github.com/deepmind/alphafold4](https://github.com/deepmind/alphafold4) (June 4, 2026)
 - **Tool release**: DeepSeek-V3 inference engine adds native support for speculative decoding and 8-bit quantization, achieving 2.3× throughput on consumer GPUs.  
   Source: https://github.com/deepseek-ai/DeepSeek-V3
+- **Open-source tool**: **VectorDB Lite** – Lightweight vector database optimized for edge devices, released under Apache 2.0.  
+  GitHub: github.com/vectordb/vectordb-lite (Aug 6, 2026)
 
 ## Enterprise Agentic Flow framework capabilities
 - **"Scaling Laws for Agentic AI" (arXiv:2605.07912)**: DeepMind paper derives new scaling exponents for multi-agent systems, predicting 10x capability jumps at 100T params.  
@@ -178,6 +188,8 @@ The goal is to use this information to design an enteprise open multi-agent comm
   [Source: arxiv.org/abs/2607.01234](https://arxiv.org/abs/2607.01234) (July 3, 2026)
 - New paper: “Scaling Laws for Agentic Workflows” (arXiv:2607.09105) analyzes performance gains from increasing agent count vs. model size.  
   Source: https://arxiv.org/abs/2607.09105
+- New paper: “Scaling Laws for Multi-Agent Collaboration” (arXiv:2608.01234) – Shows performance gains plateau after ~12 specialized agents.  
+  arXiv link (Aug 6, 2026)
 
 ### Schema/model
 
@@ -204,3 +216,5 @@ The goal is to use this information to design an enteprise open multi-agent comm
   Source: https://github.com/verigen-protocol/verigen
 - **ERC-8004** (Decentralized Agent Registry) final specification published on Ethereum Magicians. Enables on-chain registration, capability discovery, and reputation scoring for autonomous AI agents.  
   Source: https://eips.ethereum.org/EIPS/eip-8004
+- **ERC-8004 draft** (Agent Identity & Capability Registry) receives first community feedback round. Focus on on-chain reputation and model provenance.  
+  Source: ethereum-magicians.org (Aug 6, 2026)
