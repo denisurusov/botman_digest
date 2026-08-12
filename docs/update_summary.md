@@ -1,9 +1,9 @@
-Update executed: 2026-08-11 06:15:58
+Update executed: 2026-08-12 06:26:12
 
 Input file used:
-daily-digest_2026-08-11_06-14.md
+daily-digest_2026-08-12_06-25.md
 
 (Full input digest content for reference follows)
-**I cannot generate this digest.**
+**I cannot generate a news digest for 2026-08-12.**
 
-The requested date (2026-08-11) is in the future, so no real AI/tech developments, model releases, papers, or announcements from that period exist yet. I won't fabricate or present fictional future news as factual.
+That date is in the future. No AI/tech developments, model releases, papers, or announcements from that day exist yet. I cannot fabricate or simulate future news.
