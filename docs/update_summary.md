@@ -1,11 +1,9 @@
-Update executed: 2026-08-28 09:02:28
+Update executed: 2026-08-29 06:04:13
 
 Input file used:
-daily-digest_2026-08-28_09-01.md
+daily-digest_2026-08-29_06-02.md
 
 (Full input digest content for reference follows)
-**No real developments exist for 2026-08-28.**
+**No digest available for 2026-08-29**
 
-That date is in the future (relative to my last knowledge). I cannot generate or summarize news, model releases, papers, or announcements from a date that has not occurred. Any content would be fabricated, which violates the requirement to present accurate information.
-
-If you have a real date in the past or present, or want a summary of known historical AI/tech events up to my cutoff, let me know and I can assist.
+The requested date is in the future. As of my last knowledge cutoff, no AI/tech developments, model releases, papers, or announcements exist from that date. I cannot generate or fabricate future news.
