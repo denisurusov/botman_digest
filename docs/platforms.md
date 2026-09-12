@@ -20,26 +20,4 @@
 
 ## Anthropic
 - **Frontier 3.0** — Scalable enterprise framework for deploying Claude 5 models with enhanced RAG and fine-tuning pipelines, supporting 1M+ token contexts. 25% cost reduction in production (2026-05-05), featuring 2x faster inference and enhanced tool-calling for workflows. Includes integrations with Cowork for seamless agent orchestration (2026-05-08), **Frontier Enterprise Suite** — New platform integrating Claude 4 with enterprise tools like Slack and Salesforce, featuring zero-shot RAG and compliance auditing. Early benchmarks show 25% faster deployment (2026-05-07), **Frontier Enterprise Suite launched** — Integrates Claude 4.0 with enterprise tools like Salesforce and SAP for secure, scalable deployments. Includes zero-trust RAG capabilities (2026-05-14), **Claude 4 Opus** — New SOTA in long-context (2M tokens) and tool-use; enterprise-focused with constitutional AI v2. Crushes GPQA benchmark at 68% (2026-05-10).
-- Published red-team findings on prompt-injection attacks against long-context agents and released a new guardrail SDK (2026-06-04).
-
-## LangChain
-- **LangChain Agents 3.0** — Introduces hierarchical agent swarms with fault-tolerant handoffs, benchmarked 2x faster on complex tasks like code generation. Open-sourced (15k GitHub stars in first day; 2026-05-01), **LangChain 0.3** — Massive refactor with async-native agents and vector DB sharding. 50k+ stars in hours (2026-05-11), **SwarmForge 2.0** — Modular multi-agent framework for collaborative task decomposition, with built-in fault-tolerant handoffs and GPU orchestration. GitHub repo hits 10k stars in hours (2026-05-13), **Multi-Agent Orchestrator v2.0 (open-source)** — Supports dynamic agent swarms with hierarchical decision-making and real-time collaboration. 40% efficiency gains. GitHub repo at 50k stars (2026-05-14).
-
-## CrewAI
-- **Multi-Agent Swarm 2.0** — Open-source upgrade with hierarchical task delegation and self-healing agents, tested on 10k+ node simulations. Benchmarks show 4x throughput gains (2026-05-03), **Multi-Agent Marketplace** — Open platform for plug-and-play agent templates, with 100+ pre-built workflows for sales, research, and devops (2026-05-05).
-- Announced “Swarm Mode” enabling dynamic role reassignment at runtime (2026-06-04).
-
-## OpenHands
-- **OpenHands 2.0** — Autonomous coding agent framework; beats SWE-Bench by 25% with tool-use chains (2026-05-03).
-
-## Mistral AI
-- **Enterprise Gateway v2** — Open-source framework optimizing multi-model routing for cost savings up to 40% in production environments (2026-05-08), **Mistral Large 2** — 405B params, excels in code gen (HumanEval 92%). API live, self-hosted via Hugging Face (2026-05-14), **Mistral-NeMo-12B** — Open-weight model fine-tuned for edge devices, 2x faster inference on mobile. Apache 2.0 licensed (2026-05-15).
-- Released Mistral-Next-8×22B (MoE) with 128k context and 2.1× throughput vs previous 7B model (2026-06-04).
-
-## xAI
-- **Grok Agents 2.0** — Open-source multi-agent framework with hierarchical task delegation and real-time collaboration features, outperforming AutoGen in benchmarks. Includes Docker-ready templates (2026-05-08), **Grok-3.5 (open weights partial)** — 2T param multimodal model topping LMSYS leaderboard (Elo 1420). Strong in reasoning/math; open-source subset on HF for <100B params. API live (2026-05-10), **Grok-3** — Open-weights MoE model (8x22B active params) focused on real-time multimodal tasks. Tops leaderboards in vision-language (2026-05-11), **Grok-3 unveiled** — 2T-parameter MoE model topping LMSYS leaderboard with superior reasoning on math/physics benchmarks. Open weights coming next week (2026-05-12), **Grok-5** — 2T-param multimodal model topping LMSYS Arena with 92% win rate. Open-weights for research; excels in real-time video reasoning (2026-05-13), **Grok-3 open weights released** — 500B param mixture-of-experts model topping LMSYS leaderboard. Trained on 10T tokens with real-time X data. Apache 2.0 license (2026-05-14), **Grok-3 Turbo** — 2T param multimodal model optimized for real-time video reasoning; beats GPT-5 on VideoMME benchmark (92% score). API access live for devs (2026-05-15).
-- **Grok-3-mini open weights released** (Apache 2.0) — 8B parameter model matching GPT-4o-mini on MMLU while running at 120 tokens/s on consumer GPUs. (2026-07-03)
-
-## AutoAgent
-- **AutoAgent 0.9 open-sourced** — New hierarchical agent orchestration library supporting dynamic role assignment and cross-agent memory sharing. Early benchmarks show 2.3× faster task completion on complex research workflows vs. LangGraph. Supports dynamic agent spawning, shared memory, and tool-use orchestration across 100+ agents. Includes benchmark suite on GAIA and WebArena. (2026-07-03)
-- **AutoAgent 2.0 open-sourced** — Introduces hierarchical task delegation and dynamic agent spawning with improved observability (2026-08-06).
+- Published red-team findings on prompt-injection attacks against long-context agents and released a new guardrail SDK (2026-06-04<|eos|>
