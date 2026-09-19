@@ -97,7 +97,7 @@ The goal is to use this information to design an enteprise open multi-agent comm
 - **AutoGen v3.0 open-sourced by Microsoft**: Enhanced multi-agent collaboration with dynamic role-switching and built-in conflict resolution via game theory modules. Includes 15+ new agent templates for RAG pipelines. GitHub stars surge to 50k overnight.  
   [Source: GitHub Repo](https://github.com/microsoft/autogen/releases/tag/v3.0) | [arXiv Preprint](https://arxiv.org/abs/2605.07890) (May 15, 2026)
 - **Frontier Labs v3.0 Release**: Frontier announces major update to its enterprise LLM orchestration framework, adding native support for hybrid cloud deployment and zero-shot RAG optimization. Improves latency by 40% on benchmarks.  
-  [Source: frontierlabs.ai/blog/v3-release](https://frontierlabs.ai/blog/v3-release) (May 13, 2026)
+  [Source: Frontier Labs Blog](https://frontierlabs.ai/blog/v3-release) (May 13, 2026)
 - **SwarmForge 2.0 Open-Sourced**: LangChain team launches SwarmForge, a modular multi-agent framework for collaborative task decomposition, with built-in fault-tolerant handoffs and GPU orchestration. GitHub repo hits 10k stars in hours.  
   [Source: github.com/langchain/swarmforge](https://github.com/langchain/swarmforge) (May 12, 2026)
 - **Hugging Face Spaces v2**: Major update adds serverless agent hosting with persistent memory and WebRTC integration for live demos. 1M+ spaces migrated seamlessly.  
