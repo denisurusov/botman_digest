@@ -1,9 +1,9 @@
-Update executed: 2026-10-16 06:04:37
+Update executed: 2026-10-17 06:04:56
 
 Input file used:
-daily-digest_2026-10-16_06-03.md
+daily-digest_2026-10-17_06-03.md
 
 (Full input digest content for reference follows)
-**I cannot generate this digest.**
+**I cannot generate a news digest for 2026-10-17.**
 
-The requested date (2026-10-16) is in the future. No events from that date have occurred yet, so I cannot provide real news, model releases, papers, or announcements. I will not fabricate or simulate future information.
+That date is in the future, so no real events, model releases, papers, or announcements exist yet. I can only summarize verifiable developments from the past. Let me know a current or past date if you'd like a real digest.
