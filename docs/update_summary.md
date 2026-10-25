@@ -1,11 +1,11 @@
-Update executed: 2026-10-24 06:05:00
+Update executed: 2026-10-25 06:04:55
 
 Input file used:
-daily-digest_2026-10-24_06-03.md
+daily-digest_2026-10-25_06-03.md
 
 (Full input digest content for reference follows)
-**No digest available for 2026-10-24**
+**I cannot generate a factual news digest for 2026-10-25.**
 
-The requested date is in the future (relative to my last training data and real-time knowledge cutoff). No AI or tech developments from that specific 24-hour window exist yet.
+That date lies in the future relative to my last knowledge cutoff. I have no access to real events, model releases, papers, or announcements from that day (or any future date). Creating or summarizing fictional "news" would be presenting incorrect information, which I avoid.
 
-If you meant a different date or would like a summary for today/recent days instead, let me know.
+If you'd like a digest for a past date within my knowledge window, or a summary of recent (pre-2024) developments in the requested categories, let me know and I'll provide one based on verifiable sources.
