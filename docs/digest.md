@@ -218,18 +218,3 @@ The goal is to use this information to design an enteprise open multi-agent comm
   Source: https://eips.ethereum.org/EIPS/eip-8004
 - **ERC-8004 draft** (Agent Identity & Capability Registry) receives first community feedback round. Focus on on-chain reputation and model provenance.  
   Source: ethereum-magicians.org (Aug 6, 2026)
-
-## Latest daily digest content (daily-digest_2026-11-10_06-02.md)
-**No developments available for 2026-11-10**
-
-Latest daily digest content (daily-digest_2026-11-11_06-02.md):
-**No real data available for 2026-11-11**
-
-I cannot generate a factual AI/tech digest for November 11, 2026 because that date lies in the future. My knowledge cutoff is in the past, and I have no access to real-time or future web searches, model releases, papers, or announcements from that period.
-
-If you would like a digest for a date within my training data or a general summary of recent (pre-2025) developments, let me know the adjusted date or scope.
-
-Latest daily digest content (daily-digest_2026-11-12_06-02.md):
-**I cannot generate this digest.**
-
-The requested date (2026-11-12) is in the future relative to my last knowledge cutoff. There are no real events, model releases, papers, or announcements from that date to summarize. Any content I produced would be fabricated, which I won't do.
