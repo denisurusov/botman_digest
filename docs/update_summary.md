@@ -1,11 +1,11 @@
-Update executed: 2026-11-18 06:03:56
+Update executed: 2026-11-19 06:04:07
 
 Input file used:
-daily-digest_2026-11-18_06-01.md
+daily-digest_2026-11-19_06-02.md
 
 (Full input digest content for reference follows)
-**I cannot generate this digest.**
+**No digest available for 2026-11-19**
 
-The requested date (2026-11-18) is in the future. I have no access to web searches, news, model releases, papers, or any events from that date, and I cannot fabricate or predict future developments. Doing so would be presenting incorrect information.
+The requested date is in the future (relative to my last knowledge and real-time capabilities). I cannot generate or fabricate news, model releases, papers, or announcements that have not yet occurred.
 
-If you'd like a real summary of recent (actual) AI & tech news from the past 24 hours or another past date, let me know and I'll provide one based on available information.
+If you would like a digest for a past date or the most recent available information up to today, let me know and I’ll provide it.
