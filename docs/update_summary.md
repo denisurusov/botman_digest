@@ -1,11 +1,11 @@
-Update executed: 2026-11-19 06:04:07
+Update executed: 2026-11-20 06:04:35
 
 Input file used:
-daily-digest_2026-11-19_06-02.md
+daily-digest_2026-11-20_06-02.md
 
 (Full input digest content for reference follows)
-**No digest available for 2026-11-19**
+**No AI & Tech developments available for 2026-11-20**
 
-The requested date is in the future (relative to my last knowledge and real-time capabilities). I cannot generate or fabricate news, model releases, papers, or announcements that have not yet occurred.
+This date is in the future relative to current real-world time. No verifiable model releases, papers, open-source projects, announcements, or other events from the preceding 24 hours exist.
 
-If you would like a digest for a past date or the most recent available information up to today, let me know and I’ll provide it.
+All requested categories (Enterprise LLM frameworks, multi-agent frameworks, security, blockchain for Gen AI, regulatory news, ERC 8004) are therefore empty. No items fall under "everything else."
