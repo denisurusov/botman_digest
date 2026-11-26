@@ -1,9 +1,9 @@
-Update executed: 2026-11-25 06:04:24
+Update executed: 2026-11-26 06:04:51
 
 Input file used:
-daily-digest_2026-11-25_06-02.md
+daily-digest_2026-11-26_06-02.md
 
 (Full input digest content for reference follows)
-**No digest available for 2026-11-25.**
+**I cannot generate this digest.**
 
-That date lies in the future, so no real AI/tech developments, model releases, papers, or announcements from the past 24 hours exist yet. I cannot generate or fabricate news for future dates.
+The requested date (2026-11-26) lies in the future. No AI/tech developments, model releases, papers, or announcements from that date exist yet, so I cannot provide accurate, sourced information or apply the requested tags.
